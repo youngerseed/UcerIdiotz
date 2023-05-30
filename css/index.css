@@ -1,0 +1,485 @@
+/* importr cdn */
+  @import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Emblema+One&family=Ewert&family=Gotu&family=IM+Fell+DW+Pica+SC&family=Metal+Mania&family=Overlock+SC&family=Vollkorn+SC:wght@600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Emblema+One&family=Ewert&family=Gotu&family=IM+Fell+DW+Pica+SC&family=Metal+Mania&family=Overlock+SC&family=Rampart+One&family=Sansita+Swashed&family=Vollkorn+SC:wght@600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Emblema+One&family=Ewert&family=Gotu&family=IM+Fell+DW+Pica+SC&family=Julee&family=Metal+Mania&family=Overlock+SC&family=Rampart+One&family=Rye&family=Sancreek&family=Sansita+Swashed&family=Vollkorn+SC:wght@600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0 ;
+    text-decoration: none !important;
+}
+/* loader css */
+#spinner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.custom-loader {
+    width: 40px;
+    height: 20px;
+    --c:radial-gradient(farthest-side,#FF8513 93%,#0000);
+    background:
+      var(--c) 0    0,
+      var(--c) 50%  0;
+    background-size:8px 8px;
+    background-repeat: no-repeat;
+    position: relative;
+    clip-path: inset(-200% -100% 0 0);
+    animation: db6-0 1.5s linear infinite;
+  }
+  .custom-loader:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background:#FF8513;
+    left:-16px;
+    top:0;
+    animation: 
+      db6-1 1.5s linear infinite,
+      db6-2 0.5s cubic-bezier(0,200,.8,200) infinite;
+  }
+  .custom-loader:after {
+    content: "";
+    position: absolute;
+    inset:0 0 auto auto;
+    width:8px;
+    height: 8px;
+    border-radius: 50%;
+    background:#FF8513; 
+    animation: db6-3 1.5s  linear infinite;
+  }
+  
+  @keyframes db6-0 {
+    0%,30%  {background-position: 0  0   ,50% 0   }
+    33%     {background-position: 0  100%,50% 0   }
+    41%,63% {background-position: 0  0   ,50% 0   }
+    66%     {background-position: 0  0   ,50% 100%}
+    74%,100%{background-position: 0  0   ,50% 0   }
+  }
+  
+  @keyframes db6-1 {
+    90%  {transform:translateY(0)}
+    95%  {transform:translateY(15px)}
+    100% {transform:translateY(15px);left:calc(100% - 8px)}
+  }
+  
+  @keyframes db6-2 {
+    100% {top:-0.1px}
+  }
+  
+  @keyframes db6-3 {
+    0%,80%,100% {transform:translate(0)}
+    90%         {transform:translate(26px)}
+  }
+  /* end of loader css */
+/* navigation divition st*/
+a nav{
+    /* background-image: radial-gradient(circle, #000000, #ffffff, #ffffff,#ffffff, #ffffff); */
+    text-align: center;
+    position: fixed;
+    /* background-image: url(https://png.pngtree.com/background/20210716/original/pngtree-rose-gold-fine-glitter-abstract-gradient-background-picture-image_1342316.jpg); */
+    background-size: 100%;
+    background-color: #ffffff;
+    background-position: bottom center;
+    color: white;
+    z-index: 2;
+    border-radius: 5px;
+    width: 100% !important;
+    /* height: 60px; */
+}
+.ucer_slide>h2{
+    margin: 0;
+}
+
+.ucer_slide{
+    height: 60px;
+    width: 200px;
+    /* padding: 8px; */
+    margin: 10px auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none solid black;
+    display: flex;
+}
+.ucer_slide .ucer{
+    font-size: 25px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 700;
+    background:linear-gradient(to left,rgb(42, 155, 42),rgb(36, 216, 223));
+    position: relative;
+    left: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 8px;
+    padding: 7px;
+}
+.ucer_slide>img{
+    height: 59px;
+    position: relative;
+    margin-left: 8px;
+    right: 3px;
+}.ucer_slide .note{
+    font-weight: 500;
+    font-family: 'Butcherman', cursive;
+    font-size: 13px;
+
+}
+.ucer_slide .idiot{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    /* font-family: 'Gotu', sans-serif; */
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    right: 7px;
+    position: relative;
+    font-style: italic;
+    letter-spacing: 1px;
+    height: 25px;
+}
+/*********************************** navigation div end ***************************************/
+
+/* ************************home img div start ******************************************/
+
+.home_center>h4{
+    top:300px;
+}
+.home-img{
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 0 ;
+    margin-top: 80px;
+    z-index: -1;
+    background-color: #ffffff;
+    /* background-color:rgba(0,0,0,.7),rgba(0, 0, 0, 0.7);
+    filter: contrast(58%) brightness(0%) blur(3px) grayscale(20%); */
+}
+
+.home_center>h3{
+    position: absolute;
+    top:20%;
+    left: 2rem;
+    padding: 10px;
+    text-align: center;
+    /* z-index: -1; */
+    text-transform: uppercase;
+    /* font-size: 50px; */
+    font-family: 'Vollkorn SC', serif;
+    /* font-family: 'Rampart One', cursive; */
+    /* font-family: 'Sansita Swashed', cursive; */
+    font-weight: bolder;
+    /* color: rgb(100, 46, 46); */
+    background:linear-gradient(to right,#000000,#180e0e,#180e0e,#000000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.home_center>h4{
+    position: absolute;
+    top:59%;
+    left: 30px;
+    padding: 10px;
+    text-align: center;
+/* z-index: -1; */
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+/* ************************home img div end ******************************************/
+
+/* ************************event div start ******************************************/
+ 
+.event{
+    width: 100%;
+    border: none solid black;
+    background: rgb(235, 247, 250);
+    /* margin-top: 30px; */
+    color: rgb(0, 0, 0);
+    height: 100px;
+    -webkit-box-shadow: 2px 2px 15px 3px rgba(0,0,0,0.61); 
+box-shadow: 2px 2px 15px 3px rgba(0,0,0,0.61);
+}
+.event>h4{
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    /* font-family: 'Emblema One', cursive;*/
+    font-family: 'Rye', cursive;
+margin-bottom: 10px;
+}
+.event .line{
+    width: 60%;
+    /* color: rgb(0, 0, 0); */
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin:auto;
+}
+.event>marquee a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding:5px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+.bell{
+    color: orangered;
+}
+/* ************************event div end ******************************************/
+
+/* ************************ department div start ******************************************/
+
+
+  /* <!-- Demo styles --> */
+   /* .dept_all {
+      position: relative;
+      height: 100%;
+    } */
+
+    .dept_all {
+        position: relative;
+        /* width: 394px; */
+      /* background: #a39d9dde; */
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      height: 450px;
+      margin: 10px;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 80%;
+      height: 400px;
+      -webkit-box-shadow: -1px 1px 41px -22px rgba(0,0,0,0.8);
+      -moz-box-shadow: -1px 1px 41px -22px rgba(0,0,0,0.8);
+      box-shadow: -1px 1px 41px -22px rgba(0,0,0,0.8);
+    }
+    .swiper-slide>button>a{
+        padding: 10px;
+        color: black;
+    }
+    .swiper-slide>button{
+        width: 150px;
+        margin: 10px auto;
+        padding: 7px;
+        color: rgba(209, 219, 190, 0.925);
+        border: none;
+        background-color:whitesmoke;
+        -webkit-box-shadow: 3px 3px 9px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 9px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 9px -1px rgba(0,0,0,0.75);
+        border-radius: 8px;
+        transition: .4s;
+    }
+
+    .swiper-slide {
+        display: flex;
+      text-align: center;
+      font-size: 18px;
+     /* From https://css.glass */
+background: #F8F8F4;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+border: 0 solid rgba(159, 158, 158, 1);
+
+    }
+    .swiper-slide>p{
+        /* width: 50%; */
+        margin: 1.5rem auto;
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 8px;
+        text-align: center;
+        text-transform: capitalize;
+        /* text-align: justify; */
+        /* From https://css.glass */
+/* background: rgba(0, 0, 0, 0.38);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.3px);
+-webkit-backdrop-filter: blur(6.3px);
+border: 1px solid rgba(0, 0, 0, 0.35); */
+    }
+    .swiper-slide>img {
+      width: 250px;
+      height: 120px;
+      margin: 2rem auto;
+      border-radius: 15px;
+      -webkit-box-shadow: 3px 3px 19px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 19px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 19px -1px rgba(0,0,0,0.75);
+    }
+.next-notify{
+    color: orangered;
+    position: absolute;
+    left: 18rem;
+    top: 14rem;
+    /* z-index: 2; */overflow-x: hidden;
+    font-size: 2rem;
+    -webkit-animation:.7s linear infinite alternate;
+-webkit-animation-name: run;
+/* -webkit-animation-duration: .5s; */
+}
+@-webkit-keyframes run {
+    0% {
+      left: 90%;
+      transform: translateX(0);
+    }
+    100% {
+      right: 90%;
+      transform: translateX(-24px);
+    }
+}
+
+.headeing{
+    background: url(./assets/img/image.jpg);
+}
+.heading>h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    /* font-family: 'Sancreek', cursive; */
+    /* font-family: 'Racing Sans One'; */
+    /* font-family: 'IM Fell DW Pica SC', serif; */
+    /* font-family: 'Metal Mania', cursive; */
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    color: #201e1e;
+}
+.heading>h1::first-letter{
+    font-size: 35px;
+    color: rgb(0,0,0);
+}
+
+.card{
+    width: auto;
+    height: auto;
+}
+
+/* ************************department div end ******************************************/
+
+/******************** footer start***************************************/
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* min-height: 30vh; */
+    /* background: #333; */
+    /* background: #19202b; */
+    background: #3888ff;
+
+}
+.footer-box{
+    position: relative;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    min-height: 50px;
+    padding: 0px 30px;
+}
+.contect{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-align: center;
+}
+.footer-box .social-icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+.footer-box .contect .social-icon li{
+    list-style: none;
+}
+.footer-box .contect .social-icon li a{
+    font-size: 30px;
+    color: rgb(29, 23, 78);
+    /* color: white; */
+    margin: 0 5px;
+    display: inline-block;
+    transition: 0.1s;
+}
+.footer-box .contect .social-icon>li>a:hover{
+    transform: translateY(-10px);
+    color: rgb(0, 0, 0);
+}
+/* .footer-box .social-icon li a:hover{
+    color: white;
+} 
+.footer-box .wave{
+    position: absolute;
+    top: -70px;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background:url(./assets/img/wave.png);
+    background-size: 1000px 100px;
+}
+.footer-box .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 5;
+    animation: animatwave 4s linear infinite;
+}
+.footer-box .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animatwave_02 4s linear infinite;
+}.footer-box .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animatwave 3s linear infinite;
+}
+.footer-box .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animatwave_02 3s linear infinite;
+}
+.footer-box .wave#wave5{
+    z-index: 995;
+    opacity: 0.9;
+    bottom: 25px;
+    animation: animatwave_02 3s linear infinite;
+}
+
+
+@keyframes animatwave {
+    0%{
+        background-position-x:1000px;
+
+    }
+    100%{
+        background-position-x: 0;
+    }  
+}
+@keyframes animatwave_02 {
+    0%{
+        background-position-x:0;
+
+    }
+    100%{
+        background-position-x: 1000px;
+    }  
+} */
+
+.copy-rights{
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* footer end */

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <title>MechanicalEngineering.</title>
+  <!-- bootstrap 5version -->
+  <link rel="bootstrap" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- javascript  -->
+  <!-- bootstrap navbar -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--  -->
+  <link rel="stylesheet" href="../../../css/5dcss.css">
+   <!-- javascripe file -->
+   <script src="../../../js/loader.js"></script>
+</head>
+<!-- loader start -->
+<div id="spinner">
+  <div class="custom-loader">
+    
+  </div>
+</div>
+<!--   loader end  -->
+<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 image">
+  <!-- <img
+    src="https://image.spreadshirtmedia.com/image-server/v1/compositions/T210A2PA4301PT17X61Y37D1030127126W20813H24991/views/1,width=550,height=550,appearanceId=2,backgroundColor=000000,noPt=true/mechanical-engineer-text-engineering-logo-design-mens-t-shirt.jpg"
+    alt=""> -->
+    <img src="data:image/png;base64,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" alt="">
+</div>
+<div class="col-sm-12 col-md-12 col-lg-12">
+  <div class="paragarap">
+    <div class="color">
+      <p>To Produce globally competent students by adopting best educational practices through industry relevant
+        syllabus and imparting and unparalled learning and will developed by the students. </p>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-12 col-xxl-12 col-xl-12">
+  <h4>Mechanical Engineering</h4>
+  <hr style="color:orange; height:1.5px;">
+  <h4 style="color: orange;">SEMESTER</h4>
+</div>
+<!-- <br>
+<div class="text-center col-sm-12 col-md-12 col-lg-12 col-xxl-12 col-xl-12">
+  <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+    <div class="dropdown">
+      <button class="dropbtn">Semester-01</button>
+      <div class="dropdown-content">
+        <a href="">GE3151-Heritage of Tamils</a>
+        <a href="./colgdemo.html">CY3151-Engineering Chemistry</a>
+        <a href="#">GE3151-Problem Solving and Python Programming</a>
+        <a href="#">HS3151-Professional English</a>
+        <a href="#">MA3151-Matrix and Calculus</a>
+        <a href="#">PH3151-Engineering Physics</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Semester-02</button>
+      <div class="dropdown-content">
+        <a href="">BE3251-Basic Electrical and Electronic Engineering</a>
+        <a href="">GE3251-Engineering Graphics</a>
+        <a href="">HS3251-Professinal English-II</a>
+        <a href="">MA3251-Statistics And Numerical Methods</a>
+        <a href="">PH3251-Materials Science</a>
+      </div>
+    </div>
+  </div><br>
+  <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+    <div class="dropdown">
+      <button class="dropbtn">Semester-03</button>
+      <div class="dropdown-content">
+        <a href="">CS3391-Fluid Mechanics And Machinery</a>
+        <a href="">MA3351-Transforms And Partial Differential Equations</a>
+        <a href="">ME3351-Engineering Mechanics</a>
+        <a href="">ME3381-Computer Aided Machine Drawing</a>
+        <a href="">ME3391-Engineering THermodybnamics</a>
+        <a href="">ME3392-Engineering Materials And Metallurgy</a>
+        <a href="">ME3393-Manufacturing Processes</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Semester-04</button>
+      <div class="dropdown-content">
+        <a href="./colgdemo.html">GE3451-Environmental Science and Sustainability</a>
+        <a href="#">CE3491-Strength Of Materials</a>
+        <a href="">GE3451-Environmental Science And Sustainability</a>
+        <a href="">ME3451-Thermal Engineering</a>
+        <a href="">ME3491-Theory Of Machinces</a>
+        <a href="">ME3492-Hydraulics And Pneumatics</a>
+        <a href="">ME3493-Manufacturing Technology</a>
+      </div>
+    </div>
+    <br><br>
+    <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+      <div class="dropdown">
+        <button class="dropbtn">Semester-05</button>
+        <div class="dropdown-content">
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Semester-06</button>
+        <div class="dropdown-content">
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+        </div>
+      </div>
+      <br><br>
+      <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+        <div class="dropdown">
+          <button class="dropbtn">Semester-07</button>
+          <div class="dropdown-content">
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Semester-08</button>
+          <div class="dropdown-content">
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+          </div>
+        </div>
+      </div> -->
+      
+      <!-- <div class="text-center col-sm-12 col-md-12 col-lg-12 col-xxl-12 col-xl-12">
+        <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+            <a href="./iframe.html">Semester-01</a>
+    <a href="##">Semester-02</a>
+</div>
+<br><br>
+<div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+    <a href="##">Semester-03</a>
+    <a  href="##">Semester-04</a>
+</div>
+<br><br>
+ <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+    <a href="##">Semester-05</a>
+    <a href="##">Semester-</a>
+</div>
+<br><br>
+<div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+    <a href="##">Semester-07</a>
+    <a href="##">Semester-08</a>
+</div> 
+       </div> -->
+
+<div class="text-center col-sm-12 col-md-12 col-lg-12 col-xxl-12 col-xl-12 sem-main">
+  <div class="sem-sub-div">
+  <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+    <div class="dropdown hide">
+      <button class="dropbtn">Semester-01</button>
+      <div class="dropdown-content">
+        <a href="">GE3151-Heritage of Tamils</a>
+        <a href="./colgdemo.html">CY3151-Engineering Chemistry</a>
+        <a href="#">GE3151-Problem Solving and Python Programming</a>
+        <a href="#">HS3151-Professional English</a>
+        <a href="#">MA3151-Matrix and Calculus</a>
+        <a href="#">PH3151-Engineering Physics</a>
+      </div>
+    </div>
+    <div class="dropdown hide">
+      <button class="dropbtn ">Semester-02</button>
+      <div class="dropdown-content">
+        <div class="dropdown-content">
+          <a href="">BE3251-Basic Electrical and Electronic Engineering</a>
+          <a href="">GE3251-Engineering Graphics</a>
+          <a href="">HS3251-Professinal English-II</a>
+          <a href="">MA3251-Statistics And Numerical Methods</a>
+          <a href="">PH3251-Materials Science</a>
+
+      </div>
+    </div>
+  </div><br>
+  <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+    <div class="dropdown hide">
+      <button class="dropbtn">Semester-03</button>
+      <div class="dropdown-content">
+        <a href="">CS3391-Fluid Mechanics And Machinery</a>
+        <a href="">MA3351-Transforms And Partial Differential Equations</a>
+        <a href="">ME3351-Engineering Mechanics</a>
+        <a href="">ME3381-Computer Aided Machine Drawing</a>
+        <a href="">ME3391-Engineering THermodybnamics</a>
+        <a href="">ME3392-Engineering Materials And Metallurgy</a>
+        <a href="">ME3393-Manufacturing Processes</a>
+     
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Semester-04</button>
+      <div class="dropdown-content">
+        <!-- <a href="#">GE3451-Environmental Science and Sustainability</a>
+        <a href="#">CE3491-Strength Of Materials</a>
+        <a href="">GE3451-Environmental Science And Sustainability</a>
+        <a href="">ME3451-Thermal Engineering</a> -->
+        <a href="./ME-3491.html">ME3491-Theory Of Machinces</a>
+        <a href="">ME3492-Hydraulics And Pneumatics</a>
+        <a href="../ECE/GE-3451.html">GE3451-EVS</a>
+      </div>
+    </div>
+  </div>
+    <br>
+    <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+      <div class="dropdown hide">
+        <button class="dropbtn">Semester-05</button>
+        <div class="dropdown-content">
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+        </div>
+      </div>
+      <div class="dropdown hide">
+        <button class="dropbtn">Semester-06</button>
+        <div class="dropdown-content">
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+          <a href="#">no syllabs found</a>
+        </div>
+      </div>
+    </div>
+      <br>
+      <div class="text-center col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+        <div class="dropdown hide">
+          <button class="dropbtn">Semester-07</button>
+          <div class="dropdown-content">
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+          </div>
+        </div>
+        <div class="dropdown hide">
+          <button class="dropbtn">Semester-08</button>
+          <div class="dropdown-content">
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+            <a href="#">no syllabs found</a>
+          </div>
+        </div>
+      </div>
+      </div>
+</div>
+<hr style="color:orange; height:1.5px;">
+<div class="col-sm-6 col-md-6 col-lg-6 col-xxl-6 col-xl-6">
+  <!-- <h6><small>Designed & Developed By <i>&hearts;</i><a href="https://linktr.ee/youngerseed">YoungerSeed</a></small></h6> -->
+  <h6 class="copy-rights">&copy; 2023  <a href="https://linktr.ee/youngerseed" style="color: red;"><i class="fa-sharp fa-solid fa-heart-pulse"></i>Youngerseed</a> | All Rights Reserved</h6>
+
+</div>
+
+      <body>
+
+      </body>
+
+</html>

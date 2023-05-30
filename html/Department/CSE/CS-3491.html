@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    
+    <title>CSE SEM-4 | CS-3491</title>
+    <!-- Semenster Style sheet link -->
+    <link rel="stylesheet" href="../../../css/ec-3401.css">
+    <!-- javascripe file -->
+
+    <!-- Bootstrap linkage -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ <!-- javascripe file -->
+ <script src="../../../js/loader.js"></script>
+</head>
+
+<body class="body">
+    <!-- loader start -->
+<div id="spinner">
+    <div class="custom-loader">
+      
+    </div>
+  </div>
+  <!--   loader end  -->
+    <!-- backgroung blur  -->
+    <div class="total-div">
+        <!-- heaader text for the unit -->
+        <header>
+            <!-- This is for a unit tag -->
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 unit">
+                <i class="fa-solid fa-graduation-cap "></i>
+                <span>04</span>
+            </div>
+
+            <!-- this is for unit heading -->
+            <div class=" col-sm-12  col-md-12  col-lg-12 col-xl-12 col-xxl-12 header">
+                <p>CS-3491 ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING</p>
+            </div>
+
+        </header>
+        <p class="note">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-bookmark-heart-fill" viewBox="0 0 16 16">
+                <path
+                    d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v13.5zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+            </svg>
+            Note: Click Text To See Video
+        </p>
+    </div>
+    <!-- end of the unit header -->
+
+    <!--      this for the unit name and details container -->
+    <!--                     unit-1 -->
+    <!-- <div class="container"> -->
+    <!-- color division -->
+    
+    <div class="blue">
+        <div class="col-sm-12 col-md-12  col-lg-12 col-xl-12 col-xxl-12 unit-div" id="unit-div">
+            <div class="unit-name">
+                <p><i class="bi bi-1-square-fill"></i>PROBLEM SOLVING<i class="fa-solid fa-book-open"></i>
+                    <i class="bi bi-arrow-right-circle-fill arrowws"></i>
+                </p>
+            </div>
+            <!-- Unit Topics -->
+            <div class="unit-topics  bd-blue">
+                <div class="video-container" id="video-container">
+                    <p id="video-text" class="video-text">Introduction to AI</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <div class="link-container">
+                            <a href="https://youtu.be/FMZAH6brU20"><i class="fa-brands fa-youtube fa-fade"
+                                    style="color: #e01b24;"></i>For Tamil</a>
+                            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube fa-fade"
+                                    style="color: #e01b24;"></i>For English</a>
+                        </div>
+                        <span>Scroll Last to Download PDF<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--         end of the video container -->
+
+                <!--           Topic 2              -->
+                <div class="video-container" id="video-container">
+                    <p id="video-text01" class="video-text">AI Application</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container01"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="https://youtu.be/3a-o-a5muek"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 2 -->
+
+                <!--           Topic 3             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text03" class="video-text">Problem solving agents</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container03"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="https://youtu.be/tXh98Yj5sl0"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 3 -->
+                <!--           Topic 4             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text04" class="video-text"> search algorithm</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container04"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="https://youtu.be/xdfwJJfDVbs"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 4 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text05" class="video-text">uninformed search strategies</p>
+                        <!--          iframe tag -->
+                    <div id="video-iframe-container05"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="https://youtu.be/_nwsQQLXCT4"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text051" class="video-text">Heuristic search strategies</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container051"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="https://youtu.be/xUApA4iCXjQ"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="https://youtu.be/GL28VbiFkD0"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text06" class="video-text">Local search and optimization problems</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container06"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="https://youtu.be/g0lF_p_Zlmw"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="https://youtu.be/g0lF_p_Zlmw"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text07" class="video-text">Adversarial search </p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container07"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="https://youtu.be/I0tUY53kEWg"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="https://youtu.be/5LVR3mxEzmE"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text08" class="video-text">Constraint satisfaction problem</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container08"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="https://youtu.be/FtjwDcX3wbQ"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="https://youtu.be/u60OtXtkxVI"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+               
+
+                <ul><a href="#pdf" download="bg.png">Download<i class="fa-solid fa-file-pdf" id="pdf"></i></a></ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--                ***********   unit-2  ************   -->
+    <div class="yellow">
+        <div class="col-sm-12 col-md-12 unit-div">
+            <div class="unit-name">
+                <p><i class="bi bi-2-square-fill"></i>PROBABILISTIC REASONING<i class="fa-solid fa-book-open"></i></p>
+            </div>
+            <!-- Unit Topics -->
+            <div class="unit-topics col-sm-12 col-xl-12 col-xxl-12  col-lg-12 col-md-12 bd-yellow">
+
+                <!--           Topic 5             -->
+                <div class="video-container" id="video-container">
+                    <p id="video-text_u201" class="video-text">Acting under uncertainty</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u201"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u202" class="video-text">Bayesian inference</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u202"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u203" class="video-text">Naïve bayes models</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u203"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u204" class="video-text">Bayesian networks </p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u204"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container " id="video-container">
+                    <p id="video-text_u205" class="video-text"> Exact Inference in BN</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u205"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+                <!--           Topic 5             -->
+                <div class="video-container " id="video-container">
+                    <p id="video-text_u206" class="video-text">Approximate inference in BN</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u206"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+                <!--           Topic 5             -->
+                <div class="video-container " id="video-container">
+                    <p id="video-text_u207" class="video-text"> Causal Networks</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u207"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <ul><a href="#" download="bg.png">Download<i class="fa-solid fa-file-pdf"></i></a></ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--               *********    unit-3  *************   -->
+    <div class="green">
+        <div class="col-sm-12 col-xxl-12 col-lg-12 col-xl-12 col-md-12 unit-div">
+            <div class="unit-name">
+                <p><i class="bi bi-3-square-fill"></i>SUPERVISED LEARNING<i class="fa-solid fa-book-open"></i>
+                </p>
+            </div>
+            <!-- Unit Topics -->
+            <div class="unit-topics col-sm-12 col-xl-12 col-xxl-12  col-lg-12 bd-green">
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u301" class="video-text">Introduction to machine learning</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u301"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u302" class="video-text">Linear Regression Models</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u302"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u303" class="video-text">Discriminant function </p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u303"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u304" class="video-text"> Probabilistic discriminative model</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u304"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u305" class="video-text">Bearings and lubrication </p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u305"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u306" class="video-text"> Logistic regression & Probabilistic generative mode</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u306"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u307" class="video-text">Naive Bayes & Maximum margin classifier</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u307"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u308" class="video-text">Support vector machine</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u308"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                
+
+
+                <ul><a href="#" download>Download<i class="fa-solid fa-file-pdf"></i></a></ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--               **************** unit-4    ************* ***-->
+    <div class="pink">
+        <div class="col-sm-12 col-md-12 col-xl-12 col-xxl-12  col-lg-12 unit-div">
+            <div class="unit-name">
+                <p><i class="bi bi-4-square-fill"></i>ENSEMBLE TECHNIQUES AND UNSUPERVISED LEARNING<i class="fa-solid fa-book-open"></i></p>
+            </div>
+            <!-- Unit Topics -->
+            <div class="unit-topics col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 bd-pink">
+
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u401" class="video-text">Combining multiple learner</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u401"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u402" class="video-text"> Model combination scheme</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u402"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u403" class="video-text"> Unsupervised learning</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u403"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u404" class="video-text">Instance Based Learning</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u404"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u405" class="video-text"> Gaussian mixture model</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u405"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u406" class="video-text"> Expectation maximization</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u406"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+
+               
+                <ul><a href="#" download="bg.png">Download<i class="fa-solid fa-file-pdf"></i></a></ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--                  *********** unit-5 ************   -->
+    <div class="orange">
+        <div class="col-sm-12 col-md-12  col-xl-12 col-xxl-12  col-lg-12 unit-div">
+            <div class="unit-name">
+                <p><i class="bi bi-5-square-fill"></i>NEURAL NETWORKS <i class="fa-solid fa-book-open"></i></p>
+            </div>
+            <!-- Unit Topics -->
+            <div class="unit-topics col-sm-12 col-xl-12 col-xxl-12  col-lg-12 bd-orange">
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u501" class="video-text">Perceptron</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u501"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u502" class="video-text">Multilayer perceptron & activation functions </p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u502"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u503" class="video-text">Gradient descent optimization</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u503"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u504" class="video-text">Shallow networks to deep networks</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u504"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u505" class="video-text">Unit saturation </p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u505"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u506" class="video-text">Hyperparameter tuning</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u506"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u507" class="video-text">Batch normalization</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u507"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+                <!--           Topic 5             -->
+                <div class="video-container  " id="video-container">
+                    <p id="video-text_u508" class="video-text">Regularization</p>
+                    <!--          iframe tag -->
+                    <div id="video-iframe-container_u508"
+                        class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                        style="display: none;">
+                        <!-- video  -->
+                        <div class="link-container">
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                Tamil</a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-fade" style="color: #e01b24;"></i>For
+                                English</a>
+                        </div>
+                        <span>Scroll Last to Download PDFss<a href="#pdf"><i class="fa-solid fa-file-pdf"
+                                    id="pdf"></i></a></span>
+                    </div>
+                </div>
+                <!--       End of topic 5 -->
+                
+                
+                <ul><a href="#" download="bg.png">Download<i class="fa-solid fa-file-pdf"></i></a></ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- footer section -->
+
+    <footer class="footer col-sm-12 col-md-12">
+        <span>&#169</span>Designed & Developed By<i class="fa-sharp fa-solid fa-heart-pulse"></i><a href="https://linktr.ee/youngerseed">YoungerSeed</a>
+
+    </footer>
+    <!--  end of he footer -->
+    <script src="../../../js/CSE JS/cs-3491.js"></script>
+</body>
+
+</html>
