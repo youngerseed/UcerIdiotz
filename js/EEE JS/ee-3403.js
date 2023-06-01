@@ -115,195 +115,195 @@ videoText05.addEventListener("click", function() {
 
 
 
-// topic 3 js
-const videoText055 = document.getElementById("video-text055");
-const english055 = document.getElementById("english055")
-const videoIframeContainer055 = document.getElementById("video-iframe-container055");
-const video_english055=document.getElementById('video-iframe-english055');
-const video_tamil055=document.getElementById('video-iframe055');
+// // topic 3 js
+// const videoText055 = document.getElementById("video-text055");
+// const english055 = document.getElementById("english055")
+// const videoIframeContainer055 = document.getElementById("video-iframe-container055");
+// const video_english055=document.getElementById('video-iframe-english055');
+// const video_tamil055=document.getElementById('video-iframe055');
 
-videoText055.addEventListener("click", function() {
-  if (videoIframeContainer055.style.display === "none") {
-    videoIframeContainer055.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer055.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer055.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer055.style.display = "none";
-    },1000)
-  }
-});
-
-
-
-// topic 3 js
-const videoText06 = document.getElementById("video-text06");
-const english06 = document.getElementById("english06")
-const videoIframeContainer06 = document.getElementById("video-iframe-container06");
-const video_english06=document.getElementById('video-iframe-english06');
-const video_tamil06=document.getElementById('video-iframe06');
-
-videoText06.addEventListener("click", function() {
-  if (videoIframeContainer06.style.display === "none") {
-    videoIframeContainer06.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer06.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer06.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer06.style.display = "none";
-    },1000)
-  }
-});
+// videoText055.addEventListener("click", function() {
+//   if (videoIframeContainer055.style.display === "none") {
+//     videoIframeContainer055.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer055.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer055.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer055.style.display = "none";
+//     },1000)
+//   }
+// });
 
 
 
-// topic 3 js
-const videoText07 = document.getElementById("video-text07");
-const english07 = document.getElementById("english07")
-const videoIframeContainer07 = document.getElementById("video-iframe-container07");
-const video_english07=document.getElementById('video-iframe-english07');
-const video_tamil07=document.getElementById('video-iframe07');
+// // topic 3 js
+// const videoText06 = document.getElementById("video-text06");
+// const english06 = document.getElementById("english06")
+// const videoIframeContainer06 = document.getElementById("video-iframe-container06");
+// const video_english06=document.getElementById('video-iframe-english06');
+// const video_tamil06=document.getElementById('video-iframe06');
 
-videoText07.addEventListener("click", function() {
-  if (videoIframeContainer07.style.display === "none") {
-    videoIframeContainer07.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer07.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer07.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer07.style.display = "none";
-    },1000)
-  }
-});
+// videoText06.addEventListener("click", function() {
+//   if (videoIframeContainer06.style.display === "none") {
+//     videoIframeContainer06.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer06.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer06.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer06.style.display = "none";
+//     },1000)
+//   }
+// });
 
 
-// topic 3 js
-const videoText08 = document.getElementById("video-text08");
-const english08 = document.getElementById("english08")
-const videoIframeContainer08 = document.getElementById("video-iframe-container08");
-const video_english08=document.getElementById('video-iframe-english08');
-const video_tamil08=document.getElementById('video-iframe08');
 
-videoText08.addEventListener("click", function() {
-  if (videoIframeContainer08.style.display === "none") {
-    videoIframeContainer08.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer08.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer08.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer08.style.display = "none";
-    },1000)
-  }
-});
+// // topic 3 js
+// const videoText07 = document.getElementById("video-text07");
+// const english07 = document.getElementById("english07")
+// const videoIframeContainer07 = document.getElementById("video-iframe-container07");
+// const video_english07=document.getElementById('video-iframe-english07');
+// const video_tamil07=document.getElementById('video-iframe07');
 
-// topic 3 js
-const videoText09 = document.getElementById("video-text09");
-const english09 = document.getElementById("english09")
-const videoIframeContainer09 = document.getElementById("video-iframe-container09");
-const video_english09=document.getElementById('video-iframe-english09');
-const video_tamil09=document.getElementById('video-iframe09');
+// videoText07.addEventListener("click", function() {
+//   if (videoIframeContainer07.style.display === "none") {
+//     videoIframeContainer07.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer07.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer07.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer07.style.display = "none";
+//     },1000)
+//   }
+// });
 
-videoText09.addEventListener("click", function() {
-  if (videoIframeContainer09.style.display === "none") {
-    videoIframeContainer09.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer09.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer09.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer09.style.display = "none";
-    },1000)
-  }
-});
 
-const videoText10 = document.getElementById("video-text10");
-const english10 = document.getElementById("english10")
-const videoIframeContainer10 = document.getElementById("video-iframe-container10");
-const video_english10=document.getElementById('video-iframe-english10');
-const video_tamil10=document.getElementById('video-iframe10');
+// // topic 3 js
+// const videoText08 = document.getElementById("video-text08");
+// const english08 = document.getElementById("english08")
+// const videoIframeContainer08 = document.getElementById("video-iframe-container08");
+// const video_english08=document.getElementById('video-iframe-english08');
+// const video_tamil08=document.getElementById('video-iframe08');
 
-videoText10.addEventListener("click", function() {
-  if (videoIframeContainer10.style.display === "none") {
-    videoIframeContainer10.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer10.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer10.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer10.style.display = "none";
-    },1000)
-  }
-});
+// videoText08.addEventListener("click", function() {
+//   if (videoIframeContainer08.style.display === "none") {
+//     videoIframeContainer08.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer08.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer08.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer08.style.display = "none";
+//     },1000)
+//   }
+// });
 
-const videoText11 = document.getElementById("video-text11");
-const english11 = document.getElementById("english11")
-const videoIframeContainer11 = document.getElementById("video-iframe-container11");
-const video_english11=document.getElementById('video-iframe-english11');
-const video_tamil11=document.getElementById('video-iframe11');
+// // topic 3 js
+// const videoText09 = document.getElementById("video-text09");
+// const english09 = document.getElementById("english09")
+// const videoIframeContainer09 = document.getElementById("video-iframe-container09");
+// const video_english09=document.getElementById('video-iframe-english09');
+// const video_tamil09=document.getElementById('video-iframe09');
 
-videoText11.addEventListener("click", function() {
-  if (videoIframeContainer11.style.display === "none") {
-    videoIframeContainer11.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer11.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer11.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer11.style.display = "none";
-    },1000)
-  }
-});
+// videoText09.addEventListener("click", function() {
+//   if (videoIframeContainer09.style.display === "none") {
+//     videoIframeContainer09.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer09.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer09.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer09.style.display = "none";
+//     },1000)
+//   }
+// });
 
-const videoText12 = document.getElementById("video-text12");
-const english12 = document.getElementById("english12")
-const videoIframeContainer12 = document.getElementById("video-iframe-container12");
-const video_english12=document.getElementById('video-iframe-english12');
-const video_tamil12=document.getElementById('video-iframe12');
+// const videoText10 = document.getElementById("video-text10");
+// const english10 = document.getElementById("english10")
+// const videoIframeContainer10 = document.getElementById("video-iframe-container10");
+// const video_english10=document.getElementById('video-iframe-english10');
+// const video_tamil10=document.getElementById('video-iframe10');
 
-videoText12.addEventListener("click", function() {
-  if (videoIframeContainer12.style.display === "none") {
-    videoIframeContainer12.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer12.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer12.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer12.style.display = "none";
-    },1000)
-  }
-});
+// videoText10.addEventListener("click", function() {
+//   if (videoIframeContainer10.style.display === "none") {
+//     videoIframeContainer10.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer10.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer10.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer10.style.display = "none";
+//     },1000)
+//   }
+// });
 
-const videoText13 = document.getElementById("video-text13");
-const english13 = document.getElementById("english13")
-const videoIframeContainer13 = document.getElementById("video-iframe-container13");
-const video_english13=document.getElementById('video-iframe-english13');
-const video_tamil13=document.getElementById('video-iframe13');
+// const videoText11 = document.getElementById("video-text11");
+// const english11 = document.getElementById("english11")
+// const videoIframeContainer11 = document.getElementById("video-iframe-container11");
+// const video_english11=document.getElementById('video-iframe-english11');
+// const video_tamil11=document.getElementById('video-iframe11');
 
-videoText13.addEventListener("click", function() {
-  if (videoIframeContainer13.style.display === "none") {
-    videoIframeContainer13.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer13.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer13.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer13.style.display = "none";
-    },1000)
-  }
-});
+// videoText11.addEventListener("click", function() {
+//   if (videoIframeContainer11.style.display === "none") {
+//     videoIframeContainer11.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer11.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer11.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer11.style.display = "none";
+//     },1000)
+//   }
+// });
+
+// const videoText12 = document.getElementById("video-text12");
+// const english12 = document.getElementById("english12")
+// const videoIframeContainer12 = document.getElementById("video-iframe-container12");
+// const video_english12=document.getElementById('video-iframe-english12');
+// const video_tamil12=document.getElementById('video-iframe12');
+
+// videoText12.addEventListener("click", function() {
+//   if (videoIframeContainer12.style.display === "none") {
+//     videoIframeContainer12.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer12.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer12.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer12.style.display = "none";
+//     },1000)
+//   }
+// });
+
+// const videoText13 = document.getElementById("video-text13");
+// const english13 = document.getElementById("english13")
+// const videoIframeContainer13 = document.getElementById("video-iframe-container13");
+// const video_english13=document.getElementById('video-iframe-english13');
+// const video_tamil13=document.getElementById('video-iframe13');
+
+// videoText13.addEventListener("click", function() {
+//   if (videoIframeContainer13.style.display === "none") {
+//     videoIframeContainer13.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer13.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer13.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer13.style.display = "none";
+//     },1000)
+//   }
+// });
 
 
 //        ***********  unit 1 ended *****************************
@@ -459,236 +459,236 @@ videoText_u207.addEventListener("click", function() {
 
 
 
-const videoText_u208 = document.getElementById("video-text_u208");
-const english_u208 = document.getElementById("english_u208")
-const videoIframeContainer_u208 = document.getElementById("video-iframe-container_u208");
-const video_english_u208=document.getElementById('video-iframe-english_u208');
-const video_tamil_u208=document.getElementById('video-iframe_u208');
+// const videoText_u208 = document.getElementById("video-text_u208");
+// const english_u208 = document.getElementById("english_u208")
+// const videoIframeContainer_u208 = document.getElementById("video-iframe-container_u208");
+// const video_english_u208=document.getElementById('video-iframe-english_u208');
+// const video_tamil_u208=document.getElementById('video-iframe_u208');
 
-videoText_u208.addEventListener("click", function() {
-  if (videoIframeContainer_u208.style.display === "none") {
-    videoIframeContainer_u208.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u208.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u208.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u208.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u209 = document.getElementById("video-text_u209");
-const english_u209 = document.getElementById("english_u209")
-const videoIframeContainer_u209 = document.getElementById("video-iframe-container_u209");
-const video_english_u209=document.getElementById('video-iframe-english_u209');
-const video_tamil_u209=document.getElementById('video-iframe_u209');
+// videoText_u208.addEventListener("click", function() {
+//   if (videoIframeContainer_u208.style.display === "none") {
+//     videoIframeContainer_u208.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u208.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u208.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u208.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u209 = document.getElementById("video-text_u209");
+// const english_u209 = document.getElementById("english_u209")
+// const videoIframeContainer_u209 = document.getElementById("video-iframe-container_u209");
+// const video_english_u209=document.getElementById('video-iframe-english_u209');
+// const video_tamil_u209=document.getElementById('video-iframe_u209');
 
-videoText_u209.addEventListener("click", function() {
-  if (videoIframeContainer_u209.style.display === "none") {
-    videoIframeContainer_u209.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u209.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u209.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u209.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u210 = document.getElementById("video-text_u210");
-const english_u210 = document.getElementById("english_u210")
-const videoIframeContainer_u210 = document.getElementById("video-iframe-container_u210");
-const video_english_u210=document.getElementById('video-iframe-english_u210');
-const video_tamil_u210=document.getElementById('video-iframe_u210');
+// videoText_u209.addEventListener("click", function() {
+//   if (videoIframeContainer_u209.style.display === "none") {
+//     videoIframeContainer_u209.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u209.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u209.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u209.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u210 = document.getElementById("video-text_u210");
+// const english_u210 = document.getElementById("english_u210")
+// const videoIframeContainer_u210 = document.getElementById("video-iframe-container_u210");
+// const video_english_u210=document.getElementById('video-iframe-english_u210');
+// const video_tamil_u210=document.getElementById('video-iframe_u210');
 
-videoText_u210.addEventListener("click", function() {
-  if (videoIframeContainer_u210.style.display === "none") {
-    videoIframeContainer_u210.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u210.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u210.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u210.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u211 = document.getElementById("video-text_u211");
-const english_u211 = document.getElementById("english_u211")
-const videoIframeContainer_u211 = document.getElementById("video-iframe-container_u211");
-const video_english_u211=document.getElementById('video-iframe-english_u211');
-const video_tamil_u211=document.getElementById('video-iframe_u211');
+// videoText_u210.addEventListener("click", function() {
+//   if (videoIframeContainer_u210.style.display === "none") {
+//     videoIframeContainer_u210.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u210.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u210.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u210.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u211 = document.getElementById("video-text_u211");
+// const english_u211 = document.getElementById("english_u211")
+// const videoIframeContainer_u211 = document.getElementById("video-iframe-container_u211");
+// const video_english_u211=document.getElementById('video-iframe-english_u211');
+// const video_tamil_u211=document.getElementById('video-iframe_u211');
 
-videoText_u211.addEventListener("click", function() {
-  if (videoIframeContainer_u211.style.display === "none") {
-    videoIframeContainer_u211.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u211.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u211.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u211.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u2111 = document.getElementById("video-text_u2111");
-const english_u2111 = document.getElementById("english_u2111")
-const videoIframeContainer_u2111 = document.getElementById("video-iframe-container_u2111");
-const video_english_u2111=document.getElementById('video-iframe-english_u2111');
-const video_tamil_u2111=document.getElementById('video-iframe_u2111');
+// videoText_u211.addEventListener("click", function() {
+//   if (videoIframeContainer_u211.style.display === "none") {
+//     videoIframeContainer_u211.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u211.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u211.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u211.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u2111 = document.getElementById("video-text_u2111");
+// const english_u2111 = document.getElementById("english_u2111")
+// const videoIframeContainer_u2111 = document.getElementById("video-iframe-container_u2111");
+// const video_english_u2111=document.getElementById('video-iframe-english_u2111');
+// const video_tamil_u2111=document.getElementById('video-iframe_u2111');
 
-videoText_u2111.addEventListener("click", function() {
-  if (videoIframeContainer_u2111.style.display === "none") {
-    videoIframeContainer_u2111.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u2111.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u2111.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u2111.style.display = "none";
-    },1000)
-  }
-});
+// videoText_u2111.addEventListener("click", function() {
+//   if (videoIframeContainer_u2111.style.display === "none") {
+//     videoIframeContainer_u2111.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u2111.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u2111.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u2111.style.display = "none";
+//     },1000)
+//   }
+// });
 
-const videoText_u212 = document.getElementById("video-text_u212");
-const english_u212 = document.getElementById("english_u212")
-const videoIframeContainer_u212 = document.getElementById("video-iframe-container_u212");
-const video_english_u212=document.getElementById('video-iframe-english_u212');
-const video_tamil_u212=document.getElementById('video-iframe_u212');
+// const videoText_u212 = document.getElementById("video-text_u212");
+// const english_u212 = document.getElementById("english_u212")
+// const videoIframeContainer_u212 = document.getElementById("video-iframe-container_u212");
+// const video_english_u212=document.getElementById('video-iframe-english_u212');
+// const video_tamil_u212=document.getElementById('video-iframe_u212');
 
-videoText_u212.addEventListener("click", function() {
-  if (videoIframeContainer_u212.style.display === "none") {
-    videoIframeContainer_u212.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u212.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u212.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u212.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u213 = document.getElementById("video-text_u213");
-const english_u213 = document.getElementById("english_u213")
-const videoIframeContainer_u213 = document.getElementById("video-iframe-container_u213");
-const video_english_u213=document.getElementById('video-iframe-english_u213');
-const video_tamil_u213=document.getElementById('video-iframe_u213');
+// videoText_u212.addEventListener("click", function() {
+//   if (videoIframeContainer_u212.style.display === "none") {
+//     videoIframeContainer_u212.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u212.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u212.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u212.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u213 = document.getElementById("video-text_u213");
+// const english_u213 = document.getElementById("english_u213")
+// const videoIframeContainer_u213 = document.getElementById("video-iframe-container_u213");
+// const video_english_u213=document.getElementById('video-iframe-english_u213');
+// const video_tamil_u213=document.getElementById('video-iframe_u213');
 
-videoText_u213.addEventListener("click", function() {
-  if (videoIframeContainer_u213.style.display === "none") {
-    videoIframeContainer_u213.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u213.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u213.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u213.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u214 = document.getElementById("video-text_u214");
-const english_u214 = document.getElementById("english_u214")
-const videoIframeContainer_u214 = document.getElementById("video-iframe-container_u214");
-const video_english_u214=document.getElementById('video-iframe-english_u214');
-const video_tamil_u214=document.getElementById('video-iframe_u214');
+// videoText_u213.addEventListener("click", function() {
+//   if (videoIframeContainer_u213.style.display === "none") {
+//     videoIframeContainer_u213.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u213.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u213.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u213.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u214 = document.getElementById("video-text_u214");
+// const english_u214 = document.getElementById("english_u214")
+// const videoIframeContainer_u214 = document.getElementById("video-iframe-container_u214");
+// const video_english_u214=document.getElementById('video-iframe-english_u214');
+// const video_tamil_u214=document.getElementById('video-iframe_u214');
 
-videoText_u214.addEventListener("click", function() {
-  if (videoIframeContainer_u214.style.display === "none") {
-    videoIframeContainer_u214.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u214.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u214.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u214.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u215 = document.getElementById("video-text_u215");
-const english_u215 = document.getElementById("english_u215")
-const videoIframeContainer_u215 = document.getElementById("video-iframe-container_u215");
-const video_english_u215=document.getElementById('video-iframe-english_u215');
-const video_tamil_u215=document.getElementById('video-iframe_u215');
+// videoText_u214.addEventListener("click", function() {
+//   if (videoIframeContainer_u214.style.display === "none") {
+//     videoIframeContainer_u214.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u214.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u214.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u214.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u215 = document.getElementById("video-text_u215");
+// const english_u215 = document.getElementById("english_u215")
+// const videoIframeContainer_u215 = document.getElementById("video-iframe-container_u215");
+// const video_english_u215=document.getElementById('video-iframe-english_u215');
+// const video_tamil_u215=document.getElementById('video-iframe_u215');
 
-videoText_u215.addEventListener("click", function() {
-  if (videoIframeContainer_u215.style.display === "none") {
-    videoIframeContainer_u215.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u215.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u215.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u215.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u216 = document.getElementById("video-text_u216");
-const english_u216 = document.getElementById("english_u216")
-const videoIframeContainer_u216 = document.getElementById("video-iframe-container_u216");
-const video_english_u216=document.getElementById('video-iframe-english_u216');
-const video_tamil_u216=document.getElementById('video-iframe_u216');
+// videoText_u215.addEventListener("click", function() {
+//   if (videoIframeContainer_u215.style.display === "none") {
+//     videoIframeContainer_u215.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u215.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u215.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u215.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u216 = document.getElementById("video-text_u216");
+// const english_u216 = document.getElementById("english_u216")
+// const videoIframeContainer_u216 = document.getElementById("video-iframe-container_u216");
+// const video_english_u216=document.getElementById('video-iframe-english_u216');
+// const video_tamil_u216=document.getElementById('video-iframe_u216');
 
-videoText_u216.addEventListener("click", function() {
-  if (videoIframeContainer_u216.style.display === "none") {
-    videoIframeContainer_u216.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u216.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u216.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u216.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u217 = document.getElementById("video-text_u217");
-const english_u217 = document.getElementById("english_u217")
-const videoIframeContainer_u217 = document.getElementById("video-iframe-container_u217");
-const video_english_u217=document.getElementById('video-iframe-english_u217');
-const video_tamil_u217=document.getElementById('video-iframe_u217');
+// videoText_u216.addEventListener("click", function() {
+//   if (videoIframeContainer_u216.style.display === "none") {
+//     videoIframeContainer_u216.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u216.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u216.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u216.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u217 = document.getElementById("video-text_u217");
+// const english_u217 = document.getElementById("english_u217")
+// const videoIframeContainer_u217 = document.getElementById("video-iframe-container_u217");
+// const video_english_u217=document.getElementById('video-iframe-english_u217');
+// const video_tamil_u217=document.getElementById('video-iframe_u217');
 
-videoText_u217.addEventListener("click", function() {
-  if (videoIframeContainer_u217.style.display === "none") {
-    videoIframeContainer_u217.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u217.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u217.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u217.style.display = "none";
-    },1000)
-  }
-});
+// videoText_u217.addEventListener("click", function() {
+//   if (videoIframeContainer_u217.style.display === "none") {
+//     videoIframeContainer_u217.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u217.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u217.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u217.style.display = "none";
+//     },1000)
+//   }
+// });
 
-const videoText_u218 = document.getElementById("video-text_u218");
-const english_u218 = document.getElementById("english_u218")
-const videoIframeContainer_u218 = document.getElementById("video-iframe-container_u218");
-const video_english_u218=document.getElementById('video-iframe-english_u218');
-const video_tamil_u218=document.getElementById('video-iframe_u218');
+// const videoText_u218 = document.getElementById("video-text_u218");
+// const english_u218 = document.getElementById("english_u218")
+// const videoIframeContainer_u218 = document.getElementById("video-iframe-container_u218");
+// const video_english_u218=document.getElementById('video-iframe-english_u218');
+// const video_tamil_u218=document.getElementById('video-iframe_u218');
 
-videoText_u218.addEventListener("click", function() {
-  if (videoIframeContainer_u218.style.display === "none") {
-    videoIframeContainer_u218.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u218.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u218.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u218.style.display = "none";
-    },1000)
-  }
-});
+// videoText_u218.addEventListener("click", function() {
+//   if (videoIframeContainer_u218.style.display === "none") {
+//     videoIframeContainer_u218.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u218.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u218.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u218.style.display = "none";
+//     },1000)
+//   }
+// });
 
 //  *************** unit 2 ended **************
 
@@ -824,108 +824,108 @@ videoText_u306.addEventListener("click", function() {
 
 
 
-const videoText_u307 = document.getElementById("video-text_u307");
-const english_u307 = document.getElementById("english_u307")
-const videoIframeContainer_u307 = document.getElementById("video-iframe-container_u307");
-const video_english_u307=document.getElementById('video-iframe-english_u307');
-const video_tamil_u307=document.getElementById('video-iframe_u307');
+// const videoText_u307 = document.getElementById("video-text_u307");
+// const english_u307 = document.getElementById("english_u307")
+// const videoIframeContainer_u307 = document.getElementById("video-iframe-container_u307");
+// const video_english_u307=document.getElementById('video-iframe-english_u307');
+// const video_tamil_u307=document.getElementById('video-iframe_u307');
 
-videoText_u307.addEventListener("click", function() {
-  if (videoIframeContainer_u307.style.display === "none") {
-    videoIframeContainer_u307.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u307.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u307.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u307.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u308 = document.getElementById("video-text_u308");
-const english_u308 = document.getElementById("english_u308")
-const videoIframeContainer_u308 = document.getElementById("video-iframe-container_u308");
-const video_english_u308=document.getElementById('video-iframe-english_u308');
-const video_tamil_u308=document.getElementById('video-iframe_u308');
-
-videoText_u308.addEventListener("click", function() {
-  if (videoIframeContainer_u308.style.display === "none") {
-    videoIframeContainer_u308.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u308.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u308.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u308.style.display = "none";
-    },1000)
-  }
-});
+// videoText_u307.addEventListener("click", function() {
+//   if (videoIframeContainer_u307.style.display === "none") {
+//     videoIframeContainer_u307.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u307.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u307.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u307.style.display = "none";
+//     },1000)
+//   }
+// });
 
 
+// const videoText_u308 = document.getElementById("video-text_u308");
+// const english_u308 = document.getElementById("english_u308")
+// const videoIframeContainer_u308 = document.getElementById("video-iframe-container_u308");
+// const video_english_u308=document.getElementById('video-iframe-english_u308');
+// const video_tamil_u308=document.getElementById('video-iframe_u308');
 
-const videoText_u309 = document.getElementById("video-text_u309");
-const english_u309 = document.getElementById("english_u309")
-const videoIframeContainer_u309 = document.getElementById("video-iframe-container_u309");
-const video_english_u309=document.getElementById('video-iframe-english_u309');
-const video_tamil_u309=document.getElementById('video-iframe_u309');
+// videoText_u308.addEventListener("click", function() {
+//   if (videoIframeContainer_u308.style.display === "none") {
+//     videoIframeContainer_u308.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u308.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u308.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u308.style.display = "none";
+//     },1000)
+//   }
+// });
 
-videoText_u309.addEventListener("click", function() {
-  if (videoIframeContainer_u309.style.display === "none") {
-    videoIframeContainer_u309.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u309.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u309.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u309.style.display = "none";
-    },1000)
-  }
-});
 
-const videoText_u310 = document.getElementById("video-text_u310");
-const english_u310 = document.getElementById("english_u310")
-const videoIframeContainer_u310 = document.getElementById("video-iframe-container_u310");
-const video_english_u310=document.getElementById('video-iframe-english_u310');
-const video_tamil_u310=document.getElementById('video-iframe_u310');
 
-videoText_u310.addEventListener("click", function() {
-  if (videoIframeContainer_u310.style.display === "none") {
-    videoIframeContainer_u310.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u310.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u310.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u310.style.display = "none";
-    },1000)
-  }
-});
+// const videoText_u309 = document.getElementById("video-text_u309");
+// const english_u309 = document.getElementById("english_u309")
+// const videoIframeContainer_u309 = document.getElementById("video-iframe-container_u309");
+// const video_english_u309=document.getElementById('video-iframe-english_u309');
+// const video_tamil_u309=document.getElementById('video-iframe_u309');
 
-const videoText_u311 = document.getElementById("video-text_u311");
-const english_u311 = document.getElementById("english_u311")
-const videoIframeContainer_u311 = document.getElementById("video-iframe-container_u311");
-const video_english_u311=document.getElementById('video-iframe-english_u311');
-const video_tamil_u311=document.getElementById('video-iframe_u311');
+// videoText_u309.addEventListener("click", function() {
+//   if (videoIframeContainer_u309.style.display === "none") {
+//     videoIframeContainer_u309.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u309.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u309.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u309.style.display = "none";
+//     },1000)
+//   }
+// });
 
-videoText_u311.addEventListener("click", function() {
-  if (videoIframeContainer_u311.style.display === "none") {
-    videoIframeContainer_u311.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u311.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u311.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u311.style.display = "none";
-    },1000)
-  }
-});
+// const videoText_u310 = document.getElementById("video-text_u310");
+// const english_u310 = document.getElementById("english_u310")
+// const videoIframeContainer_u310 = document.getElementById("video-iframe-container_u310");
+// const video_english_u310=document.getElementById('video-iframe-english_u310');
+// const video_tamil_u310=document.getElementById('video-iframe_u310');
+
+// videoText_u310.addEventListener("click", function() {
+//   if (videoIframeContainer_u310.style.display === "none") {
+//     videoIframeContainer_u310.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u310.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u310.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u310.style.display = "none";
+//     },1000)
+//   }
+// });
+
+// const videoText_u311 = document.getElementById("video-text_u311");
+// const english_u311 = document.getElementById("english_u311")
+// const videoIframeContainer_u311 = document.getElementById("video-iframe-container_u311");
+// const video_english_u311=document.getElementById('video-iframe-english_u311');
+// const video_tamil_u311=document.getElementById('video-iframe_u311');
+
+// videoText_u311.addEventListener("click", function() {
+//   if (videoIframeContainer_u311.style.display === "none") {
+//     videoIframeContainer_u311.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u311.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u311.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u311.style.display = "none";
+//     },1000)
+//   }
+// });
 
 
 
@@ -1080,125 +1080,125 @@ videoText_u407.addEventListener("click", function() {
 });
 
 
-const videoText_u408 = document.getElementById("video-text_u408");
-const english_u408 = document.getElementById("english_u408")
-const videoIframeContainer_u408 = document.getElementById("video-iframe-container_u408");
-const video_english_u408=document.getElementById('video-iframe-english_u408');
-const video_tamil_u408=document.getElementById('video-iframe_u408');
+// const videoText_u408 = document.getElementById("video-text_u408");
+// const english_u408 = document.getElementById("english_u408")
+// const videoIframeContainer_u408 = document.getElementById("video-iframe-container_u408");
+// const video_english_u408=document.getElementById('video-iframe-english_u408');
+// const video_tamil_u408=document.getElementById('video-iframe_u408');
 
-videoText_u408.addEventListener("click", function() {
-  if (videoIframeContainer_u408.style.display === "none") {
-    videoIframeContainer_u408.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u408.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u408.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u408.style.display = "none";
-    },1000)
-  }
-});
+// videoText_u408.addEventListener("click", function() {
+//   if (videoIframeContainer_u408.style.display === "none") {
+//     videoIframeContainer_u408.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u408.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u408.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u408.style.display = "none";
+//     },1000)
+//   }
+// });
 
-const videoText_u409 = document.getElementById("video-text_u409");
-const english_u409 = document.getElementById("english_u409")
-const videoIframeContainer_u409 = document.getElementById("video-iframe-container_u409");
-const video_english_u409=document.getElementById('video-iframe-english_u409');
-const video_tamil_u409=document.getElementById('video-iframe_u409');
+// const videoText_u409 = document.getElementById("video-text_u409");
+// const english_u409 = document.getElementById("english_u409")
+// const videoIframeContainer_u409 = document.getElementById("video-iframe-container_u409");
+// const video_english_u409=document.getElementById('video-iframe-english_u409');
+// const video_tamil_u409=document.getElementById('video-iframe_u409');
 
-videoText_u409.addEventListener("click", function() {
-  if (videoIframeContainer_u409.style.display === "none") {
-    videoIframeContainer_u409.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u409.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u409.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u409.style.display = "none";
-    },1000)
-  }
-});
+// videoText_u409.addEventListener("click", function() {
+//   if (videoIframeContainer_u409.style.display === "none") {
+//     videoIframeContainer_u409.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u409.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u409.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u409.style.display = "none";
+//     },1000)
+//   }
+// });
 
 
 
-const videoText_u410 = document.getElementById("video-text_u410");
-const english_u410 = document.getElementById("english_u410")
-const videoIframeContainer_u410 = document.getElementById("video-iframe-container_u410");
-const video_english_u410=document.getElementById('video-iframe-english_u410');
-const video_tamil_u410=document.getElementById('video-iframe_u410');
+// const videoText_u410 = document.getElementById("video-text_u410");
+// const english_u410 = document.getElementById("english_u410")
+// const videoIframeContainer_u410 = document.getElementById("video-iframe-container_u410");
+// const video_english_u410=document.getElementById('video-iframe-english_u410');
+// const video_tamil_u410=document.getElementById('video-iframe_u410');
 
-videoText_u410.addEventListener("click", function() {
-  if (videoIframeContainer_u410.style.display === "none") {
-    videoIframeContainer_u410.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u410.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u410.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u410.style.display = "none";
-    },1000)
-  }
-});
+// videoText_u410.addEventListener("click", function() {
+//   if (videoIframeContainer_u410.style.display === "none") {
+//     videoIframeContainer_u410.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u410.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u410.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u410.style.display = "none";
+//     },1000)
+//   }
+// });
 
-const videoText_u413 = document.getElementById("video-text_u413");
-const english_u413 = document.getElementById("english_u413")
-const videoIframeContainer_u413 = document.getElementById("video-iframe-container_u413");
-const video_english_u413=document.getElementById('video-iframe-english_u413');
-const video_tamil_u413=document.getElementById('video-iframe_u413');
+// const videoText_u413 = document.getElementById("video-text_u413");
+// const english_u413 = document.getElementById("english_u413")
+// const videoIframeContainer_u413 = document.getElementById("video-iframe-container_u413");
+// const video_english_u413=document.getElementById('video-iframe-english_u413');
+// const video_tamil_u413=document.getElementById('video-iframe_u413');
 
-videoText_u413.addEventListener("click", function() {
-  if (videoIframeContainer_u413.style.display === "none") {
-    videoIframeContainer_u413.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u413.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u413.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u413.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u411 = document.getElementById("video-text_u411");
-const english_u411 = document.getElementById("english_u411")
-const videoIframeContainer_u411 = document.getElementById("video-iframe-container_u411");
-const video_english_u411=document.getElementById('video-iframe-english_u411');
-const video_tamil_u411=document.getElementById('video-iframe_u411');
+// videoText_u413.addEventListener("click", function() {
+//   if (videoIframeContainer_u413.style.display === "none") {
+//     videoIframeContainer_u413.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u413.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u413.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u413.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u411 = document.getElementById("video-text_u411");
+// const english_u411 = document.getElementById("english_u411")
+// const videoIframeContainer_u411 = document.getElementById("video-iframe-container_u411");
+// const video_english_u411=document.getElementById('video-iframe-english_u411');
+// const video_tamil_u411=document.getElementById('video-iframe_u411');
 
-videoText_u411.addEventListener("click", function() {
-  if (videoIframeContainer_u411.style.display === "none") {
-    videoIframeContainer_u411.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u411.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u411.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u411.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u412 = document.getElementById("video-text_u412");
-const english_u412 = document.getElementById("english_u412")
-const videoIframeContainer_u412 = document.getElementById("video-iframe-container_u412");
-const video_english_u412=document.getElementById('video-iframe-english_u412');
-const video_tamil_u412=document.getElementById('video-iframe_u412');
+// videoText_u411.addEventListener("click", function() {
+//   if (videoIframeContainer_u411.style.display === "none") {
+//     videoIframeContainer_u411.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u411.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u411.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u411.style.display = "none";
+//     },1000)
+//   }
+// });
+// const videoText_u412 = document.getElementById("video-text_u412");
+// const english_u412 = document.getElementById("english_u412")
+// const videoIframeContainer_u412 = document.getElementById("video-iframe-container_u412");
+// const video_english_u412=document.getElementById('video-iframe-english_u412');
+// const video_tamil_u412=document.getElementById('video-iframe_u412');
 
-videoText_u412.addEventListener("click", function() {
-  if (videoIframeContainer_u412.style.display === "none") {
-    videoIframeContainer_u412.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u412.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u412.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u412.style.display = "none";
-    },1000)
-  }
-});
+// videoText_u412.addEventListener("click", function() {
+//   if (videoIframeContainer_u412.style.display === "none") {
+//     videoIframeContainer_u412.style.display = "block";
+//     unit_div.classList.add("unit-div-2");
+//     videoIframeContainer_u412.classList.remove("hoverback");
+//   } else {
+//     unit_div.classList.remove("unit-div-2");
+//     videoIframeContainer_u412.classList.add("hoverback");
+//     setTimeout(function(){
+//      videoIframeContainer_u412.style.display = "none";
+//     },1000)
+//   }
+// });
 
 
 // ****************** unit 4 ended ***************
