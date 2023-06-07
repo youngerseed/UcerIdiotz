@@ -7,6 +7,52 @@
     padding: 0 ;
     text-decoration: none !important;
 }
+/* ai css code */
+
+.ai{
+    
+   height: 50px;
+   width: 50px;
+   cursor: pointer;
+}
+.out-ai{
+    position: fixed;
+    z-index: 4;
+    right:2rem;
+    margin-top: 85vh;
+}
+
+
+.ai-text{
+  color: #FF8513;
+  background-color: #070647b6;
+  font-weight: bolder;
+  position: absolute;
+  z-index: 4;
+  height: 1.2rem;
+  width: 140px;
+  text-align: center;
+  font-size: .78rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  display: block;
+  margin-left: -6rem;
+}
+
+.ai-icon{
+    height: 60px;
+    width: 60px;
+    position:absolute;
+    margin-top: .8rem;
+    margin-left:1.6rem;
+    z-index: 4;
+    background-size: contain;
+    background-image: url(https://png.pngtree.com/png-vector/20230104/ourmid/pngtree-chatbot-clipart-in-futuristic-hexagonal-shape-png-image_6551140.png);
+}
+/* end of ai css code */
+
 /* loader css */
 #spinner{
     display: flex;

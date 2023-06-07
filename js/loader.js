@@ -4,3 +4,6 @@ document.onreadystatechange = function() {
   },2500);
 };
 
+function redirectToWebsite() {
+  window.location.href = "https://www.perplexity.ai/";
+}
