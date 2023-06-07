@@ -1331,25 +1331,7 @@ videoText_u504.addEventListener("click", function() {
   }
 });
 
-const videoText_u505 = document.getElementById("video-text_u505");
-const english_u505 = document.getElementById("english_u505")
-const videoIframeContainer_u505 = document.getElementById("video-iframe-container_u505");
-const video_english_u505=document.getElementById('video-iframe-english_u505');
-const video_tamil_u505=document.getElementById('video-iframe_u505');
 
-videoText_u505.addEventListener("click", function() {
-  if (videoIframeContainer_u505.style.display === "none") {
-    videoIframeContainer_u505.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u505.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u505.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u505.style.display = "none";
-    },1000)
-  }
-});
 const videoText_u506 = document.getElementById("video-text_u506");
 const english_u506 = document.getElementById("english_u506")
 const videoIframeContainer_u506 = document.getElementById("video-iframe-container_u506");
