@@ -20,7 +20,7 @@
     <!-- Fontawesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap icons -->
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Google tag (gtag.js) -->
@@ -40,18 +40,12 @@
 <body>
 
     <!-- navbar divition start -->
-<!-- loader start -->
-<div id="spinner">
-  <div class="custom-loader">
     
-  </div>
-</div>
-
-<!--   loader end  -->
+<!-- start of the ai  -->
 <div class="out-ai" >
-  <div class="ai" onclick="redirectToWebsite()">
+  <div class="ai" >
     <span class="ai-text">Use AI To Find Answers</span>
-   <div class="ai-icon "></div>
+   <div class="ai-icon " onclick="redirectToWebsite()"></div>
   </div>
   </div>
   <!-- End Of AI div -->
@@ -72,15 +66,18 @@
         <img src="./Assets/img/bg-for-home (2).svg" class="home-img" alt=""> 
      </div>
      <!-- center of the home page end -->
-
-
+<!-- feedback division  -->
+<div class="feedback" onclick="form()">
+  <h3>FeedBack Form<i class="fa-solid fa-paper-plane fa-xs"></i></h3>
+</div>
+<!-- end of feedback division -->
     <!-- events divition start -->
     <div class="event">
         <h4>Events</h4>
         <hr class="line">
       
         <marquee scrollamount="8" behavior="scroll" loop="" style="color: #222222;font-size: 17px;line-height:20px;" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-          <a href=""><i class="fa-solid fa-bell fa-fade bell"></i> Video updated For DSP | MST | AI-ML | </a>
+          <a href=""><i class="fa-solid fa-bell fa-fade bell"></i> Video updated For DSP | MST | OS | </a>
           <a href=""><i class="fa-solid fa-bell fa-fade bell"></i> PDF updated For CSE | EEE | ECE </a>
           <!-- <<a href=""><i class="fa-solid fa-bell fa-fade bell"></i> </a>
            <a href=""><i class="fa-solid fa-bell fa-fade bell"></i> Mechanical Engineering | </a>
@@ -90,13 +87,17 @@
     <br>
     <!-- events divition end -->
 
+  <!-- ******************pool division***************  -->
+
+  <iframe class="qp_iframe" src="https://poll-maker.com/frame4840645xa9EB4Da1-149" seamless="seamless" frameborder="no" style="border:0; background:transparent; width:100%; height:400px;"></iframe>
+  <!-- ********************End OF the Pool Division******************** -->
         <!-- department divition start -->
 
         <div class="dept_all">
         <div class="heading">
             <h1 class="d-sm-5">department</h1>
         </div>
-        <i class="fa-sharp fa-solid fa-right-long next-notify"></i>
+        <!-- <i class="fa-sharp fa-solid fa-right-long next-notify"></i> -->
     <!-- disktop Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
@@ -104,31 +105,37 @@
             <img src="https://media.licdn.com/dms/image/C4D12AQEa61A_hVfR6A/article-inline_image-shrink_1000_1488/0/1594030226527?e=1687996800&v=beta&t=HhBQTTgTQwPMFGce1bx4QyEDOWwqpNIXy0UtyVJZ5P8"alt=""  class=" img-responsive">
         <button><a href="./html/Department/CSE/CSE.html">Go-To-CSE</a></button>
         <p><i class="fa-solid fa-quote-left fa-shake"></i> Make everything as simple as possible, but not simpler <i class="fa-solid fa-quote-right fa-shake"></i></p>
+        <span class="swipe">Swipe<i class="bi bi-heart-arrow swipe-arrow"></i><span/>
         </div>
         <div class="swiper-slide card">
             <img src="https://etuwa.in/aaa/wp-content/uploads/2016/03/banner.jpg" alt="" class=" img-responsive">
             <button><a href="./html/Department/ECE/ECE.html">Go-To-ECE</a></button> 
-            <p class=""><i class="fa-solid fa-quote-left fa-shake"></i> Without communication, even the strongest relationships can fall apart <i class="fa-solid fa-quote-right fa-shake"></i></p>
-        </div>
+            <p class="para-ece"><i class="fa-solid fa-quote-left fa-shake"></i> Without communication, even the strongest relationships can fall apart <i class="fa-solid fa-quote-right fa-shake"></i></p>
+            <span class="swipe">Swipe<i class="bi bi-heart-arrow swipe-arrow"></i><span/>
+          </div>
         <div class="swiper-slide card">
             <img src="https://4.bp.blogspot.com/-0-NaX7wnWsQ/WKfsIqePABI/AAAAAAAABGo/Zuy36roZlH8GDkR-WQL6U9AReRAGYkmngCLcB/s1600/electric.jpg" alt="" class=" img-responsive">
             <button><a href="./html/Department/EEE/EEE.html">Go-To-EEE</a></button>   
-        <p class=""> <i class="fa-solid fa-quote-left fa-shake"></i> Peace be amplified, world be rectified <i class="fa-solid fa-quote-right fa-shake"></i></p>
-        </div>
+           <p class=""> <i class="fa-solid fa-quote-left fa-shake"></i> Peace be amplified, world be rectified <i class="fa-solid fa-quote-right fa-shake"></i></p>
+           <span class="swipe">Swipe<i class="bi bi-heart-arrow swipe-arrow"></i><span/>
+      </div>
         <div class="swiper-slide card">
             <img src="https://www.hit.ac.in/images/banner-civil-engineering.jpg" alt="" class=" img-responsive">
             <button><a href="./html/Department/CIVIL/CIVIL.html">Go-To-CIVIL</a></button>
                  <p class=""><i class="fa-solid fa-quote-left fa-shake"></i> We shape our buildings, thereafter they shape us <i class="fa-solid fa-quote-right fa-shake"></i></p>
+                 <span class="swipe">Swipe<i class="bi bi-heart-arrow swipe-arrow"></i><span/>
         </div>
         <div class="swiper-slide card">
             <img src="https://images.shiksha.com/mediadata/images/articles/1603459419phpnznMVF.png" alt="" class=" img-responsive">
             <button><a href="./html/Department/MECH/MECH.html">Go-To-MECH</a></button>
             <p class=""><i class="fa-solid fa-quote-left fa-shake"></i> Technique comes to the rescue of any desire and any fear <i class="fa-solid fa-quote-right fa-shake"></i></p>
-        </div>
+            <span class="swipe">Swipe<i class="bi bi-heart-arrow swipe-arrow"></i><span/>
+          </div>
         <!-- <div class="swiper-slide">Slide 6</div>
         <div class="swiper-slide">Slide 7</div>
         <div class="swiper-slide">Slide 8</div>
         <div class="swiper-slide">Slide 9</div> -->
+       
       </div>
     </div>
     </div>
@@ -154,10 +161,11 @@
                     <!-- <h3>Contact Us</h3>
                     <p>coonect and follow along for behind the sceance content and to learn more about lemon and the sea</p> -->
             <ul class="social-icon">
-             <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
-             <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-             <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-             <li><a href=""><i class="fa-brands fa-square-github"></i></a></li>
+             <li><a href="https://www.facebook.com/100093168047793/"><i class="fa-brands fa-square-facebook"></i></a></li>
+             <li><a href="https://www.instagram.com/innoseedz/"><i class="fa-brands fa-square-instagram"></i></a></li>
+             <li><a href="https://www.linkedin.com/in/inno-seedz/"><i class="fa-brands fa-linkedin"></i></a></li>
+             <li><a href="https://github.com/InnoSeedz"><i class="fa-brands fa-square-github"></i></a></li>
+             <li><a href="https://chat.whatsapp.com/BHf5LQhrqvAIvKTyGCJskL"><i class="fa-brands fa-square-whatsapp"></i></a></li>
             </ul>
 
             <h6 class="copy-rights">&copy; 2023  <a href="https://linktr.ee/innoseedz" style="color: red;"><i class="fa-sharp fa-solid fa-heart-pulse"></i>InnoSeedz</a> | All Rights Reserved</h6>

@@ -7,7 +7,52 @@
     padding: 0 ;
     text-decoration: none !important;
 }
+/* **********************swipe css *******************8*/
 
+.swipe{
+    display:flex;
+    justify-content: end;
+    font-weight: bold;
+    background: #0B6E05;
+background: linear-gradient(to right, #0B6E05 0%, #055757 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+.swipe-arrow{
+  font-weight: bold;
+  font-size:1.4rem;
+}
+
+
+
+/*  ******************end of swipe********************** */
+
+/*  *************************feedback form css */
+
+.feedback>h3{
+    font-weight: bold;
+    background: #0B6E05;
+background: linear-gradient(to right, #0B6E05 0%, #055757 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.feedback{
+    text-align: center;
+    margin: 1.5rem 0rem;
+    box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+bi-heart-arrow::before{
+    font-size: 2rem;
+}
+
+/* ***************************feedback css end */
 /* ai css code */
 
 .ai{
@@ -25,8 +70,9 @@
 
 
 .ai-text{
-  color: #FF8513;
-  background-color: #070647b6;
+  color:rgb(6, 6, 102);
+  box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.5);
+  background-color:transparent;
   font-weight: bolder;
   position: absolute;
   z-index: 4;
@@ -185,6 +231,12 @@ a nav{
     font-style: italic;
     letter-spacing: 1px;
     height: 25px;
+    /* clip text */
+    background: #0B6E05;
+background: linear-gradient(to right, #0B6E05 0%, #055757 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 /*********************************** navigation div end ***************************************/
 
@@ -245,8 +297,8 @@ a nav{
     /* margin-top: 30px; */
     color: rgb(0, 0, 0);
     height: 100px;
-    -webkit-box-shadow: 2px 2px 15px 3px rgba(0,0,0,0.61); 
-box-shadow: 2px 2px 15px 3px rgba(0,0,0,0.61);
+    box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.6);
+    border-radius: 10px;
 }
 .event>h4{
     text-align: center;
@@ -254,7 +306,12 @@ box-shadow: 2px 2px 15px 3px rgba(0,0,0,0.61);
     text-transform: capitalize;
     /* font-family: 'Emblema One', cursive;*/
     font-family: 'Rye', cursive;
-margin-bottom: 10px;
+    margin-bottom: 10px;
+    background: #0B6E05;
+background: linear-gradient(to right, #0B6E05 0%, #055757 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 .event .line{
     width: 60%;
@@ -307,6 +364,13 @@ margin-bottom: 10px;
     .swiper-slide>button>a{
         padding: 10px;
         color: black;
+        background: #0B6E05;
+        background: linear-gradient(to right, #0B6E05 0%, #055757 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+       font-weight: bold;
+
     }
     .swiper-slide>button{
         width: 150px;
@@ -337,10 +401,8 @@ border: 0 solid rgba(159, 158, 158, 1);
     }
     .swiper-slide>p{
         /* width: 50%; */
-        margin: 1.5rem auto;
-        font-size: 1.1rem;
+      
         font-weight: bold;
-        padding: 8px;
         text-align: center;
         text-transform: capitalize;
         /* text-align: justify; */

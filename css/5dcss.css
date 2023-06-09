@@ -19,8 +19,9 @@ body{
 
 
 .ai-text{
- color: #FF8513;
- background-color: #070647b6;
+  color:rgb(6, 6, 102);
+  box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.5);
+  background-color:transparent;
  font-weight: bolder;
  position: absolute;
  z-index: 4;
@@ -156,6 +157,7 @@ img{
     box-shadow:2px 2px 5px 12px whitesmoke; 
     padding: 10px;
     border-radius: 5px;
+    
     /* -webkit-box-shadow: 0px 0px 38px -14px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 38px -14px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 38px -14px rgba(0,0,0,0.75); */
@@ -196,6 +198,10 @@ text-align: center;
     box-shadow:2px 2px 5px 12px whitesmoke; 
     padding: 10px;
     border-radius: 5px;
+    background: #0B6E05;
+    background: linear-gradient(to right, #0B6E05 0%, #055757 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 h6{
@@ -253,19 +259,19 @@ h6 i{
   /* background: black; */
 }
 
-.dropdown-content a {
+.dropdown-content> a {
   color: black;
   font-weight: bolder;
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding: 10px;
+ margin: .8rem 0rem;
+ box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.15);
   text-decoration: none;
-  display: inline;
+  display:flex;
 }
 
 .dropdown-content a:hover {
-  text-align: justify;
   /* background: black; */
   color:orange;
 }
