@@ -813,6 +813,26 @@ videoText_u501.addEventListener("click", function() {
   }
 });
 
+const videoText_u5011 = document.getElementById("video-text_u5011");
+const english_u5011 = document.getElementById("english_u5011")
+const videoIframeContainer_u5011 = document.getElementById("video-iframe-container_u5011");
+const video_english_u5011=document.getElementById('video-iframe-english_u5011');
+const video_tamil_u5011=document.getElementById('video-iframe_u5011');
+
+videoText_u5011.addEventListener("click", function() {
+  if (videoIframeContainer_u5011.style.display === "none") {
+    videoIframeContainer_u5011.style.display = "block";
+    unit_div.classList.add("unit-div-2");
+    videoIframeContainer_u5011.classList.remove("hoverback");
+  } else {
+    unit_div.classList.remove("unit-div-2");
+    videoIframeContainer_u5011.classList.add("hoverback");
+    setTimeout(function(){
+     videoIframeContainer_u5011.style.display = "none";
+    },1000)
+  }
+});
+
 
 
 const videoText_u502 = document.getElementById("video-text_u502");
