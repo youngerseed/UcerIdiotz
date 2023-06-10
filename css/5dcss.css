@@ -121,17 +121,15 @@ body{
 
 img{
   /* background-color: none; */
-  margin-left: 80px;
-  margin-right: 50px;
-    margin-bottom: 60px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+    margin-bottom: 80%;
     width: 150px;
     height:150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow:2px 2px 5px 12px whitesmoke; 
-    padding: 10px;
-    border-radius: 5px;
+  
     /* border: 2px solid; */
     /* box-shadow:2px 2px 5px 12px whitesmoke; */
     /* padding: 10px;
