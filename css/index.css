@@ -416,7 +416,7 @@ a nav {
 }
 
 .swiper {
-    width: 80%;
+    width: 90%;
     height: 400px;
     -webkit-box-shadow: -1px 1px 41px -22px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: -1px 1px 41px -22px rgba(0, 0, 0, 0.8);
@@ -452,6 +452,7 @@ a nav {
 .swiper-slide {
     display: flex;
     text-align: center;
+    padding: 10px;
     font-size: 18px;
     /* From https://css.glass */
     background: #F8F8F4;
