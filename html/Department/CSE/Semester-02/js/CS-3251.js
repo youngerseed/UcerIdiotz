@@ -24,7 +24,7 @@
 
 // todo Function for loop the unit
 
-function loopUnit(unit_count,Topics_count){
+ function loopUnit(unit_count,Topics_count){
     console.log(typeof(unit_count),typeof(Topics_count));
     for(let i =1;i <= Topics_count ; i++){
         i <=9 ? showVideo(unit_count + '0' + i): showVideo(unit_count  + '' + i);
