@@ -9,6 +9,8 @@
 }
 /* ai css code */
 
+
+
 .ai{
     
    height: 50px;
@@ -233,6 +235,7 @@ border:none;
 scrollbar-width: 0px;
 -webkit-box-shadow: 1px 4px 18px -1px rgba(0,0,0,0.62); 
 box-shadow: 1px 4px 18px -1px rgba(0,0,0,0.62);
+padding-bottom: 15px;
 
 }
  .unit-div-2{
@@ -287,6 +290,10 @@ box-shadow: 1px 4px 18px -1px rgba(0,0,0,0.62);
    border-left: rgb(255, 166, 0) solid .7rem;
    height:auto;
    border-radius: 10px;
+ }
+
+ .orange .unit-div{
+   padding-bottom: 2.5rem;
  }
  /* div border */
 
