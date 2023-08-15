@@ -238,15 +238,24 @@ h6 i{
   display: inline-block;
 }
 
-.dropbtn {
+ .dropbtn {
     border: 2px solid white;
  border-radius: 10px;
   background-color: black;
   color:#fff;
-  /* border: none; */
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.dropbtn-light{
+  border: 2px solid white;
+  border-radius: 10px;
+   background-color: rgb(240, 240, 240);
+   color: rgb(207, 206, 206);
+   padding: 10px;
+   font-size: 16px;
+   cursor: pointer;
 }
 
 .dropdown-content {
@@ -291,6 +300,6 @@ h6 i{
 .sem-main{
   /* background:url(https://img.freepik.com/free-vector/flat-design-abstract-background_23-2149114342.jpg?size=626&ext=jpg&ga=GA1.2.1940331963.1682264116&semt=ais); */
   padding:10% 0;
- ;
+ 
 }
 
