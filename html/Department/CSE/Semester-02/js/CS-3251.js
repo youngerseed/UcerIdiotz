@@ -32,8 +32,25 @@
 };
 
 //   ?    Unit Loop Function Call 
- loopUnit(1,16);
- loopUnit(2,13);
+ loopUnit(1,17);
+ loopUnit(2,7);
  loopUnit(3,14);
  loopUnit(4,10);
  loopUnit(5,16);
+
+
+
+//  var string = " Introduction to programming paradigms - Applications of C Language - Structure of C program - Data Types - Constants - Enumeration Constants - Keywords - Precedence and Associativity - Expressions - Input/Output statements - Assignment statements - Decision making statements - Switch statement - Looping statements - Preprocessor directives - Compilation process";
+
+//  var newString = string.split(" - ");
+
+//  console.log(newString);
+
+
+//  let unit_1 = document.querySelector('.blue');
+//  console.log(unit_1);
+
+//  for( let j = 0 ; j < newString.length ; j++ ){
+
+     
+//  }
