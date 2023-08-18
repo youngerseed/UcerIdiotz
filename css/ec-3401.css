@@ -400,6 +400,9 @@ box-shadow: 1px 4px 15px 0px rgba(0,0,0,0.63);
  -webkit-box-shadow: 1px 5px 22px -3px rgba(0,0,0,0.54); 
  box-shadow: 1px 5px 22px -3px rgba(0,0,0,0.54);
  }
+ .video-iframe-container span{
+   display: none;
+ }
  .hoverback{
    animation: hoverback 1s;
  }
@@ -444,13 +447,13 @@ box-shadow: 1px 4px 15px 0px rgba(0,0,0,0.63);
    }
  }
 
- .link-container{
+ .link-container-01{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
  }
- .link-container>a,span{
+ .link-container-01 > a,span{
   text-decoration: none;
   color: black;
  }
