@@ -3,6 +3,8 @@
 function showVideo(unitId) {
     const videoText_u509 = document.getElementById(`video-text_u${unitId}`);
     console.log(videoText_u509);
+    // todo  getting the papper code and name to perform search
+    const papper_id = document.querySelector('.header').innerText;
     // todo  auto performypiutube search 
     const linkContainer = document.querySelector('.link-container');
     // console.log(linkContainer);
@@ -14,6 +16,10 @@ function showVideo(unitId) {
             style="color: #e01b24;"></i>For Tamil</a>
     <a href="https://www.youtube.com/results?search_query=${topic} English"><i class="fa-brands fa-youtube fa-fade"
             style="color: #e01b24;"></i>For English</a>
+    <a href="https://www.youtube.com/results?search_query=${papper_id} Important Questions"><i class="bi bi-question-diamond-fill
+    style ="color:"blue;">
+    </i>
+    ImportantQuestions</a>
     </div>
     <p style="color:black;">Scroll Last to Download PDF<a href="#pdf"><i class="fa-solid fa-file-pdf"
             id="pdf"></i></a>
@@ -53,5 +59,6 @@ loopUnit(2, 13);
 loopUnit(3, 14);
 loopUnit(4, 10);
 loopUnit(5, 16);
+
 
 
