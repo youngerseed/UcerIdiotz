@@ -142,7 +142,7 @@ let unit_text1 = "Center of mass (CM) - CM of continuous bodies - motion of the 
 
 let unit_text2 = "The Maxwell’s equations - wave equation Plane electromagnetic waves in vacuum, Conditions on the wave field -electromagnetic waves speed-electromagnetic waves amplitude-electromagnetic waves phase-electromagnetic waves orientation -electromagnetic waves waves in matter - polarization - Producing electromagnetic waves - Cell-phone reception - Reflection - transmission of electromagnetic waves from a non-conducting medium - vacuum interface for normal incidence";
 
-let unit_text3 = "Simple harmonic motion - resonance –analogy between electrical and mechanical oscillating systems - waves on a string - standing waves - traveling waves - Energy transfer of a wave - sound waves - Doppler effect. Reflection and refraction of light waves - total internal reflection - interference -Michelson interferometer - Theory of air wedge and experiment. Theory of laser - characteristics - Spontaneous and stimulated emission - Einstein’s coefficients - population inversion - Nd-YAG laser - CO2 laser - semiconductor laser - Basic applications of lasers in industry";
+let unit_text3 = "Simple harmonic motion - resonance –analogy between electrical and mechanical oscillating systems - waves on a string - standing waves - traveling waves - Energy transfer of a wave - sound waves - Doppler effect- Reflection of light waves- refraction of light waves - total internal reflection - interference -Michelson interferometer - Theory of air wedge and experiment- Theory of laser -characteristics Spontaneous emission -characteristics stimulated emission - Einstein’s coefficients - population inversion - Nd YAG laser - CO2 laser - semiconductor laser - Basic applications of lasers in industry";
 
 let unit_text4 = "Photons and light waves - Electrons and matter waves - Compton effect - The Schrodinger equation - meaning of wave function - Normalization - Free particle - particle in a infinite potential well: 1D,2D and 3D Boxes- Normalization & probabilities the correspondence principle";
 
@@ -157,7 +157,6 @@ Unit_loop_function(unit_text2 , unit_02_color , 2);
 Unit_loop_function(unit_text3 , unit_03_color , 3);
 Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
-
 
 // ****************************  End Of the Funciton call *****************
 
