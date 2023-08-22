@@ -139,7 +139,7 @@ const unit_05_color = 'bd-orange';
 
 let unit_text1 = "Eigenvalues & Eigenvectors of a real matrix - Characteristic equation - Properties of Eigenvalues & Eigenvectors - Cayley - Hamilton theorem - Diagonalization of matrices by orthogonal transformation - quadratic form to canonical form by orthogonal transformation - Nature of quadratic forms - Stretching of an elastic membrane";
 
-let unit_text2 = "Representation of functions - Limit of a function - Continuity - Derivatives - Differentiation rules (sum,product, quotient, chain rules) - Implicit differentiation - Logarithmic differentiation - Maxima and Minima of functions of one variable";
+let unit_text2 = "Representation of functions - Limit of a function - Continuity - Derivatives - Differentiation rules sum-Differentiation rules product-Differentiation rules quotient-Differentiation rules chain rules - Implicit differentiation - Logarithmic differentiation - Maxima and Minima of functions of one variable";
 
 let unit_text3 = "Partial differentiation - Homogeneous functions and Euler's theorem - Total derivative - Change of variables - Jacobians - Partial differentiation of implicit functions - Taylor's series for functions of two variables - Maxima and minima of functions of two variables - Lagrange's method of undetermined multipliers";
 

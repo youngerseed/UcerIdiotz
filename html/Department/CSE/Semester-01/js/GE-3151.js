@@ -138,15 +138,15 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = "Fundamentals of Computing - Identification of Computational Problems -Algorithms, building blocks of algorithms - notation (pseudo code, flow chart, programming language) - algorithmic problem solving - simple strategies for developing algorithms - find minimum in a list, insert a card in a list of sorted cards - guess an integer number in a range - Towers of Hanoi";
+let unit_text1 = "Fundamentals of Computing - Identification of Computational Problems -Algorithms- building blocks of algorithms - notation pseudo code-notation flow chart-notation programming language - algorithmic problem solving - simple strategies for developing algorithms - find minimum in a list- insert a card in a list of sorted cards - guess an integer number in a range - Towers of Hanoi";
 
-let unit_text2 = "Python interpreter -  interactive mode - debugging -  int,float,boolean,string, and list; variables, expressions, statements, - tuple assignment - precedence of operators, comments - exchange the values of two variables - circulate the values of n variables - distance between two points";
+let unit_text2 = "Python interpreter -  interactive mode - debugging -  int-float-boolean-string-list- variables- expressions- statements-  tuple assignment - precedence of operators- comments - exchange the values of two variables - circulate the values of n variables - distance between two points";
 
-let unit_text3 = "Boolean values and operators - conditional (if) -  alternative (if-else) - chained conditional (if-elif-else) -  state, while, for, break, continue, -  Fruitful functions: return values,parameters, local and global scope, function composition, recursion - Strings: string slices,immutability, string functions & methods - string module; Lists as arrays - square root - gcd - exponentiation - sum an array of numbers - linear search - binary search";
+let unit_text3 = "Boolean values and operators - conditional (if) -  alternative (if-else) - chained conditional (if-elif-else) -  state- while loop- for loop- break condition- continue -Fruitful functions return values-Fruitful functions parameters-Fruitful functions local -Fruitful functions global scope-Fruitful functions function composition-Fruitful functions recursion -Strings- string slices -Strings immutability- string functions & methods - string module Lists as arrays - square root - gcd - exponentiation - sum an array of numbers - linear search - binary search";
 
-let unit_text4 = "list operations - list slices - list methods - list loop - mutability - aliasing - cloning lists -  Tuples: tuple assignment, tuple as return value - Dictionaries: operations & methods - advanced list processing - list comprehension - simple sorting - histogram - Retail bill preparation using Python";
+let unit_text4 = "list operations - list slices - list methods - list loop - mutability - aliasing - cloning lists -  tuple assignment- tuple as return value -Dictionaries operations & methods - advanced list processing - list comprehension - simple sorting - histogram - Retail bill preparation using Python";
 
-let unit_text5 = "TFiles and exceptions: text files, reading and writing files, format operator -  command line arguments - errors and exceptions in python - handling exceptions - modules - packages -  word count - copy file - Voter’s age validation - Marks range validation (0-100)";
+let unit_text5 = "TFiles and exceptions text files-TFiles and exceptions reading -TFiles and exceptions writing files-TFiles and exceptions format operator -  command line arguments - errors in python - exceptions in python - handling exceptions - modules - packages -  word count - copy file - Voter’s age validation - Marks range validation (0-100)";
 
 
 
