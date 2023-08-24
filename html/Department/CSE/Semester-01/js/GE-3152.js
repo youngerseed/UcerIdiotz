@@ -138,15 +138,15 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = "MOS logic families NMOS -MOS logic families CMOS- Ideal and Non Ideal IV Characteristics- CMOS devices- MOS(FET) Transistor Characteristic-Static and Dynamic Conditions- Technology Scaling- power consumption";
+let unit_text1 = "Language Families in India - Dravidian Languages - Tamil as aClassical Language - Classical Literature in Tamil - Secular Nature of Sangam Literature - Distributive Justice in Sangam Literature - Management Principles in Thirukural - Tamil Epics and Impact of Buddhism in Tamil Land -Tamil Epics and Impact of Jainism in Tamil Land - Bakthi Literature Azhwars and Nayanmars - Forms of minor Poetry - Development of Modern literature in Tamil - Contribution of Bharathiyar -Contribution of Bharathidhasan.";
 
-let unit_text2 = "Propagation Delays- stick diagram- Layout diagrams- Examples of combinational logic design- Elmore's constant- Static Logic Gates-Dynamic Logic Gates- Pass Transistor Logic- Power Dissipation- Low Power Design principles";
+let unit_text2 = "Hero stone to modern sculpture - Bronze icons - Tribes and their handicrafts - Art of temple car making - Massive Terracotta sculptures- Village deities- Thiruvalluvar Statue at Kanyakumari- Making of musical instruments Mridhangam -Making of musical instruments Parai -Making of musical instruments Veenai- Making of musical instruments Yazh and Nadhaswaram - Role of Temples in Social and Economic Life of Tamils.";
 
-let unit_text3 = "Static Latches and Registers- Dynamic Latches and Registers- Pipelines- Nonbistable Sequential Circuits-Timing classification of Digital Systems- Synchronous Design- Self Timed Circuit Design";
+let unit_text3 = " Therukoothu Sports and Games of Tamils- Karagattam Sports and Games of Tamils- Villu Pattu Sports and Games of Tamils- Kaniyan Koothu Sports and Games of Tamils- Oyillattam Sports and Games of Tamils- Leatherpuppetry Sports and Games of Tamils- Silambattam Sports and Games of Tamils- Valari Sports and Games of Tamils- Tiger dance Sports and Games of Tamils. ";
 
-let unit_text4 = "Interconnect Parameters -Parameters Capacitance - Parameters Resistance- Parameters Inductance- Electrical WireModels- Sequential digital circuits adders -Sequential digital circuits multipliers -Sequential digital circuits comparators-Sequential digital circuits shift registers- Logic Implementation using Programmable Devices ROM-Logic Implementation using Programmable Devices PLA-Logic Implementation using Programmable Devices FPGA- Memory Architecture - Building Blocks-Memory Core - Memory Peripherals Circuitry";
+let unit_text4 = " Flora and Fauna of Tamils - Aham and Puram Concept from Tholkappiyam - Sangam Literature - Aram Concept of Tamils - Education and Literacy during Sangam Age - Ancient Cities and Ports of Sangam Age - Export and Import during Sangam Age - Overseas Conquest of Cholas.";
 
-let unit_text5 = "Introduction to wafer to chip fabrication process flow - Microchip design process & issues in test and verification of complex chips- embedded cores and SOCs- Fault models- Test coding- ASIC Design Flow- Introduction to ASICs- Introduction to test benches- Writing test benches in Verilog HDL- Automatic test pattern generation- Design for testability- Scan design Test interface -Scan design boundary scan.";
+let unit_text5 = "Contribution of Tamils to Indian Freedom Struggle - The Cultural Influence of Tamils over the other parts of India - Self Respect Movement - Role of Siddha Medicine in Indigenous Systems of Medicine - Inscriptions & Manuscripts - Print History of Tamil Books.";
 
 
 
