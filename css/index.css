@@ -8,6 +8,12 @@
     padding: 0;
     text-decoration: none !important;
 }
+.scroll-marquee{
+    margin-top: 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
 
 /* **********************swipe css *******************8*/
 
@@ -36,6 +42,7 @@
 
 .feedback>h3 {
     font-weight: bold;
+    height: 50px;
     background: #0B6E05;
     background: linear-gradient(to right, #0B6E05 0%, #055757 100%);
     -webkit-background-clip: text;
@@ -45,6 +52,7 @@
 
 .feedback {
     text-align: center;
+    padding-top: 20px;
     margin: 1.5rem 0rem;
     box-shadow: 0px 0px 13px -4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -357,12 +365,13 @@ a nav {
     border-radius: 10px;
 }
 
+
 .event>h4 {
     text-align: center;
     font-size: 25px;
     text-transform: capitalize;
-    /* font-family: 'Emblema One', cursive;*/
-    font-family: 'Rye', cursive;
+    font-family: 'Emblema One', cursive;
+    /* font-family: 'Rye', cursive; */
     margin-bottom: 10px;
     background: #0B6E05;
     background: linear-gradient(to right, #0B6E05 0%, #055757 100%);
@@ -554,14 +563,14 @@ footer {
     /* min-height: 30vh; */
     /* background: #333; */
     /* background: #19202b; */
-    background: #3888ff;
+    background: #8fafdf;
 
 }
 
 .footer-box {
     position: relative;
     width: 100%;
-    background: rgb(255, 255, 255);
+    background: rgba(235, 224, 224, 0.897);
     color: rgb(0, 0, 0);
     min-height: 50px;
     padding: 0px 30px;
