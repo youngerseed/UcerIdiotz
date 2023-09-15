@@ -127,36 +127,36 @@ export default function Unit_loop_function(text , unit_color ,unit_count){
 };
 // **********************    End of the all functions ********************   
 
-// todo   Unit_color List Dont Change this 
+// // todo   Unit_color List Dont Change this 
 
-const unit_01_color = 'bd-blue';
-const unit_02_color = 'bd-yellow';
-const unit_03_color = 'bd-green';
-const unit_04_color = 'bd-pink' ;
-const unit_05_color = 'bd-orange';
+// const unit_01_color = 'bd-blue';
+// const unit_02_color = 'bd-yellow';
+// const unit_03_color = 'bd-green';
+// const unit_04_color = 'bd-pink' ;
+// const unit_05_color = 'bd-orange';
 
-// todo Unit text  Change Input text
-
-
-let unit_text1 = "Sources and impurities - Definition and significance of color -Definition and significance of odour -Definition and significance of turbidity -Definition and significance of pH -Definition and significance of hardness -Definition and significance of alkalinity -Definition and significance of  TDS-Definition and significance of COD -Definition and significance of BOD -Definition and significance of fluoride -Definition and significance of arsenic - Municipal water treatment - primary treatment - disinfection (UV, Ozonation, break-point chlorination)- Reverse Osmosis - Boiler troubles -  Scale and sludge - Boilercorrosion - Caustic embrittlement - Priming & foaming - Treatment of boiler feed water: Internaltreatment - External treatment - Ion exchange demineralization - zeolite process";
-
-let unit_text2 = "Distinction between molecules - nanomaterials - bulk materials - Size Dependent -properties optical-properties electrical-properties mechanical -properties magnetic - Types of nanomaterials -nanomaterials Definition-nanomaterials properties -nanomaterials uses of - nanoparticle - nanocluster -  nanorod -  nanowire and nanotube -nanomaterials sol-gel -nanomaterials solvothermal-nanomaterials laser ablation-nanomaterials chemical vapour deposition - electrochemical deposition - electro spinning -  Applications of nanomaterials in medicine - agricultur - electronics and catalysis";
-
-let unit_text3 = " One component system - water system - Reduced phase rule - Construction of a simple eutectic phase diagram - Thermal analysis -  lead-silver system - Pattinson process -  Definition & Need for composites- Constitution - Matrix materials (Polymermatrix, metal matrix and ceramic matrix) - Reinforcement fiber-Reinforcement particulates-Reinforcement flakes andwhiskers -Properties and applications Metal matrix composites (MMC) -Properties and applications Ceramic matrixcomposites -Properties and applications Polymer matrix composites-Properties and applications Hybrid composites ";
-
-let unit_text4 = " Classification of fuels- Coal and coke - Analysis of coal (proximate and ultimate)- Carbonization - Manufacture of metallurgical coke (Otto Hoffmann method) -Manufacture of synthetic petrol (Bergius process)-Petroleum and Diesel Knocking -Petroleum and Diesel octane number-Petroleum and Diesel diesel oil -Petroleum and Diesel cetanenumber - Power alcohol- biodiesel - Combustion of fuels -  Calorific value - higher and lower calorific values - Theoreticalcalculation of calorific value - Ignition temperature - spontaneous ignition temperature -  Flue gas analysis - ORSAT Method - CO2 emission - carbon footprint.";
-
-let unit_text5 = "mass defect (problems) - binding energy -  Nuclear energy - light water nuclearpower plant - breeder reactor-Solar energy conversion -Solar energy conversion Principle -Solar energy conversion working and applications of solarcells - Recent developments in solar cell materials -  Wind energy - Geothermal energy -Types of batteries - Primary battery - dry cell- Secondary battery - lead acid battery - lithium ion battery - Electric vehicles - working principles - Fuel cells - H2 Fuel cells -O2 fuel cell - microbial fuel cell -Supercapacitors Storage principle -Supercapacitors types and examples";
+// // todo Unit text  Change Input text
 
 
+// let unit_text1 = "Sources and impurities - Definition and significance of color -Definition and significance of odour -Definition and significance of turbidity -Definition and significance of pH -Definition and significance of hardness -Definition and significance of alkalinity -Definition and significance of  TDS-Definition and significance of COD -Definition and significance of BOD -Definition and significance of fluoride -Definition and significance of arsenic - Municipal water treatment - primary treatment - disinfection (UV, Ozonation, break-point chlorination)- Reverse Osmosis - Boiler troubles -  Scale and sludge - Boilercorrosion - Caustic embrittlement - Priming & foaming - Treatment of boiler feed water: Internaltreatment - External treatment - Ion exchange demineralization - zeolite process";
+
+// let unit_text2 = "Distinction between molecules - nanomaterials - bulk materials - Size Dependent -properties optical-properties electrical-properties mechanical -properties magnetic - Types of nanomaterials -nanomaterials Definition-nanomaterials properties -nanomaterials uses of - nanoparticle - nanocluster -  nanorod -  nanowire and nanotube -nanomaterials sol-gel -nanomaterials solvothermal-nanomaterials laser ablation-nanomaterials chemical vapour deposition - electrochemical deposition - electro spinning -  Applications of nanomaterials in medicine - agricultur - electronics and catalysis";
+
+// let unit_text3 = " One component system - water system - Reduced phase rule - Construction of a simple eutectic phase diagram - Thermal analysis -  lead-silver system - Pattinson process -  Definition & Need for composites- Constitution - Matrix materials (Polymermatrix, metal matrix and ceramic matrix) - Reinforcement fiber-Reinforcement particulates-Reinforcement flakes andwhiskers -Properties and applications Metal matrix composites (MMC) -Properties and applications Ceramic matrixcomposites -Properties and applications Polymer matrix composites-Properties and applications Hybrid composites ";
+
+// let unit_text4 = " Classification of fuels- Coal and coke - Analysis of coal (proximate and ultimate)- Carbonization - Manufacture of metallurgical coke (Otto Hoffmann method) -Manufacture of synthetic petrol (Bergius process)-Petroleum and Diesel Knocking -Petroleum and Diesel octane number-Petroleum and Diesel diesel oil -Petroleum and Diesel cetanenumber - Power alcohol- biodiesel - Combustion of fuels -  Calorific value - higher and lower calorific values - Theoreticalcalculation of calorific value - Ignition temperature - spontaneous ignition temperature -  Flue gas analysis - ORSAT Method - CO2 emission - carbon footprint.";
+
+// let unit_text5 = "mass defect (problems) - binding energy -  Nuclear energy - light water nuclearpower plant - breeder reactor-Solar energy conversion -Solar energy conversion Principle -Solar energy conversion working and applications of solarcells - Recent developments in solar cell materials -  Wind energy - Geothermal energy -Types of batteries - Primary battery - dry cell- Secondary battery - lead acid battery - lithium ion battery - Electric vehicles - working principles - Fuel cells - H2 Fuel cells -O2 fuel cell - microbial fuel cell -Supercapacitors Storage principle -Supercapacitors types and examples";
 
 
-// todo Cont Change the Fucniton Call 
-Unit_loop_function(unit_text1 , unit_01_color , 1);
-Unit_loop_function(unit_text2 , unit_02_color , 2);
-Unit_loop_function(unit_text3 , unit_03_color , 3);
-Unit_loop_function(unit_text4 , unit_04_color , 4);
-Unit_loop_function(unit_text5 , unit_05_color , 5);
+
+
+// // todo Cont Change the Fucniton Call 
+// Unit_loop_function(unit_text1 , unit_01_color , 1);
+// Unit_loop_function(unit_text2 , unit_02_color , 2);
+// Unit_loop_function(unit_text3 , unit_03_color , 3);
+// Unit_loop_function(unit_text4 , unit_04_color , 4);
+// Unit_loop_function(unit_text5 , unit_05_color , 5);
 
 
 // ****************************  End Of the Funciton call *****************

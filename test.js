@@ -14,7 +14,7 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = "Sources and impurities - Definition and significance of color -Definition and significance of odour -Definition and significance of turbidity -Definition and significance ";
+let unit_text1 = "Sources - Definition and significance of color -Definition and significance of odour -Definition and significance of turbidity -Definition and significance ";
 
 let unit_text2 = "Distinction between molecules - nanomaterials - bulk materials - Size Dependent -properties optical-properties electrical-properties mechanical -properties magnetic";
 
