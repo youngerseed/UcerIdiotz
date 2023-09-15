@@ -1,9 +1,8 @@
 
-console.time('Loaded End');
 
 //  todo funciton for create and add the topics to the respective division
 
-function createDivision(unit_color,string,unitId,count){
+ function createDivision(unit_color,string,unitId,count){
     const units_div = document.querySelector(`.${unit_color}`);
    
      units_div.innerHTML += `
@@ -27,14 +26,14 @@ function createDivision(unit_color,string,unitId,count){
   
 // todo  funciton for loop the topics and add to html
 
-function loopTopics(split_text,divClolor,unit_count){
+ function loopTopics(split_text,divClolor,unit_count){
     for(let count =0 ; count <split_text.length ; count++){
         createDivision(divClolor ,split_text[count],unit_count,count);
     }
 };
 // todo  function for seperate the text 
 
-function Seperate_text(topics){
+ function Seperate_text(topics){
   let split_text = [];
   split_text = topics.split('-');
   return split_text;
@@ -42,7 +41,7 @@ function Seperate_text(topics){
 
 // todo   function for adding the papper code and title  
 
-function Add_Papper_Code(Papper_code,semester_count,title){
+ function Add_Papper_Code(Papper_code,semester_count,title){
   const Papper_codes =document.querySelector('.header');
   const semester_counts =document.querySelector('.unit');
 //   changingthe title of the page
@@ -55,7 +54,7 @@ function Add_Papper_Code(Papper_code,semester_count,title){
 
 // todo ShowVideo Funciton 
 
-function showVideo(unitId) {
+ function showVideo(unitId) {
 
     // todo unit topics automate js
     const videoText_u509 = document.getElementById(`video-text_u${unitId}`);
@@ -110,7 +109,7 @@ function showVideo(unitId) {
 
 // todo Function for loop the unit
 
-function loopUnit(unit_count, Topics_count) {
+ function loopUnit(unit_count, Topics_count) {
     // console.log(typeof(unit_count),typeof(Topics_count));
     for (let i = 1; i <= Topics_count; i++) {
         // i <= 9 ? showVideo(unit_count + '0' + i) : showVideo(unit_count + "" + i);
@@ -119,7 +118,7 @@ function loopUnit(unit_count, Topics_count) {
 };
 
 
-function Unit_loop_function(text , unit_color ,unit_count){
+export default function Unit_loop_function(text , unit_color ,unit_count){
 
     const Unit_topics =text;
     loopTopics(Seperate_text(Unit_topics),unit_color,unit_count);
@@ -159,7 +158,7 @@ Unit_loop_function(unit_text3 , unit_03_color , 3);
 Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
 
-console.timeEnd('Loaded End');
+
 // ****************************  End Of the Funciton call *****************
 
  
