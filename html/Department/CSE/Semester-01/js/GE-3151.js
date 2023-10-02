@@ -138,15 +138,15 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = "Fundamentals of Computing - Identification of Computational Problems -Algorithms- building blocks of algorithms - notation pseudo code-notation flow chart-notation programming language - algorithmic problem solving - simple strategies for developing algorithms - find minimum in a list- insert a card in a list of sorted cards - guess an integer number in a range - Towers of Hanoi";
+let unit_text1 = "Identification of Computational Problems - Algorithms - building blocks of algorithms - notation pseudo code - notation flow chart - notation programming language - algorithmic problem solving - simple strategies for developing algorithms - find minimum in a list- insert a card in a list of sorted cards - guess an integer number in a range - Towers of Hanoi*";
 
-let unit_text2 = "Python interpreter -  interactive mode - debugging -  int-float-boolean-string-list- variables- expressions- statements-  tuple assignment - precedence of operators- comments - exchange the values of two variables - circulate the values of n variables - distance between two points";
+let unit_text2 = " Python interpreter -  interactive mode - debugging -  int,float,boolean,string,list- variables In Python - expressions in Python - statements in Python -  tuple assignment - precedence of operators - comments - exchange the values of two variables - circulate the values of n variables - distance between two points";
 
-let unit_text3 = "Boolean values and operators - conditional (if) -  alternative (if-else) - chained conditional (if-elif-else) -  state- while loop- for loop- break condition- continue -Fruitful functions return values-Fruitful functions parameters-Fruitful functions local -Fruitful functions global scope-Fruitful functions function composition-Fruitful functions recursion -Strings- string slices -Strings immutability- string functions & methods - string module Lists as arrays - square root - gcd - exponentiation - sum an array of numbers - linear search - binary search";
+let unit_text3 = "Boolean values & operators - conditional (if) -  alternative (if-else) - chained conditional (if-elif-else) - while loop python - for loop python - break condition python - continue - Fruitful functions return values python - Fruitful functions parameters python - Fruitful functions local Scope - Fruitful functions global scope - Fruitful functions function composition - Fruitful functions recursion python -Strings python- string slices python -Strings immutability python - string functions & methods python  - string module Lists as arrays pyhton - square root python  - gcd - exponentiation in python  - sum an array of numbers python - linear search  python  - binary search python ";
 
 let unit_text4 = "list operations - list slices - list methods - list loop - mutability - aliasing - cloning lists -  tuple assignment- tuple as return value -Dictionaries operations & methods - advanced list processing - list comprehension - simple sorting - histogram - Retail bill preparation using Python";
 
-let unit_text5 = "TFiles and exceptions text files-TFiles and exceptions reading -TFiles and exceptions writing files-TFiles and exceptions format operator -  command line arguments - errors in python - exceptions in python - handling exceptions - modules - packages -  word count - copy file - Voter’s age validation - Marks range validation (0-100)";
+let unit_text5 = "TFiles & exceptions text files-TFiles & exceptions reading -TFiles & exceptions writing files-TFiles & exceptions format operator -  comm& line arguments - errors in python - exceptions in python - handling exceptions python - modules python - packages -  word count - copy file python - Voter’s age validation python - Marks range validation (0-100)";
 
 
 
