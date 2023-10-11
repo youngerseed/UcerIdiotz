@@ -138,15 +138,15 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = "Introduction-  FrequencyReuse- Channel Assignment Strategies-Prioritizing Handoffs- Practical Handoff Considerations- Co Channel Interference- System Capacity-Channel Planning For Wireless Systems- Adjacent Channel Interference- Power Control For Reducing Interference- Trunking And Grade Of Service- Improving Coverage - Capacity In Cellular Systems- Cell Splitting- Sectoring.";
+let unit_text1 = "Introduction to wireless communication -  FrequencyReuse- Channel Assignment Strategies-Prioritizing Handoffs- Practical Handoff Considerations- Co Channel Interference- System Capacity-Channel Planning For Wireless Systems- Adjacent Channel Interference- Power Control For Reducing Interference- Trunking And Grade Of Service- Improving Coverage - Capacity In Cellular Systems- Cell Splitting- Sectoring.";
 
 let unit_text2 = "Introduction To Radio Wave Propagation - Free Space Propagation Model - Three Basic Propagation Mechanism- Reflection - Brewster Angle- DiffractionScattering- Small Scale Multipath Propagation- Factors Influencing Small-Scale Fading- Doppler Shift- Coherence Bandwidth- Doppler Spread And Coherence Time- Types Of Small- Scale Fading- Fading Effects Due To Multipath Time Delay Spread- Fading Effects Due To Doppler Spread.";
 
 let unit_text3 = "Digital Modulation - Factors That Influence The Choice Of Digital Modulation- Minimum Shift Keying (MSK)- Gaussian Minimum Shift Keying(GMSK)- Spread Spectrum Modulation Techniques- Pseudo- Noise (PN) Sequences- Direct Sequence Spread Spectrum (DSSS)- Modulation Performance In Fading - Multipath Channels- Equalization- Diversity And Channel Coding-Introduction-Fundamentals Of Equalization-  Practical Space Diversity Considerations- Polarization Diversity- Frequency Diversity- Time Diversity.";
 
-let unit_text4 = " Introduction To Multiple Access- Frequency Division Multiple Access(FDMA)- Time Division Multiple Access(TDMA)- Spread Spectrum Multiple Access-Code Division Multiple Access(CDMA)- Space Division Multiple Access(SDMA)- Capacity Of Cellular CDMA- Capacity Of CDMA With Multiple Cells.";
+let unit_text4 = " Introduction To Multiple Access- Frequency Division Multiple Access(FDMA)- Time Division Multiple Access(TDMA)- Spread Spectrum Multiple Access - Code Division Multiple Access(CDMA)- Space Division Multiple Access(SDMA)- Capacity Of Cellular CDMA- Capacity Of CDMA With Multiple Cells.";
 
-let unit_text5 = "Introduction: Difference Between Wireless and Fixed Telephone Networks- The Public Switched Telephone Network(PSTN)- First Generation Wireless Networks- Second Generation Wireless Networks- Third Generation Wireless Networks- Fixed Network Transmission Hierarchy- Circuit Switching- Packet Switching- Personal Communication Services- Networks(PCS/PCNs)-Packet - Circuit Switching For PCN- Cellular Packet- Switched Architecture- Packet Reservation Multiple Access(PRMA)- Distributed Database For Mobility Management- Universal Mobile Telecommunication Systems(UMTS).";
+let unit_text5 = "Introduction to wireless network - Difference Between Wireless and Fixed Telephone Networks- The Public Switched Telephone Network(PSTN)- First Generation Wireless Networks- Second Generation Wireless Networks- Third Generation Wireless Networks- Fixed Network Transmission Hierarchy- Circuit Switching- Packet Switching- Personal Communication Services- Networks(PCS/PCNs)-Packet - Circuit Switching For PCN- Cellular Packet- Switched Architecture- Packet Reservation Multiple Access(PRMA)- Distributed Database For Mobility Management- Universal Mobile Telecommunication Systems(UMTS).";
 
 
 

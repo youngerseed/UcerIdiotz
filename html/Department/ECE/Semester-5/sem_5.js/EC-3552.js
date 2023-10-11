@@ -146,7 +146,7 @@ let unit_text3 = "Static Latches and Registers- Dynamic Latches and Registers- P
 
 let unit_text4 = "Interconnect Parameters -Parameters Capacitance - Parameters Resistance- Parameters Inductance- Electrical WireModels- Sequential digital circuits adders -Sequential digital circuits multipliers -Sequential digital circuits comparators-Sequential digital circuits shift registers- Logic Implementation using Programmable Devices ROM-Logic Implementation using Programmable Devices PLA-Logic Implementation using Programmable Devices FPGA- Memory Architecture - Building Blocks-Memory Core - Memory Peripherals Circuitry";
 
-let unit_text5 = "Introduction to wafer to chip fabrication process flow - Microchip design process & issues in test and verification of complex chips- embedded cores and SOCs- Fault models- Test coding- ASIC Design Flow- Introduction to ASICs- Introduction to test benches- Writing test benches in Verilog HDL- Automatic test pattern generation- Design for testability- Scan design Test interface -Scan design boundary scan.";
+let unit_text5 = "Introduction to wafer to chip fabrication process flow - Microchip design process & issues in test - verification of complex chips- embedded cores and SOCs- Fault models- Test coding- ASIC Design Flow- Introduction to ASICs- Introduction to test benches- Writing test benches in Verilog HDL- Automatic test pattern generation- Design for testability- Scan design Test interface -Scan design boundary scan.";
 
 
 
