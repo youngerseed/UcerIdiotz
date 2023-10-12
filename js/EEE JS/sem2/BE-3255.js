@@ -133,20 +133,23 @@ const unit_02_color = 'bd-yellow';
 const unit_03_color = 'bd-green';
 const unit_04_color = 'bd-pink' ;
 const unit_05_color = 'bd-orange';
+const unit_06_color = 'bd-red';
+
 
 // todo Unit text  Change Input text
 
 
-let unit_text1 = " Civil Engineering contributions to the welfare of Society - Specialized sub disciplines in CivilEngineering -Structural, Construction, Geotechnical, Environmental, Transportation and Water 22Resources Engineering -National building code -terminologists: Plinth area, Carpet area, Floor ";
+let unit_text1 = " Civil Engineering contributions to the welfare of Society - Specialized sub disciplines in CivilEngineering -Structural Construction Geotechnical Environmental - Transportation and Water 22Resources Engineering -National building code -terminologists: Plinth area, Carpet area, Floor ";
 
 let unit_text2 = "Overview of Mechanical Engineering - Mechanical Engineering Contributions to the welfare ofSociety -gtiSpecialized sub disciplines in Mechanical Engineering -gti Manufacturing, Automation,Automobile and Energy Engineering - Interdisciplinary concepts in Mechanical Engineering. ";
 
-let unit_text3 = "Building plans - Setting out of a Building - Foundations: Types of foundations - Bearing capacity andsettlement - Brick masonry - Stone Masonry - Beams - Columns - Lintels - Roofing - Flooring -Plastering.Types of Bridges and Dams - Water Supply Network - Rain Water Harvesting - Solid WasteManagement - Introduction to Highways and Railways - Introduction to Green Buildings. ";
+let unit_text3 = "Surveying: Objects - Classification - Principles - Measurements of Distances and angles -Leveling - Determination of areas- Contours.Civil Engineering Materials: Bricks - Stones - Sand - Cement - Concrete - Steel - Timber - ModernMaterials, Thermal and Acoustic Insulating Materials, Decorative Panels, Water Proofing Materials.Modern uses of Gypsum, Pre-fabricated Building component (brief discussion only) ";
 
-let unit_text4 = "  ";
+let unit_text4 = "Building plans - Setting out of a Building - Foundations: Types of foundations - Bearing capacity andsettlement - Brick masonry - Stone Masonry - Beams - Columns - Lintels - Roofing - Flooring -Plastering.Types of Bridges and Dams - Water Supply Network - Rain Water Harvesting - Solid WasteManagement - Introduction to Highways and Railways - Introduction to Green Buildings.   ";
 
-let unit_text5 = "Density of states for solids - Significance between Fermi energy and volume of the material -Quantum confinement - Quantum structures - Density of states for quantum wells, wires and dots -Band gap of nanomaterials -Tunneling - Single electron phenomena - Single electron Transistor.Conductivity of metallic nanowires - Ballistic transport - Quantum resistance and conductance - 21Carbon nanotubes: Properties and applications - Spintronic devices and applications - Optics inquantum structures - quantum well laser";
+let unit_text5 = "Classification of Power Plants- Working principle of steam, Gas, Diesel, Hydro -electric and NuclearPower plants- Internal combustion engines as automobile power plant - Working principle of Petroland Diesel Engines - Four stroke and two stroke cycles - Comparison of four stroke and two strokeengines- Working principle of Boilers-Turbines- Reciprocating Pumps (single acting and doubleacting) - Centrifugal Pumps- Concept of hybrid engines- Industrial safety practices and protectivedevices ";
 
+let unit_text6 = "Terminology of Refrigeration and Air Conditioning. Principle of vapour compression and absorptionsystem-Layout of typical domestic refrigerator-Window and Split type room Air conditioner.Properties of air - water mixture, concepts of psychometric and its process. ";
 
 
 
@@ -157,6 +160,8 @@ Unit_loop_function(unit_text2 , unit_02_color , 2);
 Unit_loop_function(unit_text3 , unit_03_color , 3);
 Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
+Unit_loop_function(unit_text6 , unit_06_color , 6);
+
 
 
 // ****************************  End Of the Funciton call *****************
