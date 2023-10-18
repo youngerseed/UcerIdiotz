@@ -137,15 +137,26 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = `  pipe flow - open channel flow - Types of Flow - Properties of
+open channel - Fundamental equations - Sub critical - Super  critical - Critical flow - Velocity
+distribution in open channel - Steady uniform flow- Chezy's equation- Manning equation - Best
+hydraulic sections for uniform flow - Computation in Uniform Flow - Specific energy - specific
+force `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Dynamic equations of gradually varied - Water surface flow profile classifications- Hydraulic Slope-
+Hydraulic Curve - Profile determination by Numerical method- Direct step method - Standard step
+method - Change in Grades `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Application of the momentum equation for RVF - Hydraulic jumps - Types - Energy dissipation -
+Positive and Negative surges `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Turbines - Impulse turbine - Pelton wheel - Reaction turbines - Francis turbine -
+Kaplan turbine - Draft tube - Cavitation - Performance of turbine - Specific speed - Runaway speed
+- Minimum Speed to start the pump`;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Centrifugal pumps* - Minimum speed to start the pump - NPSH - Cavitation’s in pumps - Operating
+characteristics - Multistage pumps - Reciprocating pumps - Negative slip - Indicator diagrams and
+its variations - Air vessels - Savings in workdone `;
 
 
 
