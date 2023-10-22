@@ -138,17 +138,20 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = `Basic Components of electric Circuits - Charge - current - Voltage and Power - Voltage sources - Current Sources - Ohms Law - Kirchoff‘s Current Law - Kirchoff‘s voltage law - The single Node - Pair Circuit - series Connected Independent Sources - Parallel Connected Independent Sources - Resistors in Series - Resistors in Parallel - voltage division - current division - Nodal analysis - Mesh analysis.`;
+let unit_text1 = `Crystal structures: Crystal lattice - basis unit cell and lattice parameters - crystal systems and Bravais lattices - Structure and packing fractions of SC, BCC, FCC - Structure and packing diamond cubic - Structure and packing NaCL - Structure and packing ZnS structures - crystal planes - directions and Miller indices - distance between successive planes - linear and planar densities - crystalline and noncrystalline materials - Miller indices: wafer surface orientation - wafer flats and notches - pattern alignment - imperfections in crystals.`;
 
-let unit_text2 = `Useful Circuit Analysis techniques - Linearity and superposition - Thevenin and Norton Equivalent Circuits - Maximum Power Transfer - Delta Wye Conversion - Duals - Dual circuits - Analysis using dependent current sources - Analysis using dependent voltage sources`;
+let unit_text2 = `Classical free electron theory - Expression for electrical conductivity - Thermal conductivity, expression - Quantum free electron theory :Tunneling - degenerate states - Fermi Dirac statistics - Density of energy states - Electron in periodic potential - Energy bands in solids - tight binding
+approximation - Electron effective mass - concept of hole - Magnetic materials: Dia, para and
+ferromagnetic effects - paramagnetism in the conduction electrons in metals - exchange
+interaction and ferromagnetism - quantum interference devices - GMR devices.`;
 
-let unit_text3 = `Sinusoidal Steady - State analysis  - Characteristics of Sinusoids - The Complex Forcing Function - The Phasor - Phasor relationship for R,L and C - impedance and Admittance - Nodal and Mesh
-Analysis - Phasor Diagrams - AC Circuit Power Analysis - Instantaneous Power - Average Power - apparent Power and Power Factor - Complex Power.`;
+let unit_text3 = `Intrinsic Semiconductors - Energy band diagram - direct and indirect band gap 
+semiconductors - Carrier concentration in intrinsic semiconductors - Carrier concentration in extrinsic semiconductors - Carrier concentration in N-type & P-type semiconductors - Variation of carrier concentration with temperature - Carrier transport in Semiconductors: Drift, mobility and diffusion - Hall effect and devices - Ohmic contacts - Schottky diode.`;
 
-let unit_text4 = `Basic RL and RC Circuits - The Source - Free RL Circuit - The Source-Free RC Circuit - The UnitStep Function - Driven RL Circuits - Driven RC Circuits - RLC Circuits - Frequency Response -
-Parallel Resonance - Series Resonance - Quality Factor.`;
+let unit_text4 = `Classification of optical materials - Optical processes in semiconductors optical absorption and emission - Optical processes in semiconductors charge injection - Optical processes in semiconductors recombination - Optical processes in semiconductors optical absorption -Optical processes in semiconductors loss and gain - Optical processes in quantum wells - Optoelectronic devices light detectors - Optoelectronic devices solar cells - light emitting diode - laser diode - optical processes in organic semiconductor devices - excitonic state - Electro optics and nonlinear optics: Modulators and switching devices - plasmonics.`;
 
-let unit_text5 = `Magnetically Coupled Circuits - mutual Inductance - the Linear Transformer - the Ideal Transformer - An introduction to Network Topology - Trees and General Nodal analysis - Links and Loop analysis.`;
+let unit_text5 = `Density of states for solids - Significance between Fermi energy - Significance between volume of the material - Quantum confinement - Quantum structures - Density of states for quantum wells - Density of states for wires - Density of states for dots - Band gap of nanomaterials -Tunneling - Single electron phenomena - Single electron Transistor - Conductivity of metallic nanowires - Ballistic transport - Quantum resistance and conductance - Carbon nanotubes Properties and applications - Spintronic devices and
+applications - Optics in quantum structures - quantum well laser.`;
 
 
 

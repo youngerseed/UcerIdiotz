@@ -1,698 +1,170 @@
-console.log(" Welcome to UcerIdiotz");
 
-// topic 1
-const unit_div=document.getElementById('unit-div');
-const videoText = document.getElementById("video-text");
-const videoIframeContainer = document.getElementById("video-iframe-container");
-const topics=document.getElementById("unit-topics");
-const english=document.getElementById('english');
-const video_english=document.getElementById('video-iframe-english');
-const video_tamil=document.getElementById('video-iframe');
 
- videoText.addEventListener("click", function() {
-   if (videoIframeContainer.style.display === "none") {
-     videoIframeContainer.style.display = "block";
-     unit_div.classList.add("unit-div-2");
-     videoIframeContainer.classList.remove("hoverback");
-   } else {
-     unit_div.classList.remove("unit-div-2");
-     videoIframeContainer.classList.add("hoverback");
-     setTimeout(function(){
-      videoIframeContainer.style.display = "none";
-     },1000)
-   }
- });
+//  todo funciton for create and add the topics to the respective division
 
-// topic 2 js
-const videoText01 = document.getElementById("video-text01");
-const english01 = document.getElementById("english01")
-const videoIframeContainer01 = document.getElementById("video-iframe-container01");
-const video_english01=document.getElementById('video-iframe-english01');
-const video_tamil01=document.getElementById('video-iframe01');
+function createDivision(unit_color,string,unitId,count){
+  const units_div = document.querySelector(`.${unit_color}`);
+ 
+   units_div.innerHTML += `
+      <div class="video-container" id="video-container">
+                      <p id="video-text_u${unitId}0${count+1}" class="video-text">${string}</p>
+                      <!--          iframe tag -->
+                      <div id="video-iframe-container_u${unitId}0${count+1}"
+                          class="video-iframe-container col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                          style="display: none;">
+                          <div class="link-container">
+                              <a href="#"><i class="fa-brands fa-youtube fa-fade"
+                                      style="color: #e01b24;"></i>For Tamil</a>
+                              <a href="#"><i class="fa-brands fa-youtube fa-fade"
+                                      style="color: #e01b24;"></i>For English</a>
+                          </div>
+                          
+                      </div>
+      </div>
+      `;
+};
 
-videoText01.addEventListener("click", function() {
-  if (videoIframeContainer01.style.display === "none") {
-    videoIframeContainer01.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer01.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer01.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer01.style.display = "none";
-    },1000)
+// todo  funciton for loop the topics and add to html
+
+function loopTopics(split_text,divClolor,unit_count){
+  for(let count =0 ; count <split_text.length ; count++){
+      createDivision(divClolor ,split_text[count],unit_count,count);
   }
-});
+};
+// todo  function for seperate the text 
+
+function Seperate_text(topics){
+let split_text = [];
+split_text = topics.split('-');
+return split_text;
+};
+
+// todo   function for adding the papper code and title  
+
+function Add_Papper_Code(Papper_code,semester_count,title){
+const Papper_codes =document.querySelector('.header');
+const semester_counts =document.querySelector('.unit');
+//   changingthe title of the page
+document.title = title
+// changing papper code and papper name
+Papper_codes.innerHTML = ` <p>${Papper_code}</p>`;
+semester_counts.innerHTML = `  <i class="fa-solid fa-graduation-cap "></i>
+<span>0${semester_count}</span>`; 
+};
+
+// todo ShowVideo Funciton 
+
+function showVideo(unitId) {
+
+  // todo unit topics automate js
+  const videoText_u509 = document.getElementById(`video-text_u${unitId}`);
+  console.log(videoText_u509);
+
+  // todo  getting the papper code and name to perform search
+  const papper_id = document.querySelector('.header').innerText;
+
+  // todo  auto performypiutube search 
+  const linkContainer = document.querySelector('.link-container');
+  // console.log(linkContainer);
+  const topic = videoText_u509.textContent;
+  // console.log(topic);
+  linkContainer.outerHTML = 
+  `<div class="link-container-01">
+  <a href="https://www.youtube.com/results?search_query=${topic} Tamil"><i class="fa-brands fa-youtube fa-fade"
+          style="color: #e01b24;"></i>For Tamil</a>
+  <a href="https://www.youtube.com/results?search_query=${topic} English"><i class="fa-brands fa-youtube fa-fade"
+          style="color: #e01b24;"></i>For English</a>
+  <a href="https://www.youtube.com/results?search_query=${papper_id} Important Questions"><i class="bi bi-question-diamond-fill
+  style ="color:"blue;">
+  </i>
+  ImportantQuestions</a>
+  </div>
+ `;
+  // linkContainer.classList.add('link-container');
+
+  // todo end youtube search
+
+  // todo addind the hover effect and onclick event
+
+  const unit_div = document.getElementById('unit-div');
+  const video_container =document.getElementById('video-container');
+ 
+  const videoIframeContainer_u509 = document.getElementById(`video-iframe-container_u${unitId}`);
+  videoText_u509.addEventListener("click", function () {
+      if (videoIframeContainer_u509.style.display === "none") {
+          videoIframeContainer_u509.style.display = "block";
+          unit_div.classList.add("unit-div-2");
+          video_container.style.textAlign = 'center';
+          videoIframeContainer_u509.classList.remove("hoverback");
+      } else {
+          unit_div.classList.remove("unit-div-2");
+          videoIframeContainer_u509.classList.add("hoverback");
+          setTimeout(function () {
+              videoIframeContainer_u509.style.display = "none";
+          }, 1000)
+      };
+  });
+};
 
 
+// todo Function for loop the unit
 
-
-// topic 3 js
-const videoText03 = document.getElementById("video-text03");
-const english03 = document.getElementById("english03")
-const videoIframeContainer03 = document.getElementById("video-iframe-container03");
-const video_english03=document.getElementById('video-iframe-english03');
-const video_tamil03=document.getElementById('video-iframe03');
-
-videoText03.addEventListener("click", function() {
-  if (videoIframeContainer03.style.display === "none") {
-    videoIframeContainer03.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer03.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer03.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer03.style.display = "none";
-    },1000)
+function loopUnit(unit_count, Topics_count) {
+  // console.log(typeof(unit_count),typeof(Topics_count));
+  for (let i = 1; i <= Topics_count; i++) {
+      // i <= 9 ? showVideo(unit_count + '0' + i) : showVideo(unit_count + "" + i);
+     showVideo(unit_count + '0' + i); 
   }
-});
+};
 
 
+function Unit_loop_function(text , unit_color ,unit_count){
 
-// topic 3 js
-const videoText04 = document.getElementById("video-text04");
-const english04 = document.getElementById("english04")
-const videoIframeContainer04 = document.getElementById("video-iframe-container04");
-const video_english04=document.getElementById('video-iframe-english04');
-const video_tamil04=document.getElementById('video-iframe04');
+  const Unit_topics =text;
+  loopTopics(Seperate_text(Unit_topics),unit_color,unit_count);
+  loopUnit(unit_count,Seperate_text(Unit_topics).length);
 
-videoText04.addEventListener("click", function() {
-  if (videoIframeContainer04.style.display === "none") {
-    videoIframeContainer04.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer04.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer04.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer04.style.display = "none";
-    },1000)
-  }
-});
+};
+// **********************    End of the all functions ********************   
 
+// todo   Unit_color List Dont Change this 
 
-// topic 3 js
-const videoText05 = document.getElementById("video-text05");
-const english05 = document.getElementById("english05")
-const videoIframeContainer05 = document.getElementById("video-iframe-container05");
-const video_english05=document.getElementById('video-iframe-english05');
-const video_tamil05=document.getElementById('video-iframe05');
+const unit_01_color = 'bd-blue';
+const unit_02_color = 'bd-yellow';
+const unit_03_color = 'bd-green';
+const unit_04_color = 'bd-pink' ;
+const unit_05_color = 'bd-orange';
 
-videoText05.addEventListener("click", function() {
-  if (videoIframeContainer05.style.display === "none") {
-    videoIframeContainer05.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer05.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer05.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer05.style.display = "none";
-    },1000)
-  }
-});
+// todo Unit text  Change Input text
 
 
-// topic 3 js
-const videoText06 = document.getElementById("video-text06");
-const english06 = document.getElementById("english06")
-const videoIframeContainer06 = document.getElementById("video-iframe-container06");
-const video_english06=document.getElementById('video-iframe-english06');
-const video_tamil06=document.getElementById('video-iframe06');
+let unit_text1 = `Axioms of probability - Conditional probability - Baye’s theorem - Discrete random variables - continuous random variables - Moments - Moment generating functions - Binomial distributions - Poisson distributions - Geometric distributions - Uniform distributions - Exponential distributions - Normal distributions - Functions of a random variable.`;
 
-videoText06.addEventListener("click", function() {
-  if (videoIframeContainer06.style.display === "none") {
-    videoIframeContainer06.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer06.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer06.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer06.style.display = "none";
-    },1000)
-  }
-});
+let unit_text2 = `Joint distributions - Marginal and conditional distributions - Covariance - Correlation and linear regression - Transformation of random variables - Central limit theorem.`;
 
+let unit_text3 = `Classification random process - Stationary process - Markov process - Poisson process - Discrete parameter Markov chain - Chapman Kolmogorov equations - Limiting distributions .`;
 
+let unit_text4 = `Vector spaces - Subspaces - Linear combinations - linear system of equations - Linear independence - linear dependence - Bases and dimensions.`;
 
-//        ***********  unit 1 ended *****************************
+let unit_text5 = `Linear transformation - Null spaces and ranges - Dimension theorem - Matrix representation of a linear transformations - Inner product - Norms - Gram Schmidt orthogonalization process - Adjoint of linear operations - Least square approximation.`;
 
-const videoText_u201 = document.getElementById("video-text_u201");
-const english_u201 = document.getElementById("english_u201")
-const videoIframeContainer_u201 = document.getElementById("video-iframe-container_u201");
-const video_english_u201=document.getElementById('video-iframe-english_u201');
-const video_tamil_u201=document.getElementById('video-iframe_u201');
 
-videoText_u201.addEventListener("click", function() {
-  if (videoIframeContainer_u201.style.display === "none") {
-    videoIframeContainer_u201.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u201.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u201.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u201.style.display = "none";
-    },1000)
-  }
-});
 
 
+// todo Cont Change the Fucniton Call 
+Unit_loop_function(unit_text1 , unit_01_color , 1);
+Unit_loop_function(unit_text2 , unit_02_color , 2);
+Unit_loop_function(unit_text3 , unit_03_color , 3);
+Unit_loop_function(unit_text4 , unit_04_color , 4);
+Unit_loop_function(unit_text5 , unit_05_color , 5);
 
-const videoText_u202 = document.getElementById("video-text_u202");
-const english_u202 = document.getElementById("english_u202")
-const videoIframeContainer_u202 = document.getElementById("video-iframe-container_u202");
-const video_english_u202=document.getElementById('video-iframe-english_u202');
-const video_tamil_u202=document.getElementById('video-iframe_u202');
 
-videoText_u202.addEventListener("click", function() {
-  if (videoIframeContainer_u202.style.display === "none") {
-    videoIframeContainer_u202.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u202.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u202.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u202.style.display = "none";
-    },1000)
-  }
-});
+// ****************************  End Of the Funciton call *****************
 
 
-const videoText_u203 = document.getElementById("video-text_u203");
-const english_u203 = document.getElementById("english_u203")
-const videoIframeContainer_u203 = document.getElementById("video-iframe-container_u203");
-const video_english_u203=document.getElementById('video-iframe-english_u203');
-const video_tamil_u203=document.getElementById('video-iframe_u203');
 
-videoText_u203.addEventListener("click", function() {
-  if (videoIframeContainer_u203.style.display === "none") {
-    videoIframeContainer_u203.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u203.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u203.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u203.style.display = "none";
-    },1000)
-  }
-});
 
 
 
-const videoText_u204 = document.getElementById("video-text_u204");
-const english_u204 = document.getElementById("english_u204")
-const videoIframeContainer_u204 = document.getElementById("video-iframe-container_u204");
-const video_english_u204=document.getElementById('video-iframe-english_u204');
-const video_tamil_u204=document.getElementById('video-iframe_u204');
 
-videoText_u204.addEventListener("click", function() {
-  if (videoIframeContainer_u204.style.display === "none") {
-    videoIframeContainer_u204.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u204.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u204.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u204.style.display = "none";
-    },1000)
-  }
-});
 
-
-
-const videoText_u205 = document.getElementById("video-text_u205");
-const english_u205 = document.getElementById("english_u205")
-const videoIframeContainer_u205 = document.getElementById("video-iframe-container_u205");
-const video_english_u205=document.getElementById('video-iframe-english_u205');
-const video_tamil_u205=document.getElementById('video-iframe_u205');
-
-videoText_u205.addEventListener("click", function() {
-  if (videoIframeContainer_u205.style.display === "none") {
-    videoIframeContainer_u205.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u205.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u205.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u205.style.display = "none";
-    },1000)
-  }
-});
-
-
-
-
-//  *************** unit 2 ended **************
-
-const videoText_u301 = document.getElementById("video-text_u301");
-const english_u301 = document.getElementById("english_u301")
-const videoIframeContainer_u301 = document.getElementById("video-iframe-container_u301");
-const video_english_u301=document.getElementById('video-iframe-english_u301');
-const video_tamil_u301=document.getElementById('video-iframe_u301');
-
-videoText_u301.addEventListener("click", function() {
-  if (videoIframeContainer_u301.style.display === "none") {
-    videoIframeContainer_u301.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u301.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u301.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u301.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u302 = document.getElementById("video-text_u302");
-const english_u302 = document.getElementById("english_u302")
-const videoIframeContainer_u302 = document.getElementById("video-iframe-container_u302");
-const video_english_u302=document.getElementById('video-iframe-english_u302');
-const video_tamil_u302=document.getElementById('video-iframe_u302');
-
-videoText_u302.addEventListener("click", function() {
-  if (videoIframeContainer_u302.style.display === "none") {
-    videoIframeContainer_u302.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u302.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u302.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u302.style.display = "none";
-    },1000)
-  }
-});
-
-const videoText_u303 = document.getElementById("video-text_u303");
-const english_u303 = document.getElementById("english_u303")
-const videoIframeContainer_u303 = document.getElementById("video-iframe-container_u303");
-const video_english_u303=document.getElementById('video-iframe-english_u303');
-const video_tamil_u303=document.getElementById('video-iframe_u303');
-
-videoText_u303.addEventListener("click", function() {
-  if (videoIframeContainer_u303.style.display === "none") {
-    videoIframeContainer_u303.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u303.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u303.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u303.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u304 = document.getElementById("video-text_u304");
-const english_u304 = document.getElementById("english_u304")
-const videoIframeContainer_u304 = document.getElementById("video-iframe-container_u304");
-const video_english_u304=document.getElementById('video-iframe-english_u304');
-const video_tamil_u304=document.getElementById('video-iframe_u304');
-
-videoText_u304.addEventListener("click", function() {
-  if (videoIframeContainer_u304.style.display === "none") {
-    videoIframeContainer_u304.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u304.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u304.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u304.style.display = "none";
-    },1000)
-  }
-});
-
-const videoText_u305 = document.getElementById("video-text_u305");
-const english_u305 = document.getElementById("english_u305")
-const videoIframeContainer_u305 = document.getElementById("video-iframe-container_u305");
-const video_english_u305=document.getElementById('video-iframe-english_u305');
-const video_tamil_u305=document.getElementById('video-iframe_u305');
-
-videoText_u305.addEventListener("click", function() {
-  if (videoIframeContainer_u305.style.display === "none") {
-    videoIframeContainer_u305.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u305.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u305.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u305.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u306 = document.getElementById("video-text_u306");
-const english_u306 = document.getElementById("english_u306")
-const videoIframeContainer_u306 = document.getElementById("video-iframe-container_u306");
-const video_english_u306=document.getElementById('video-iframe-english_u306');
-const video_tamil_u306=document.getElementById('video-iframe_u306');
-
-videoText_u306.addEventListener("click", function() {
-  if (videoIframeContainer_u306.style.display === "none") {
-    videoIframeContainer_u306.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u306.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u306.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u306.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u307 = document.getElementById("video-text_u307");
-const english_u307 = document.getElementById("english_u307")
-const videoIframeContainer_u307 = document.getElementById("video-iframe-container_u307");
-const video_english_u307=document.getElementById('video-iframe-english_u307');
-const video_tamil_u307=document.getElementById('video-iframe_u307');
-
-videoText_u307.addEventListener("click", function() {
-  if (videoIframeContainer_u307.style.display === "none") {
-    videoIframeContainer_u307.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u307.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u307.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u307.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u308 = document.getElementById("video-text_u308");
-const english_u308 = document.getElementById("english_u308")
-const videoIframeContainer_u308 = document.getElementById("video-iframe-container_u308");
-const video_english_u308=document.getElementById('video-iframe-english_u308');
-const video_tamil_u308=document.getElementById('video-iframe_u308');
-
-videoText_u308.addEventListener("click", function() {
-  if (videoIframeContainer_u308.style.display === "none") {
-    videoIframeContainer_u308.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u308.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u308.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u308.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u309 = document.getElementById("video-text_u309");
-const english_u309 = document.getElementById("english_u309")
-const videoIframeContainer_u309 = document.getElementById("video-iframe-container_u309");
-const video_english_u309=document.getElementById('video-iframe-english_u309');
-const video_tamil_u309=document.getElementById('video-iframe_u309');
-
-videoText_u309.addEventListener("click", function() {
-  if (videoIframeContainer_u309.style.display === "none") {
-    videoIframeContainer_u309.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u309.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u309.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u309.style.display = "none";
-    },1000)
-  }
-});
-
-
-
-//  *************** unit 3 ended **************
-
-const videoText_u401 = document.getElementById("video-text_u401");
-const english_u401 = document.getElementById("english_u401")
-const videoIframeContainer_u401 = document.getElementById("video-iframe-container_u401");
-const video_english_u401=document.getElementById('video-iframe-english_u401');
-const video_tamil_u401=document.getElementById('video-iframe_u401');
-
-videoText_u401.addEventListener("click", function() {
-  if (videoIframeContainer_u401.style.display === "none") {
-    videoIframeContainer_u401.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u401.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u401.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u401.style.display = "none";
-    },1000)
-  }
-});
-
-
-
-const videoText_u402 = document.getElementById("video-text_u402");
-const english_u402 = document.getElementById("english_u402")
-const videoIframeContainer_u402 = document.getElementById("video-iframe-container_u402");
-const video_english_u402=document.getElementById('video-iframe-english_u402');
-const video_tamil_u402=document.getElementById('video-iframe_u402');
-
-videoText_u402.addEventListener("click", function() {
-  if (videoIframeContainer_u402.style.display === "none") {
-    videoIframeContainer_u402.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u402.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u402.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u402.style.display = "none";
-    },1000)
-  }
-});
-
-
-
-const videoText_u403 = document.getElementById("video-text_u403");
-const english_u403 = document.getElementById("english_u403")
-const videoIframeContainer_u403 = document.getElementById("video-iframe-container_u403");
-const video_english_u403=document.getElementById('video-iframe-english_u403');
-const video_tamil_u403=document.getElementById('video-iframe_u403');
-
-videoText_u403.addEventListener("click", function() {
-  if (videoIframeContainer_u403.style.display === "none") {
-    videoIframeContainer_u403.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u403.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u403.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u403.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u404 = document.getElementById("video-text_u404");
-const english_u404 = document.getElementById("english_u404")
-const videoIframeContainer_u404 = document.getElementById("video-iframe-container_u404");
-const video_english_u404=document.getElementById('video-iframe-english_u404');
-const video_tamil_u404=document.getElementById('video-iframe_u404');
-
-videoText_u404.addEventListener("click", function() {
-  if (videoIframeContainer_u404.style.display === "none") {
-    videoIframeContainer_u404.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u404.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u404.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u404.style.display = "none";
-    },1000)
-  }
-});
-
-const videoText_u405 = document.getElementById("video-text_u405");
-const english_u405 = document.getElementById("english_u405")
-const videoIframeContainer_u405 = document.getElementById("video-iframe-container_u405");
-const video_english_u405=document.getElementById('video-iframe-english_u405');
-const video_tamil_u405=document.getElementById('video-iframe_u405');
-
-videoText_u405.addEventListener("click", function() {
-  if (videoIframeContainer_u405.style.display === "none") {
-    videoIframeContainer_u405.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u405.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u405.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u405.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u406 = document.getElementById("video-text_u406");
-const english_u406 = document.getElementById("english_u406")
-const videoIframeContainer_u406 = document.getElementById("video-iframe-container_u406");
-const video_english_u406=document.getElementById('video-iframe-english_u406');
-const video_tamil_u406=document.getElementById('video-iframe_u406');
-
-videoText_u406.addEventListener("click", function() {
-  if (videoIframeContainer_u406.style.display === "none") {
-    videoIframeContainer_u406.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u406.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u406.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u406.style.display = "none";
-    },1000)
-  }
-});
-
-
-
-
-
-// ****************** unit 4 ended ***************
-
-
-const videoText_u501 = document.getElementById("video-text_u501");
-const english_u501 = document.getElementById("english_u501")
-const videoIframeContainer_u501 = document.getElementById("video-iframe-container_u501");
-const video_english_u501=document.getElementById('video-iframe-english_u501');
-const video_tamil_u501=document.getElementById('video-iframe_u501');
-
-videoText_u501.addEventListener("click", function() {
-  if (videoIframeContainer_u501.style.display === "none") {
-    videoIframeContainer_u501.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u501.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u501.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u501.style.display = "none";
-    },1000)
-  }
-});
-
-
-
-const videoText_u502 = document.getElementById("video-text_u502");
-const english_u502 = document.getElementById("english_u502")
-const videoIframeContainer_u502 = document.getElementById("video-iframe-container_u502");
-const video_english_u502=document.getElementById('video-iframe-english_u502');
-const video_tamil_u502=document.getElementById('video-iframe_u502');
-
-videoText_u502.addEventListener("click", function() {
-  if (videoIframeContainer_u502.style.display === "none") {
-    videoIframeContainer_u502.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u502.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u502.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u502.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u503 = document.getElementById("video-text_u503");
-const english_u503 = document.getElementById("english_u503")
-const videoIframeContainer_u503 = document.getElementById("video-iframe-container_u503");
-const video_english_u503=document.getElementById('video-iframe-english_u503');
-const video_tamil_u503=document.getElementById('video-iframe_u503');
-
-videoText_u503.addEventListener("click", function() {
-  if (videoIframeContainer_u503.style.display === "none") {
-    videoIframeContainer_u503.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u503.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u503.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u503.style.display = "none";
-    },1000)
-  }
-});
-
-
-const videoText_u504 = document.getElementById("video-text_u504");
-const english_u504 = document.getElementById("english_u504")
-const videoIframeContainer_u504 = document.getElementById("video-iframe-container_u504");
-const video_english_u504=document.getElementById('video-iframe-english_u504');
-const video_tamil_u504=document.getElementById('video-iframe_u504');
-
-videoText_u504.addEventListener("click", function() {
-  if (videoIframeContainer_u504.style.display === "none") {
-    videoIframeContainer_u504.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u504.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u504.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u504.style.display = "none";
-    },1000)
-  }
-});
-
-const videoText_u505 = document.getElementById("video-text_u505");
-const english_u505 = document.getElementById("english_u505")
-const videoIframeContainer_u505 = document.getElementById("video-iframe-container_u505");
-const video_english_u505=document.getElementById('video-iframe-english_u505');
-const video_tamil_u505=document.getElementById('video-iframe_u505');
-
-videoText_u505.addEventListener("click", function() {
-  if (videoIframeContainer_u505.style.display === "none") {
-    videoIframeContainer_u505.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u505.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u505.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u505.style.display = "none";
-    },1000)
-  }
-});
-const videoText_u506 = document.getElementById("video-text_u506");
-const english_u506 = document.getElementById("english_u506")
-const videoIframeContainer_u506 = document.getElementById("video-iframe-container_u506");
-const video_english_u506=document.getElementById('video-iframe-english_u506');
-const video_tamil_u506=document.getElementById('video-iframe_u506');
-
-videoText_u506.addEventListener("click", function() {
-  if (videoIframeContainer_u506.style.display === "none") {
-    videoIframeContainer_u506.style.display = "block";
-    unit_div.classList.add("unit-div-2");
-    videoIframeContainer_u506.classList.remove("hoverback");
-  } else {
-    unit_div.classList.remove("unit-div-2");
-    videoIframeContainer_u506.classList.add("hoverback");
-    setTimeout(function(){
-     videoIframeContainer_u506.style.display = "none";
-    },1000)
-  }
-});
