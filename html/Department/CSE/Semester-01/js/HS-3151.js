@@ -138,17 +138,11 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = "Listening for general information - specific details-Introduction to classmates - Audio & video (formal & informal) Listening to voicemail & messages; Listening and filling a form Speaking - Self Introduction; Introducing a friend; Conversation - politeness strategies; Telephone conversation; Leave a voicemail; Leave a message with another person; asking for information to fill details in a form. Reading - Reading brochures (technical context), telephone messages / social media messages relevant to technical contexts and emails. Writing - Writing emails / letters introducing oneself Grammar - Present Tense ( simple and progressive); Question types: Wh/ Yes or No/ and Tags Vocabulary - Synonyms; One word substitution; Abbreviations & Acronyms (as used in technical contexts).";
-
-let unit_text2 = "Listening - Listening to podcast, anecdotes / stories / event narration; documentaries and interviews with celebrities. Speaking - Narrating personal experiences / events; Interviewing a celebrity; Reporting / and summarising of documentaries / podcasts/ interviews. Reading - Reading biographies, travelogues, newspaper reports, Excerpts from literature, and travel & technical blogs. Writing - Guided writing-- Paragraph writing Short Report on an event (field trip etc.) Grammar –Past tense (simple); Subject-Verb Agreement; and Prepositions Vocabulary - Word forms (prefixes& suffixes); Synonyms and Antonyms. Phrasal verbs. ";
-
-let unit_text3 = " Listening - Listen to a product and process descriptions; a classroom lecture;and advertisements about a products. Speaking – Picture description; Giving instruction to use the product; Presenting a product; and Summarising a lecture. Reading – Reading advertisements, gadget reviews; user manuals. Writing - Writing definitions; instructions; and Product /Process description. Grammar - Imperatives; Adjectives; Degrees of comparison; Present & Past Perfect Tenses. Vocabulary - Compound Nouns, Homonyms; and Homophones, discourse markers(connectives & sequence words)";
-
-let unit_text4 = " Listening – Listening to TED Talks; Scientific lectures; and educational videos. Speaking – Small Talk; Mini presentations and making recommendations. Reading – Newspaper articles; Journal reports –and Non Verbal Communication (tables, pie charts etc,.) Writing – Note-making / Note-taking (*Study skills to be taught, not tested; Writing recommendations; Transferring information from nonverbal (chart, graph etc, to verbal mode) Grammar – Articles; Pronouns – Possessive & Relative pronouns. Vocabulary – Collocations; Fixed / Semi fixed expressions.";
-
-let unit_text5 = "Listening – Listening to debates/ discussions; different viewpoints on an issue; and panel discussions. Speaking –group discussions, Debates, and Expressing opinions through Simulations & Roleplay. Reading – Reading editorials; and Opinion Blogs; Writing – Essay Writing (Descriptive or narrative). Grammar – Future Tenses, Punctuation; Negation (Statements & Questions); and Simple, Compound & Complex Sentences. Vocabulary - Cause & Effect Expressions – Content vs Function words.";
-
-
+let unit_text1 = "No Syllabus"
+let unit_text2 = "No Syllabus"
+let unit_text3 = "No Syllabus"
+let unit_text4 = "No Syllabus"
+let unit_text5 = "No Syllabus"
 
 
 // todo Cont Change the Fucniton Call 
