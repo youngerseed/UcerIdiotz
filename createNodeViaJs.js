@@ -60,6 +60,7 @@ function createNodeViaJS(){
     importantQuestion.append(questionSymbol);
     console.log(importantQuestion);
 
+
     // creating download link via code Using Examveda
     const subCode = document.title;
     const splitCode = subCode.split('|');
@@ -88,8 +89,8 @@ function createNodeViaJS(){
     // units_div.append(videoContainer);
     }
     
-
     
+      //  adding Download Pdf Via ExamVeda 
 
     
     
@@ -99,9 +100,10 @@ function createNodeViaJS(){
     //  todo funciton for create and add the topics to the respective division
     
     function createDivision(unit_color,string,unitId,count){
+        
+   const units_div = document.querySelector(`.${unit_color}`);
 
-
-        const units_div = document.querySelector(`.${unit_color}`);
+  //  adding Download Pdf Via ExamVeda 
     
     
     // creating video container element
@@ -114,7 +116,7 @@ function createNodeViaJS(){
     const videoText = document.createElement("p");
     videoText.className = 'video-text';
     videoText.setAttribute('id',`video-text_u${unitId}0${count+1}`);
-    // console.log(videoText);
+    console.log(videoText);
     videoText.textContent = `${string}`;
     // appending video text to videoContainer
     videoContainer.append(videoText);
@@ -132,7 +134,7 @@ function createNodeViaJS(){
     const youtubeSymbol = document.createElement("i");
     youtubeSymbol.classList.add("fa-brands", "fa-youtube", "fa-fade");
     youtubeSymbol.style.color = `#e01b24`;
-    // console.log(youtubeSymbol);
+    console.log(youtubeSymbol);
     // cloning the youtube node
     const youtubeCloneNode = youtubeSymbol.cloneNode(true);
     console.log(youtubeCloneNode);
@@ -140,7 +142,7 @@ function createNodeViaJS(){
     const questionSymbol = document.createElement("i");
     questionSymbol.classList.add("bi", "bi-question-diamond-fill");
     questionSymbol.style.color = "blue";
-    // console.log(questionSymbol);
+    console.log(questionSymbol);
     
     // creating forTamil Link
     
@@ -148,14 +150,14 @@ function createNodeViaJS(){
     forTamil.textContent = "For Tamil";
     forTamil.setAttribute('href',`https://www.youtube.com/results?search_query=${string} Tamil`)
     forTamil.append(youtubeSymbol);
-    // console.log(forTamil);
+    console.log(forTamil);
     
     // creating forEnglish link
     const forEnglish = document.createElement("a");
     forEnglish.textContent = "For English";
     forEnglish.setAttribute('href',`https://www.youtube.com/results?search_query=${string} English`);
     forEnglish.append(youtubeCloneNode);
-    // console.log(forEnglish);
+    console.log(forEnglish);
     
     // creating important question link
     const importantQuestion = document.createElement("a");
@@ -163,8 +165,7 @@ function createNodeViaJS(){
     importantQuestion.textContent = "Important Question";
     importantQuestion.setAttribute('href',`https://www.youtube.com/results?search_query=${papper_id} Important Questions`);
     importantQuestion.append(questionSymbol);
-    // console.log(importantQuestion);
-
+    console.log(importantQuestion);
 
     // creating download link via code Using Examveda
     const subCode = document.title;
@@ -180,16 +181,16 @@ function createNodeViaJS(){
       linkFragment.append(links);
       linkContainer.append(linkFragment);
     });
-    // console.log(linkContainer);
+    console.log(linkContainer);
     
     // appending link container into video frame 
     videoFrame.append(linkContainer);
     videoFrame.classList.add('video-iframe-container','col-sm-12','col-md-12' ,'col-lg-12', 'col-xl-12', 'col-xxl-12');
     videoFrame.setAttribute('id',`video-iframe-container_u${unitId}0${count+1}`);
-    // console.log(videoFrame);
+    console.log(videoFrame);
     videoContainer.append(videoText);
     videoContainer.append(videoFrame);
-    // console.log(videoContainer);
+    console.log(videoContainer);
     
     units_div.append(videoContainer);
     
