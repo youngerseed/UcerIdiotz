@@ -139,15 +139,15 @@ function createDivision(unit_color,string,unitId,count){
   // todo Unit text  Change Input text
   
   
-  let unit_text1 = "Definition scope and importance of environment - need for public awareness- Eco system and Energy flow- ecological succession- Types of biodiversity: genetic- species and ecosystem diversity-  values of biodiversity- India as a mega-diversity nation - hot-spots of biodiversity - threats to  biodiversity- habitat loss, poaching of wildlife- man wildlife conflicts - endangered and endemic  species of India - conservation of biodiversity- In-situ and ex-situ";
+  let unit_text1 = "Definition scope and importance of environment - need for public awareness - Eco system - Energy flow - ecological succession- Types of biodiversity genetic - species and ecosystem diversity -  values of biodiversity- India as a mega diversity nation - hot spots of biodiversity - threats to  biodiversity- habitat loss - poaching of wildlife- man wildlife conflicts - endangered and endemic  species of India - conservation of biodiversity In situ - conservation of biodiversity ex situ";
   
-  let unit_text2 = " Causes Effects and Preventive measures of Water Soil Air and Noise Pollutions- Solid Hazardous and E-Waste management- Case studies on Occupational Health and Safety  Management system (OHASMS)- Environmental protection- Environmental protection acts ";
+  let unit_text2 = " Causes Effects measures of Water Soil Air and Noise Pollutions- Solid Hazardous - E Waste management-Occupational Health and Safety  Management system (OHASMS)- Environmental protection- Environmental protection acts ";
   
-  let unit_text3 ="Energy management and conservation- New Energy Sources - Need of new sources- Different types  new energy sources- Applications of- Hydrogen energy- Ocean energy resources- Tidal energy conversion- Concept  origin and power plants of geothermal energy";
+  let unit_text3 ="Energy management and conservation- New Energy Sources - Need of new sources- Different types  new energy sources - Applications of Hydrogen energy- Ocean energy resources- Tidal energy conversion- Concept  origin and power plants of geothermal energy";
   
-  let unit_text4 = "Development GDP Sustainability- concept, needs and challenges-economic- social and aspects of sustainability-from unsustainability to sustainability-millennium development goals- and protocols -  Sustainable Development Goals-targets- indicators and intervention areas Climate change- Global-  Regional and local environmental issues and possible solutions-case studies Concept of Carbon  Credit  Carbon Footprint- Environmental management in industry-A case study";
+  let unit_text4 = "Development GDP Sustainability- concept needs and challenge economic- social and aspects of sustainability-from unsustainability to sustainability-millennium development goals- and protocols -  Sustainable Development Goals-targets- indicators and intervention areas Climate change Global -  Regional and local environmental issues and possible solutions-case studies Concept of Carbon  Credit  Carbon Footprint- Environmental management in industry A case study";
   
-  let unit_text5 = "Zero waste and R concept- Circular economy, ISO 14000 Series- Material Life cycle assessment- Environmental Impact Assessment- Sustainable habitat  Green buildings- Green materials Energy  efficiency- Sustainable transports Sustainable energy- Non-conventional Sources- Energy Cyclescarbon cycle emission and sequestration- Green Engineering Sustainable urbanization- Socioeconomical and technological change.";
+  let unit_text5 = "Zero waste and R concept- Circular economy - ISO 14000 Series - Material Life cycle assessment- Environmental Impact Assessment- Sustainable habitat  Green buildings- Green materials Energy  efficiency- Sustainable transports Sustainable energy- Non-conventional Sources- Energy Cyclescarbon cycle emission and sequestration- Green Engineering Sustainable urbanization- Socioeconomical and technological change.";
   
   
   

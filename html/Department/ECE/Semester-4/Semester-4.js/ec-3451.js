@@ -138,15 +138,15 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = `Axioms of probability - Conditional probability - Baye’s theorem - Discrete random variables - continuous random variables - Moments - Moment generating functions - Binomial distributions - Poisson distributions - Geometric distributions - Uniform distributions - Exponential distributions - Normal distributions - Functions of a random variable.`;
+let unit_text1 = `Current mirror and current sources - Current sources as active loads - Voltage sources - Voltage References - BJT Differential amplifier with active loads - Basic information about op amps - Ideal Operational Amplifier - General operational amplifier stages - internal circuit diagrams of IC 741 - DC performance characteristics - AC performance characteristics- slew rate - Open loop configurations - closed loop configurations - MOSFET Operational Amplifiers - LF155 and TL082.`;
 
-let unit_text2 = `Joint distributions - Marginal and conditional distributions - Covariance - Correlation and linear regression - Transformation of random variables - Central limit theorem.`;
+let unit_text2 = `Sign Changer - Scale Changer - Phase Shift Circuits - Voltage Follower - V to I converters - I to V converters - adder - subtractor - Instrumentation amplifier - Integrator - Differentiator - Logarithmic amplifier - Antilogarithmic amplifier - Comparators - Schmitt trigger - Precision rectifier - peak detector - clipper and clamper - Low pass - high pass Butterworth filters - band pass Butterworth filters.`;
 
-let unit_text3 = `Classification random process - Stationary process - Markov process - Poisson process - Discrete parameter Markov chain - Chapman Kolmogorov equations - Limiting distributions .`;
+let unit_text3 = `Analog Multiplier using Emitter Coupled Transistor Pair - Gilbert Multiplier cell - Variable transconductance technique - analog multiplier ICs and their applications - Operation of the basic PLL - Closed loop analysis - Voltage controlled oscillator - Monolithic PLL IC 565 - application of PLL for AM detection - FM detection - FSK modulation and demodulation - Frequency synthesizing and clock synchronization`;
 
-let unit_text4 = `Vector spaces - Subspaces - Linear combinations - linear system of equations - Linear independence - linear dependence - Bases and dimensions.`;
+let unit_text4 = `Analog and Digital Data Conversions - D/A converter - specifications weighted resistor type- R-2R Ladder type - Voltage Mode R 2R Ladder types - Current Mode R 2R Ladder types - switches for D/A converters - high speed sample and hold circuits - A/D Converters  - specifications Flash type - Successive Approximation type - Single Slope type - Dual Slope type - A/D Converter using Voltage to Time Conversion - Over sampling A/D Converters - Sigma Delta converters.`;
 
-let unit_text5 = `Linear transformation - Null spaces and ranges - Dimension theorem - Matrix representation of a linear transformations - Inner product - Norms - Gram Schmidt orthogonalization process - Adjoint of linear operations - Least square approximation.`;
+let unit_text5 = `Sine-wave generators - Multivibrators wave generator - Triangular wave generator - Saw tooth wave generator - ICL8038 function generator - Timer IC 555 - IC Voltage regulators - Three terminal fixed and adjustable voltage regulators - IC 723 general purpose regulator - Monolithic switching regulator - Low Drop Out(LDO) Regulators - Switched capacitor filter IC MF10 - Frequency to Voltage converters - Voltage to Frequency converters - Audio Power amplifier - Video Amplifier - Isolation Amplifier - Opto couplers and fibre optic IC`;
 
 
 

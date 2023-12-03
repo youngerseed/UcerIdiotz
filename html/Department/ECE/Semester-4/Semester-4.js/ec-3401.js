@@ -138,15 +138,15 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = `Axioms of probability - Conditional probability - Baye’s theorem - Discrete random variables - continuous random variables - Moments - Moment generating functions - Binomial distributions - Poisson distributions - Geometric distributions - Uniform distributions - Exponential distributions - Normal distributions - Functions of a random variable.`;
+let unit_text1 = `Overview of Networks - Overview of Attributes - Network Models - OSI Addressing - TCP/IP Addressing - Introduction to Datalink Layer - Error Detection and Correction - Ethernet(802.3) Wireless LAN - IEEE 802.11 - Bluetooth - Flow and Error Control Protocols - HDLC - PPP.`;
 
-let unit_text2 = `Joint distributions - Marginal and conditional distributions - Covariance - Correlation and linear regression - Transformation of random variables - Central limit theorem.`;
+let unit_text2 = `Network Layer - IPv4 Addressing - Network Layer Protocols - Unicast and Multicast Routing - Intradomain and Interdomain Routing Protocols - IPv6 Addresses - Datagram Format - Transition from IPv4 to IPv6.`;
 
-let unit_text3 = `Classification random process - Stationary process - Markov process - Poisson process - Discrete parameter Markov chain - Chapman Kolmogorov equations - Limiting distributions .`;
+let unit_text3 = `Transport Layer Protocols - UDP and TCP Connection - State Transition Diagram - Congestion Control and Avoidance - QoS - Application Layer Paradigms - Client - Server Programming - Domain Name System - World Wide Web - HTTP - Electronic Mail.`;
 
-let unit_text4 = `Vector spaces - Subspaces - Linear combinations - linear system of equations - Linear independence - linear dependence - Bases and dimensions.`;
+let unit_text4 = `OSI Security Architecture - Attacks - Security Services and Mechanisms- Encryption - Advanced Encryption Standard - Public Key Cryptosystems - RSA Algorithm - Hash Functions - Secure Hash Algorithm - Digital Signature Algorithm.`;
 
-let unit_text5 = `Linear transformation - Null spaces and ranges - Dimension theorem - Matrix representation of a linear transformations - Inner product - Norms - Gram Schmidt orthogonalization process - Adjoint of linear operations - Least square approximation.`;
+let unit_text5 = `Introduction to hardware security - Hardware Trojans - Side Channel Attacks - Physical Attacks and Countermeasures- Design for Security - Introduction to Blockchain Technology.`;
 
 
 
