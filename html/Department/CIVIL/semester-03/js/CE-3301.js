@@ -137,15 +137,29 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Scope of fluid mechanics - Definitions of a fluid - Methods of analysis - Continuum hypothesis -
+System and Control volume approach - Reynold’s transportation theorem - Fluid properties - Fluid
+statics - Manometry - Forces on plane - curved surfaces - Buoyancy and floatation - Stability
+of floating bodies `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Kinematics: Classification of flows - Streamline, streak-line- path-lines - Stream function-
+velocity potentials - Flow nets;
+Dynamics : Application of control volume to continuity, energy- momentum - Euler’s equation of
+motion along a stream line - Bernoulli’s equation - Applications to velocity- discharge
+measurements - Linear momentum equation - Application to Pipe bends - Moment of momentum
+equation `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Fundamental dimensions - Dimensional homogeneity - Rayleigh’s method- Buckingham Pi
+theorem - Dimensionless parameters - Similitude- model studies - Distorted- undistorted
+models. `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Reynolds experiment - Laminar flow in pipes- between parallel plates - Development of laminar
+and turbulent flows in pipes - Darcy-Weisbach equation - Moody diagram - Major- minor losses
+of flow in pipes - Total energy line - Hydraulic grade line - Siphon - Pipes in series- parallel -Equivalent pipes. `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Definition of boundary layers - Laminar- turbulent boundary layers - Displacement, momentum
+and energy thickness - Momentum integral equation - Applications - Separation of boundary layer
+- Drag and Lift forces `;
 
 
 

@@ -117,7 +117,8 @@ function createDivision(unit_color,string,unitId,count){
     }
 };
 
- function Unit_loop_function(text , unit_color ,unit_count){
+
+function Unit_loop_function(text , unit_color ,unit_count){
 
     const Unit_topics =text;
     loopTopics(Seperate_text(Unit_topics),unit_color,unit_count);
@@ -137,31 +138,30 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Systems of Units-  Statics of
-Particles -Forces in a Plane- Resultant of Forces- Resolution of a Force into Components- Rectangular
-Components of a Force- Unit Vectors- Equilibrium of a Particle- Newton's First Law of Motion- Space
-and Free-Body Diagrams- Forces in Space- Equilibrium of a Particle in Space `;
+let unit_text1 = ` Translators- Compilation and Interpretation- Language processors -The Phases of
+Compiler - Lexical Analysis - Role of Lexical Analyzer - Input Buffering - Specification of Tokens
+- Recognition of Tokens - Finite Automata - Regular Expressions to Automata NFA-  Regular Expressions to Automata DFA -
+Minimizing DFA - Language for Specifying Lexical Analyzers - Lex tool `;
 
-let unit_text2 = ` Principle of Transmissibility- Equivalent Forces- Vector Product of Two Vectors- Moment of a Force
-about a Point- Varignon's Theorem- Rectangular Components of the Moment of a Force- Scalar
-Product of Two Vectors- Mixed Triple Product of Three Vectors- Moment of a Force about an Axis-
-Couple - Moment of a Couple- Equivalent Couples- Addition of Couples- Resolution of a Given Force
-into a Force -Couple system- Further Reduction of a System of Forces- Equilibrium in TwoDimensions  -Equilibrium in  Three
-Dimensions - Reactions at Supports and Connections `;
+let unit_text2 = ` Role of Parser - Grammars - Context-free grammars - Writing a grammar Top Down Parsing -
+General Strategies - Recursive Descent Parser Predictive Parser - Parser Shift Reduce
+Parser-LR Parser- Item Construction of SLR Parsing Table - Introduction to LALR Parser -
+Error Handling and Recovery in Syntax Analyzer-YACC tool - Design of a syntax Analyzer for a
+Sample Language `;
 
-let unit_text3 = ` Centroids of lines and areas - symmetrical and unsymmetrical shapes- Determination of Centroids by
-Integration- Theorems of Pappus Guldinus*- Distributed Loads on Beams- Centre of Gravity of a ThreeDimensional Body- Centroid of a Volume- Composite Bodies- Determination of Centroids of Volumes
-by Integration- Moments of Inertia of Areas and Mass - Polar Moment of Inertia- Radius of Gyration of an Area- Parallel-Axis Theorem-
-Moments of Inertia of Composite Areas- Moments of Inertia of a Mass - Moments of Inertia of Thin
-Plates `;
+let unit_text3 = ` Syntax directed Definitions-Construction Syntax Tree-Bottom up Evaluation of S Attribute-
+Definitions- Design of predictive translator --Type Conversions-Intermediate Languages- Syntax Tree- Three-
+Address Code- Types and Declarations-Translation of Expressions-Type Checking- Back
+patching `;
 
-let unit_text4 = ` The Laws of Dry Friction- Coefficients of Friction- Angles of Friction- Wedge friction- Wheel Friction-
-Rolling Resistance- Ladder friction. `;
+let unit_text4 = ` Runtime Environments - source language issues - Storage organization - Storage Allocation
+Strategies- Static, Stack - Heap allocation - Parameter Passing-Symbol Tables - Dynamic
+Storage Allocation - Issues in the Design of a code generator - Basic Blocks - Flow graphs -
+Design of a simple Code Generator - Optimal Code Generation for Expressions- Dynamic
+Programming Code Generation `;
 
-let unit_text5 = ` Kinematics - Rectilinear Motion and Curvilinear Motion of Particles. Kinetics- Newton's Second Law of
-Motion -Equations of Motions- Dynamic Equilibrium- Energy and Momentum Methods - Work of a
-Force- Kinetic Energy of a Particle- Principle of Work and Energy- Principle of Impulse and Momentum-
-Impact of bodies `;
+let unit_text5 = ` Principal Sources of Optimization - Peep hole optimization - DAG- Optimization of Basic Blocks -
+Global Data Flow Analysis - Efficient Data Flow Algorithm - Recent trends in Compiler Design `;
 
 
 
@@ -174,7 +174,7 @@ Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
 
 
-// ****************************  End Of the Funciton call *****************
+// ****************************  End Of the Function call *****************
 
  
   
