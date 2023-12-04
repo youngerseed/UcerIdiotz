@@ -117,7 +117,8 @@ function createDivision(unit_color,string,unitId,count){
     }
 };
 
- function Unit_loop_function(text , unit_color ,unit_count){
+
+function Unit_loop_function(text , unit_color ,unit_count){
 
     const Unit_topics =text;
     loopTopics(Seperate_text(Unit_topics),unit_color,unit_count);
@@ -137,16 +138,23 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Abstract Data Types  - List ADT - Array-based implementation - Linked list implementation
+- Singly linked lists - Circularly linked lists - Doubly-linked lists - Applications of lists - Polynomial
+ADT - Radix Sort - Multilists `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Stack ADT - Operations - Applications - Balancing Symbols - Evaluating arithmetic expressionsInfix to Postfix conversion - Function Calls - Queue ADT - Operations - Circular Queue - DeQueue
+- Applications of Queues `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Tree ADT - Tree Traversals - Binary Tree ADT - Expression trees - Binary Search Tree ADT - AVL
+Trees - Priority Queue (Heaps) - Binary Heap. `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` B Tree - B+ Tree - Graph Definition - Representation of Graphs - Types of Graph - Breadth-first
+traversal - Depth first traversal - Bi connectivity - Euler circuits - Topological Sort - Dijkstra's
+algorithm - Minimum Spanning Tree - Prim's algorithm - Kruskal's algorithm `;
 
-let unit_text5 = ` Unit Topics Here `;
-
+let unit_text5 = ` Searching - Linear Search - Binary Search- Sorting - Bubble sort - Selection sort - Insertion
+sort - Shell sort - Merge Sort - Hashing - Hash Functions - Separate Chaining - Open
+Addressing -Rehashing - Extendible Hashing `;
 
 
 
@@ -158,7 +166,7 @@ Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
 
 
-// ****************************  End Of the Funciton call *****************
+// ****************************  End Of the Function call *****************
 
  
   

@@ -137,15 +137,25 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Review of Basics - Thermodynamic systems, Properties and processes Thermodynamic Equilibrium -
+Displacement work - PV diagram- Thermal equilibrium - Zeroth law - Concept of temperature and
+Temperature Scales. First law - application to closed and open systems - steady and unsteady flow
+processes `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Heat Engine - Refrigerator - Heat pump- Statements of second law - Carnot
+cycle - Reversed Carnot cycle - Performance - Clausius inequality- Concept of entropy - TS diagram - Tds
+Equations - Entropy change for a pure substance `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Ideal gases undergoing different processes - principle of increase in entropy- Applications of II Law- Highand low-grade energy- Availability and Irreversibility for open - closed system processes - I and II law
+Efficiency `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Steam - formation and its thermodynamic properties - p_vdiagrams- p_T diagrams- T_v diagrams- T_s diagrams- h_s diagrams- PVT surface-
+Determination of dryness fraction. Calculation of work done- heat transfer in non flow -heat transfer in flow processes -
+using Steam Table - Mollier Chart `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Properties of Ideal gas- real gas - comparison. Equations of state for ideal and real gases. vander Waal's
+relation - Reduced properties - Compressibility factor - Principle of Corresponding states - Generalized
+Compressibility Chart- Maxwell relations - TdS Equations - heat capacities relations - Energy equation- JouleThomson experiment - Clausius Clapeyron equation `;
 
 
 

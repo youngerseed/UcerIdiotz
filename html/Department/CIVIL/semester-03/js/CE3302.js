@@ -137,15 +137,27 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Stone as building material - Criteria for selection - Tests on stones - Bricks -
+Manufacturing of clay bricks - Tests on bricks - Compressive strength - Water Absorption -
+Efflorescence - Lime - Preparation of lime mortar - Concrete hollow blocks - Lightweight concrete
+blocks `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Timber - Market forms - Plywood - Veneer - False ceiling materials - Steel - Mechanical treatment
+- Aluminum - Uses - Market forms - Glass - Ceramics - Refractories - Composite Materials  - FRP - Fibre textiles - Geomembranes for earth
+reinforcement - Geotextiles for earth
+reinforcement `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Types of Foundations - Shallow Deep Foundations - Stone Masonry - Brick Masonry -
+Plastering and Pointing - Cavity Walls - Diaphragm Walls - Formwork - Centering and Shuttering
+- Shoring - Scaffolding - Underpinning - Roofing - Flooring - Joints in concrete -
+Contraction/Construction/Expansion joints - Fire Protection - Thermal Insulation - Ventilation and
+Air conditioning - Acoustics and Sound Insulation - Damp Proofing.  `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Selection of equipment for earthwork excavation- concreting- material handling - erection of
+structures - Dewatering and pumping equipment. `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = `  construction planning - Scheduling for activities - Critical path method (CPM) -
+PERT network modelling and time analysis - Case illustrations. `;
 
 
 
