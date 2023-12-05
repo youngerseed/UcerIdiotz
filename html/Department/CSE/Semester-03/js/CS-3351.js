@@ -117,7 +117,8 @@ function createDivision(unit_color,string,unitId,count){
     }
 };
 
- function Unit_loop_function(text , unit_color ,unit_count){
+
+function Unit_loop_function(text , unit_color ,unit_count){
 
     const Unit_topics =text;
     loopTopics(Seperate_text(Unit_topics),unit_color,unit_count);
@@ -137,32 +138,25 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Constitution of alloys - Solid solutions- substitutional and interstitial - phase diagrams- Isomorphous-
-eutectic- eutectoid- peritectic- and peritectoid reactions- Iron - Iron carbide equilibrium diagram.
-Classification of steel and cast-Iron microstructure- properties and application `;
+let unit_text1 = ` Combinational Circuits - Karnaugh Map - Analysis and Design Procedures - Binary Adder -
+Subtractor - Decimal Adder - Magnitude Comparator - Decoder - Encoder - Multiplexers -
+Demultiplexers `;
 
-let unit_text2 = ` Definition - Full annealing- stress relief- recrystallisation and spheroidising -normalizing- hardening and
-tempering of steel. Isothermal transformation diagrams - cooling curves superimposed on I.T. diagram
-- continuous cooling Transformation (CCT) diagram - Austempering- Martempering - Hardenability-
-Jominy end quench test -case hardening- carburizing- Nitriding- cyaniding- carbonitriding - Flame and
-Induction hardening - Vacuum and Plasma hardening - Thermo-mechanical treatments- elementary
-ideas on sintering `;
+let unit_text2 = ` Introduction to Sequential Circuits - Flip-Flops - operation and excitation tables, Triggering of FF-
+Analysis and design of clocked sequential circuits - Design - Moore Mealy models- state
+minimization- state assignment- circuit implementation - Registers - Counters. `;
 
-let unit_text3 = ` Effect of alloying additions on steel  - stainless and tool steels - HSLA -
-Maraging steels - Grey  white  malleable- spheroidal - alloy cast irons- Copper and its alloys - Brass-
-Bronze and Cupronickel - Aluminium and its alloys- precipitation strengthening treatment -
-Titanium alloys- Mg-alloys- Ni based super alloys - shape memory alloys- Properties and Applicationsoverview of materials standards `;
+let unit_text3 = ` Functional Units of a Digital Computer- Von Neumann Architecture - Operation and Operands of
+Computer Hardware Instruction - Instruction Set Architecture (ISA) Memory Location- Address
+and Operation - Instruction and Instruction Sequencing - Addressing Modes- Encoding of Machine
+Instruction - Interaction between Assembly and High Level Language `;
 
-let unit_text4 = ` Polymers - types of polymers- commodity and engineering polymers - Properties and applications of
-Properties PE-  Properties PP- Properties PS-  Properties PVC-  Properties PMMA-Properties  PET-  Properties PC- Properties PA- Properties ABS- Properties PAI-  Properties PPO- Properties PPS- Properties PEEK- Properties PTFE- Thermoset polymers -
-Urea and Phenol formaldehydes -Nylon- Engineering Ceramics - Properties and applications of Al2O3-
-SiC- Si3N4- PSZ and SIALON - intermetallics- Composites- Matrix and reinforcement Materialsapplications of Composites - Nano composites `;
+let unit_text4 = ` Instruction Execution - Building a Data Path - Designing a Control Unit - Hardwired Control-
+Microprogrammed Control - Pipelining - Data Hazard - Control Hazards. `;
 
-let unit_text5 = ` Mechanisms of plastic deformation- slip and twinning - Types of fracture - fracture mechanics- Griffith’s
-theory- Testing of materials under tension- compression and shear loads - Hardness tests (Brinell-
-Vickers and Rockwell)- Micro and nano hardness tests- Impact test lzod and charpy- fatigue and creep
-failure mechanisms `;
-
+let unit_text5 = `Memory Concepts and Hierarchy - Memory Management - Cache Memories- Mapping and
+Replacement Techniques - Virtual Memory - DMA - I/O - Accessing I/O- Parallel Interface -  Serial
+Interface - Interrupt I/O - Interconnection Standards- USB - SATA `;
 
 
 
@@ -174,7 +168,7 @@ Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
 
 
-// ****************************  End Of the Funciton call *****************
+// ****************************  End Of the Function call *****************
 
  
   

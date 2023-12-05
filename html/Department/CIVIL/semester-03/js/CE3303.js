@@ -137,15 +137,31 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Estimation of surface and subsurface water resources - Predicting demand for water- Impurities of
+water and their significance - Physical- chemical- bacteriological analysis - Waterborne diseases
+- Standards for potable water. Intake of water- Pumping and gravity schemes- `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Objectives - Unit operations and processes - Principles- functions and design of water treatment
+plant units- aerators of flash mixers- Coagulation and flocculation - Clarifloccuator - Plate and tube
+settlers - Pulsator clarifier - sand filters - Disinfection - softening- removal of iron and manganese -
+Defluoridation - Softening - Desalination process - Residue Management - Construction- Operation
+and Maintenance aspects `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Storage and balancing reservoirs - types- location and capacity. Distribution system- layout-
+hydraulics of pipe lines- pipe fittings- valves including check and pressure reducing valves- meters-
+analysis of distribution systems- leak detection- maintenance of distribution systems- pumping
+stations and their operations - House service connections `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Characteristics and composition of sewage - Population equivalent - Sanitary sewage flow estimation
+- Sewer materials - Hydraulics of flow in sanitary sewers - Sewer design - Storm drainage-Storm
+runoff estimation - Sewer appurtenances - Corrosion in sewers - Prevention and control - Sewage
+pumping-drainage in buildings - Plumbing systems for drainage `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Objectives - Selection of Treatment Methods - Principles- Functions- - Activated Sludge Process and
+Extended aeration systems - Trickling filters - Sequencing Batch Reactor(SBR) - UASB - Waste
+Stabilization Ponds - Other treatment methods - Reclamation and Reuse of sewage - Recent
+Advances in Sewage Treatment - Construction- Operation and Maintenance aspects. - Discharge
+standards-sludge treatment -Disposal of sludge `;
 
 
 
