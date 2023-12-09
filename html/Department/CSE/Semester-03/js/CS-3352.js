@@ -117,7 +117,8 @@ function createDivision(unit_color,string,unitId,count){
     }
 };
 
- function Unit_loop_function(text , unit_color ,unit_count){
+
+function Unit_loop_function(text , unit_color ,unit_count){
 
     const Unit_topics =text;
     loopTopics(Seperate_text(Unit_topics),unit_color,unit_count);
@@ -137,29 +138,25 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Equipment and accessories for ranging and chaining
-- Methods of ranging - Well conditioned triangles - Chain traversing - Compass - Basic principles
-- Types - Bearing - System and conversions - Sources of errors and Local attraction - Magnetic
-declination - Dip - compass traversing - Plane table and its accessories - 
-Radiation - Intersection - Resection - Plane table traversing. `;
+let unit_text1 = `  Benefits and uses - facets of data - Data Science Process: Overview - Defining
+research goals - Retrieving data - Data preparation - Exploratory Data analysis - build the model-
+presenting findings - building applications - Data Mining - Data Warehousing - Basic Statistical
+descriptions of Data `;
 
-let unit_text2 = ` Level line - Horizontal line - Datum - Benchmarks - Levels and staves - Temporary and permanent
-adjustments - Methods of leveling - Fly leveling - Check leveling - Procedure in leveling - Booking
-- Reduction - Curvature and refraction - Reciprocal leveling - Precise leveling - Contouring. `;
+let unit_text2 = ` Types of Data - Types of Variables -Describing Data with Tables - Graphs -Describing Data
+with Averages - Describing Variability - Normal Distributions - Standard (z) Scores `;
 
-let unit_text3 = ` Horizontal and vertical angle measurements - Temporary and permanent adjustments - Heights and
-distances - Tacheometric surveying - Stadia Tacheometry - Tangential Tacheometry -
-Trigonometric leveling - Single Plane method - Double Plane method. `;
+let unit_text3 = ` Correlation - Scatter plots - correlation coefficient for quantitative data -computational formula for
+correlation coefficient - Regression -regression line -least squares regression line - Standard
+error of estimate - interpretation of r2 -multiple regression equations -regression towards the mean `;
 
-let unit_text4 = ` Horizontal and vertical control - Methods - Triangulation - Traversing - Gale‘s table -
-Trilateration - Concepts of measurements and errors - Error propagation and Linearization -
-Adjustment methods - Least square methods - Angles, lengths and levelling network`;
+let unit_text4 = ` Basics of Numpy arrays -aggregations -computations on arrays - fancy indexing - structured arrays - Data manipulation with Pandas - data indexing 
+selection - operating on data - missing data - Hierarchical indexing - combining datasets -
+aggregation and grouping - pivot tables `;
 
-let unit_text5 = `  Digital Theodolite-EDM- Electronic field book - Advantages - Parts and accessories
-- Working principle - Observables - Errors - COGO functions - GPS- Advantages - System components - Signal structure - Selective availability
-and antispoofing receiver components and antenna - Planning and data acquisition - Data
-processing - Errors inGPS - Field procedure and applications. `;
-
+let unit_text5 = `Importing Matplotlib - Line plots - Scatter plots - visualizing errors - density and contour plots -
+Histograms - legends - colors - subplots - text and annotation - customization - three dimensional
+plotting - Geographic Data with Basemap - Visualization with Seaborn `;
 
 
 
@@ -171,7 +168,7 @@ Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
 
 
-// ****************************  End Of the Funciton call *****************
+// ****************************  End Of the Function call *****************
 
  
   

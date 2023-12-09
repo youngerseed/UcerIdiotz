@@ -137,15 +137,33 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Sand Casting - Sand Mould - Type of patterns - Pattern Materials - Pattern allowances - Molding sand
+Properties and testing - Cores -Types and applications - Molding machines - Types and applications-
+Melting furnaces - Principle of special casting processes- Shell, investment - Ceramic mould - Pressure die
+casting - low pressure- gravity- Tilt pouring- high pressure die casting- Centrifugal Casting - CO2 casting -
+Defects in Sand casting process`;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Fusion welding processes - Oxy fuel welding - Filler and Flux materials-Arc welding, Electrodes, Coating
+and specifications - Gas Tungsten arc welding -Gas metal arc welding - Submerged arc welding - Electro
+slag welding- Plasma arc welding - Resistance welding Processes -Electron beam welding -Laser beam
+Welding Friction welding - Friction stir welding - Diffusion welding - Thermit Welding, Weld defects -
+inspection &remedies - Brazing - soldering - Adhesive bonding. `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Hot working and cold working of metals - Forging processes - Open, impression and closed die forging -
+cold forging- Characteristics of the processes - Typical forging operations - rolling of metals - Types of
+Rolling - Flat strip rolling - shape rolling operations - Defects in rolled parts - Principle of rod and wire
+drawing - Tube drawing - Principles of Extrusion - Types - Hot and Cold extrusion. Introduction to shaping
+operations. `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Sheet metal characteristics - Typical shearing- bending and drawing operations - Stretch forming operations
+- Formability of sheet metal - Test methods -special forming processes - Working principle and applications
+- Hydro forming - Rubber pad forming - Metal spinning - Introduction of Explosive forming, magnetic pulse
+forming, peen forming, Super plastic forming - Micro forming - Incremental forming. `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Types and characteristics of plastics - Molding of thermoplastics - Thermosetting polymers- working
+principles and typical applications - injection molding - Plunger and screw machines - Compression molding-
+Transfer Molding - Typical industrial applications - introduction to blow molding - Rotational molding - Film
+blowing - Extrusion - Thermoforming - Bonding of Thermoplastics- duff moulding `;
 
 
 
