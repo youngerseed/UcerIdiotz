@@ -138,15 +138,19 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = `Axioms of probability - Conditional probability - Baye’s theorem - Discrete random variables - continuous random variables - Moments - Moment generating functions - Binomial distributions - Poisson distributions - Geometric distributions - Uniform distributions - Exponential distributions - Normal distributions - Functions of a random variable.`;
+let unit_text1 = `Electromagnetic model - Units and constants - Review of vector algebra - Rectangular, cylindrical and spherical coordinate systems - Line, surface and volume integrals - Gradient of a scalar field - Divergence of a vector field - Divergence theorem - Curl of a vector field - Stoke’s theorem - Null
+identities - Helmholtz’s theorem - Verify theorems for different path - surface and volume.`;
 
-let unit_text2 = `Joint distributions - Marginal and conditional distributions - Covariance - Correlation and linear regression - Transformation of random variables - Central limit theorem.`;
+let unit_text2 = `Electric field - Coulomb’s law - Gauss’s law and applications - Electric potential - Conductors in static electric field - Dielectrics in static electric field - Electric flux density and dielectric constant - Boundary conditions - Electrostatics boundary value problems - Capacitance, Parallel, cylindrical and spherical capacitors - Electrostatic energy - Poisson’s and Laplace’s equations - Uniqueness of electrostatic solutions - Current density and Ohm’s law - Electromotive force and Kirchhoff’s voltage law - Equation of continuity and Kirchhoff’s current law`;
 
-let unit_text3 = `Classification random process - Stationary process - Markov process - Poisson process - Discrete parameter Markov chain - Chapman Kolmogorov equations - Limiting distributions .`;
+let unit_text3 = `Lorentz force equation - Ampere’s law - Vector magnetic potential - Biot-Savart law and applications - Magnetic field intensity and idea of relative permeability - Calculation of magnetic field intensity for various current distributions Magnetic circuits - Behaviour of magnetic materials - Boundary
+conditions - Inductance and inductors - Magnetic energy - Magnetic forces and torques`;
 
-let unit_text4 = `Vector spaces - Subspaces - Linear combinations - linear system of equations - Linear independence - linear dependence - Bases and dimensions.`;
+let unit_text4 = `Faraday’s law - Displacement current and Maxwell-Ampere law - Maxwell’s equations - Potential
+functions - Electromagnetic boundary conditions - Wave equations and solutions - Time-harmonic
+fields - Observing the Phenomenon of wave propagation with the aid of Maxwell’s equations`;
 
-let unit_text5 = `Linear transformation - Null spaces and ranges - Dimension theorem - Matrix representation of a linear transformations - Inner product - Norms - Gram Schmidt orthogonalization process - Adjoint of linear operations - Least square approximation.`;
+let unit_text5 = `Plane waves in lossless media - Plane waves in lossy media - Group velocity - Electromagnetic power flow and Poynting vector - Normal incidence at a plane conducting boundary - Normal incidence at a plane dielectric boundary`;
 
 
 
