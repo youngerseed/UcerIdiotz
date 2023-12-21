@@ -117,7 +117,8 @@ function createDivision(unit_color,string,unitId,count){
     }
 };
 
- function Unit_loop_function(text , unit_color ,unit_count){
+
+function Unit_loop_function(text , unit_color ,unit_count){
 
     const Unit_topics =text;
     loopTopics(Seperate_text(Unit_topics),unit_color,unit_count);
@@ -137,16 +138,22 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Propositional logic - Propositional equivalences - Predicates and quantifiers - Nested quantifiers -
+Rules of inference - Introduction to proofs - Proof methods and strategy`;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Mathematical induction - Strong induction and well ordering - The basics of counting - The
+pigeonhole principle - Permutations and combinations - Recurrence relations - Solving linear
+recurrence relations - Generating functions - Inclusion and exclusion  `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Graphs- graph models - Graph terminology - special types of graphs - Matrix representation
+of graphs and graph isomorphism - Connectivity - Euler and Hamilton paths. `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Algebraic systems - Semi groups - monoids - Groups - Subgroups - Homomorphism's - Normal
+subgroup and cosets - Lagrange's theorem - Definitions and examples of Rings and Fields. `;
 
-let unit_text5 = ` Unit Topics Here `;
-
+let unit_text5 = `Partial ordering - Posets - Lattices as posets - Properties of lattices - Lattices as algebraic systems
+- Sub lattices - Direct product and homomorphism - Some special lattices - Boolean algebra - Sub
+Boolean Algebra - Boolean Homomorphism. `;
 
 
 
@@ -158,7 +165,7 @@ Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
 
 
-// ****************************  End Of the Funciton call *****************
+// ****************************  End Of the Function call *****************
 
  
   
