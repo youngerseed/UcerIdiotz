@@ -117,7 +117,8 @@ function createDivision(unit_color,string,unitId,count){
     }
 };
 
- function Unit_loop_function(text , unit_color ,unit_count){
+
+function Unit_loop_function(text , unit_color ,unit_count){
 
     const Unit_topics =text;
     loopTopics(Seperate_text(Unit_topics),unit_color,unit_count);
@@ -137,16 +138,28 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = `Object oriented programming paradigms - Features of Object Oriented
+Programming - Java Buzzwords - Overview of Java - Data Types, Variables and Arrays -
+Operators - Control Statements - Programming Structures in Java - Defining classes in Java -
+Constructors-Methods -Access specifiers - Static members- Java Doc comments `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Overloading Methods - Objects as Parameters - Returning Objects -Static, Nested and Inner
+Classes. Inheritance: Basics- Types of Inheritance -Super keyword -Method Overriding - Dynamic
+Method Dispatch -Abstract Classes - final with Inheritance-Packages and Interfaces- Packages -
+Packages and Member Access -Importing Packages - Interfaces `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Exception Handling basics - Multiple catch Clauses - Nested try Statements - Java’s Built-in
+Exceptions - User defined Exception- Multithreaded Programming- Java Thread Model-Creating a
+Thread and Multiple Threads - Priorities - Synchronization - Inter Thread CommunicationSuspending -Resuming, and Stopping Threads -Multithreading- Wrappers - Auto boxing `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` I/O Basics - Reading and Writing Console I/O - Reading and Writing Files. Generics: Generic
+Programming - Generic classes - Generic Methods - Bounded Types - Restrictions and
+Limitations. Strings: Basic String class, methods and String Buffer Class. `;
 
-let unit_text5 = ` Unit Topics Here `;
-
+let unit_text5 = ` JAVAFX Events and Controls: Event Basics - Handling Key - Mouse Events Controls-
+Checkbox,ToggleButton - RadioButtons - ListView - ComboBox - ChoiceBox - Text Controls -
+ScrollPane. Layouts - FlowPane - HBox and VBox - BorderPane - StackPane - GridPane. Menus
+- Basics - Menu - Menu bars - MenuItem `;
 
 
 
@@ -158,7 +171,7 @@ Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
 
 
-// ****************************  End Of the Funciton call *****************
+// ****************************  End Of the Function call *****************
 
  
   

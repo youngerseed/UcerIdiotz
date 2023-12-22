@@ -137,15 +137,24 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Properties of fluids - Fluid statics - Pressure Measurements - Buoyancy and floatation - Flow
+characteristics - Eulerian and Lagrangian approach - Concept of control volume and system - Reynold's
+transportation theorem - Continuity equation- energy equation - momentum equation - Applications `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Reynold's Experiment - Laminar flow through circular conduits - Darcy Weisbach equation - friction factor
+- Moody diagram - Major and minor losses - Hydraulic and energy gradient lines - Pipes in series and
+parallel - Boundary layer concepts - Types of boundary layer thickness `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Fundamental dimensions - Dimensional homogeneity - Rayleigh's method -Buckingham Pi theorem
+- Dimensionless parameters - Similitude and model studies - Distorted and undistorted models. `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Impact of jets - Velocity triangles - Theory of rotodynamic machines - Classification of turbines - Working
+principles - Pelton wheel - Modern Francis turbine - Kaplan turbine - Work done - Efficiencies - Draft tube
+- Specific speed - Performance curves for turbines - Governing of turbines `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Classification of pumps - Centrifugal pumps - Working principle - Heads and efficiencies- Velocity
+triangles - Work done by the impeller - Performance curves - Reciprocating pump working principle -
+Indicator diagram  - Work saved by fitting air vessels - Rotary pumps. `;
 
 
 
