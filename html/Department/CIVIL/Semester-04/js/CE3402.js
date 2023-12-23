@@ -137,15 +137,24 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Stresses in simple and compound bars - Thermal stresses - Elastic constants - Thin cylindrical and
+spherical shells - Biaxial state of stress - Principal stresses and principal planes - Mohr’s circle of
+stresses - Torsion on circular shafts `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Types of beams - transverse loadings- Shear force - bending moment for simply supported-
+cantilever and over hanging beams - Theory of simple bending - Bending stress distribution - Shear
+stress distribution `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Double Integration method - Macaulay’s method - Area moment method - Conjugate beam method
+- Strain energy method for determinate beams `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Propped Cantilever and Fixed Beams - Fixed end moments reactions- slope, deflection for
+standard cases of loading - Continuous beams - support reactions and moments - Theorem of
+three moments - Shear Force and Bending Moment Diagrams. `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Unsymmetrical bending of beams - shear centerapplied - Thick cylinders - Theories of failure -
+Principal stress-  principal strain- shear stress- strain energy - distortion energy theories -
+application problems `;
 
 
 

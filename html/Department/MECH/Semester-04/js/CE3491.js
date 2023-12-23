@@ -124,6 +124,7 @@ function createDivision(unit_color,string,unitId,count){
     loopUnit(unit_count,Seperate_text(Unit_topics).length);
 
 };
+
 // **********************    End of the all functions ********************   
 
 // todo   Unit_color List Dont Change this 
@@ -134,18 +135,29 @@ const unit_03_color = 'bd-green';
 const unit_04_color = 'bd-pink' ;
 const unit_05_color = 'bd-orange';
 
-// todo Unit text  Change Input text
+// todo  Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Rigid bodies and deformable solids - Tension, Compression and Shear Stresses - Deformation of simple
+and compound bars - Thermal stresses - Elastic constants - Volumertric strains - Stresses on inclined
+planes - Principal stresses and principal planes - Mohr’s circle of stress `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Beams - Types - Transverse loading on beams - Shear force - Bending moment in beams -
+Cantilever, Simply supported - over hanging beams- Theory of simple bending - Bending stress
+distribution - Load carrying capacity - Proportioning of sections - Flitched beams - Shear stress
+distribution. `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Theory of Torsion - Stresses and Deformations  - Combined bending
+moment and torsion of shafts - Power transmitted to shaft - Shaft in series and parallel - Closed and
+Open Coiled helical springs - springs in series and parallel `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Elastic curve - Governing differential equation - Double integration method - Macaulay's method - Area
+moment method - Conjugate beam method for computation of slope - deflection of determinant
+beams `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Stresses in thin cylindrical shell due to internal pressure - circumferential - longitudinal stresses -
+Deformation in thin cylinders - Spherical shells subjected to internal pressure - Deformation in spherical
+shells - Thick cylinders - Lame’s theory `;
 
 
 
@@ -158,7 +170,7 @@ Unit_loop_function(unit_text4 , unit_04_color , 4);
 Unit_loop_function(unit_text5 , unit_05_color , 5);
 
 
-// ****************************  End Of the Funciton call *****************
+// ****************************  End Of the Function call *****************
 
  
   
