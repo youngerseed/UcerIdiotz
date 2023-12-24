@@ -137,15 +137,27 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Mechanisms - Terminology and definitions - kinematics inversions of 4 bar and slide crank chain - kinematics
+analysis in simple mechanisms - velocity and acceleration polygons- Analytical methods - computer
+approach - cams - classifications - displacement diagrams - layout of plate cam profiles - derivatives of
+followers motion - circular arc - tangent cams `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Spur gear - law of toothed gearing - involute gearing - Interchangeable gears - Gear tooth action interference
+- undercutting - nonstandard teeth - gear trains - parallel axis gears trains - epicyclic gear trains -
+automotive transmission gear trains. `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Surface contacts - Sliding - Rolling friction - Friction drives - Friction in screw threads - Bearings -
+lubrication - Friction clutches - Belt and rope drives - Friction aspects in brakes- Friction in vehicle propulsion
+and braking `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Applied and Constrained Forces - Free body diagrams - static Equilibrium conditions - Two, Three and four
+members - Static Force analysis in simple machine members - Dynamic Force Analysis - Inertia Forces and
+Inertia Torque - D Alembert’s principle - superposition principle - dynamic Force Analysis in simple machine
+members `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Static and Dynamic balancing - Balancing of revolving and reciprocating masses - Balancing machines -
+free vibrations - Equations of motion - natural Frequency - Damped Vibration - bending critical speed of
+simple shaft - Torsional vibration - Forced vibration - harmonic Forcing - Vibration isolation- Gyroscopic principles`;
 
 
 

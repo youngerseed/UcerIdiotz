@@ -137,15 +137,24 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Cement Different types-Chemical composition and Properties -Tests on cement-IS
+Specifications- Aggregates-Classification-Mechanical properties and tests as per BIS Grading
+requirements-Water- Quality of water for use in concrete `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Accelerators-Retarders- Plasticisers- Super plasticizers- Water proofers - Mineral Admixtures like
+Fly Ash, Silica Fume, Ground Granulated Blast Furnace Slag and Metakaoline -Their effects on
+concrete properties `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Principles of Mix Proportioning-Properties of concrete related to Mix Design-Physical properties
+of materials required for Mix Design - Design Mix - Nominal Mix - BIS Method of Mix Design -
+Mix Design Examples `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Workability-Tests for workability of concrete-Slump Test and Compacting factor Test-Segregation- Bleeding-Determination of Compressive - Flexural strength as per BIS - Properties of
+Hardened concrete- Stress-strain curve for concrete-Determination of Modulus of elasticity. `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Light weight concretes - High strength concrete - Fibre reinforced concrete - Ferrocement - Ready
+mix concrete - SIFCON - Shotcrete - Polymer concrete - High performance concrete- self
+compacting concrete - Geopolymer Concrete. `;
 
 
 
