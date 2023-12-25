@@ -137,15 +137,29 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Formation of soil - Soil description - Particle - Size shape and colour - Composition of gravel, sand,
+silt, clay particles - Particle behaviour - Soil structure - Phase relationship - Index properties -
+Significance - BIS classification system - Unified classification system - Compaction of soils -
+Theory, Laboratory and field tests - Field Compaction methods - Factors influencing compaction of
+soils. `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Soil - water - Static pressure in water - Effective stress concepts in soils - Capillary phenomena-
+Permeability interaction - Hydraulic conductivity - Darcy’s law - Determination of Hydraulic
+Conductivity - Laboratory Determination  - Factors influencing permeability of
+soils - Seepage - Two dimensional flow - Laplace’s equation - flow nets - Simple
+problems. (Sheet pile and weir) `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Stress distribution in homogeneous and isotropic medium - Boussinesq theory - - Use of New marks influence chart -Components of settlement - Immediate and
+    consolidation settlement - Terzaghi’s one dimensional consolidation theory - Computation of rate of
+    settlement. - √t and log t methods- e-log p relationship. `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Shear strength of cohesive - cohesion less soils - Mohr-Coulomb failure theory - Measurement
+of shear strength - Direct shear- Triaxial compression- UCC and Vane shear tests - Pore pressure
+parameters - Cyclic mobility - Liquefaction `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Stability Analysis - Infinite slopes - finite slopes - Total stress analysis for saturated clay - Friction
+circle method - Use of stability number - Method of slices - Fellenious method - Bishop’s method - Slope
+protection measures. `;
 
 
 

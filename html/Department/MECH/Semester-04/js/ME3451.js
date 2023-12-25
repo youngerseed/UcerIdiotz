@@ -137,15 +137,24 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Air Standard Cycles - Carnot- Otto  Diesel- Dual- Brayton - Cycle Analysis-
+Basic Rankine Cycle- modified- reheat and regenerative cycles.  `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Types and Shapes of nozzles- Flow of steam through nozzles- Critical pressure ratio- Variation of mass flow
+rate with pressure ratio- Effect of friction- Metastable flow.  `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = `  Impulse and reaction principles- Velocity diagrams- Work done and efficiency - optimal operating
+conditions. Multi-staging- compounding and governing. Gas turbine cycle analysis - open and closed cycle.
+Performance and its improvement - Regenerative- Intercooled- Reheated cycles `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` IC engine - Classification- working- - Ideal and actual - Valve and port timing
+diagrams- p-v diagrams- two stroke & four stroke-  SI & CI engines - comparison. Geometric, operating- performance comparison of SI and CI engines-fuel ratio
+calculation - lean and rich mixtures- Combustion in SI & CI Engines - Knocking - phenomena and control `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Performance and Emission Testing, Performance parameters and calculations. Morse and Heat Balance
+tests. Multipoint Fuel Injection system and Common rail direct injection systems-Ignition systems - Magneto,
+Battery and Electronic- Lubrication and Cooling systems- Concepts of Supercharging - Turbocharging -
+Emission Norms `;
 
 
 
