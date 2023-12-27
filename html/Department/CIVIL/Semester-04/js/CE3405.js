@@ -137,15 +137,25 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Classification of highways - Institutions for Highway planning- design construction at different
+levels - factors influencing highway alignment -Typical cross sections of Urban and Rural roads -
+Engineering surveys for alignment- Conventional and Modern method `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Cross sectional elements - Horizontal curves, super elevation, transition curves, widening of curves
+- Sight distances - Vertical curves, gradients- pavement components and their role - Design practice
+for flexible and rigid pavements  `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Highway construction materials, properties, testing methods - Construction practice of flexible and
+concrete pavement- Highway drainage - Evaluation and Maintenance of pavements `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Elements of permanent way - Rails- Sleepers- Ballast- rail fixtures and fastenings- Selection of
+gauges - Track Stress- coning of wheels- creep in rails- defects in rails - Route alignment surveys
+conventional - modern methods-Railway drainage- Level Crossings-Signalling. `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Points and Crossings - Design of Turnouts, Working Principle-Track Circuiting - Construction &
+Maintenance -  Modern methods and Materials- Lay outs of Railway Stations -
+Yards, Rolling Stock, Tractive Power, Track Resistance - Role of Indian Railways in National
+Development - Railways for Urban Transportation - LRT - MRTS Feasibility study-  `;
 
 
 

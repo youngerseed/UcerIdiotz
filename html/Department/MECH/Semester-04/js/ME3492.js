@@ -137,15 +137,31 @@ const unit_05_color = 'bd-orange';
 // todo Unit text  Change Input text
 
 
-let unit_text1 = ` Unit Topics Here `;
+let unit_text1 = ` Introduction to Fluid power - Advantages and Applications - Fluid power systems - Types of fluids -
+Properties of fluids and selection - Basics of Hydraulics - Pascal's Law - Principles of flow - Friction loss -
+Work, Power and Torque- Sources of Hydraulic power- Pumping Theory- Pump Classification - Selection criteria of pumps -
+Fixed and Variable displacement pumps - Problems  `;
 
-let unit_text2 = ` Unit Topics Here `;
+let unit_text2 = ` Hydraulic Actuators: Cylinders - Types and construction, Application, Hydraulic cushioning - Rotary
+Actuators-Hydraulic motors - Control Components- Direction Control- Flow control and pressure control valves
+- Types- Construction and Operation - Accessories: Reservoirs- Pressure Switches - Filters -types and
+selection- Applications - Fluid Power ANSI Symbols - Problems `;
 
-let unit_text3 = ` Unit Topics Here `;
+let unit_text3 = ` Accumulators- Intensifiers- Industrial hydraulic circuits - Regenerative- Pump Unloading- Double Pump-
+Pressure Intensifier- Air-over oil- Sequence- Reciprocation- Synchronization- Fail-Safe- Speed Control-
+Deceleration circuits- Sizing of hydraulic systems- Hydrostatic transmission- Electro hydraulic circuits--Servo
+and Proportional valves - Applications- Mechanical- hydraulic servo systems `;
 
-let unit_text4 = ` Unit Topics Here `;
+let unit_text4 = ` Properties of air -Air preparation and distribution - Filters- Regulator- Lubricator- Muffler- Air control Valves-
+Quick Exhaust Valves- Pneumatic actuators- Design of Pneumatic circuit -classification- single cylinder and
+multi cylinder circuits-Cascade method -Integration of fringe circuits- Electro Pneumatic System - Elements
+- Ladder diagram - timer circuits-Problems- Introduction to fluidics and pneumatic logic circuits  `;
 
-let unit_text5 = ` Unit Topics Here `;
+let unit_text5 = ` Installation, Selection, Maintenance, Trouble Shooting and Remedies in Hydraulic and Pneumatic systems,
+Conditioning of hydraulic fluids Design of hydraulic circuits for Drilling, Planning, Shaping, Surface grinding,
+Press and Forklift applications- mobile hydraulics; Design of Pneumatic circuits for metal working, handling,
+clamping counter and timer circuits. - Low-cost Automation - Hydraulic and Pneumatic power packs, IOT in
+Hydraulics and pneumatics `;
 
 
 
