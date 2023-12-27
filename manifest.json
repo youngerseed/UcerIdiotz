@@ -1,19 +1,20 @@
 {
     "short_name": "UcerIdiotz",
     "name": "UcerIdiotz | Learning Partner❤️",
+    "description": "Ucer Idiotz Is Anna University Engineering Syllabus Notes and Video Providing Website. We Are Helping Student To Develope Their Life Via Our Site We Are Helping Students.Follow Our Website regularly.",
     "icons": [
       {
-        "src": "./Assets/favicon.png", 
+        "src": "favicon.png", 
         "sizes": "64x64 32x32 24x24 16x16",
         "type": "image/x-icon"
       },
       {
-        "src": "./Assets/logo192",
+        "src": "logo192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "./Assets/icon512",
+        "src": "logo512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
