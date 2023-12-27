@@ -1,233 +1,459 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--  created with sitemap generator https://octopus.do  -->
 
-    <url>
-        <loc>https://ucer-idiotz.vercel.app</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/index.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CSE/CSE.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-02/BE-3251.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-02/CS-3251.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-02/PH-3254.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3401.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3451.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3491.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3452.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3492.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/ECE.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/GE-3251.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/MA-3251.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/HS-3251.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/GE-3252.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/EC-3251.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/PH-3254.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/BE-3254.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/GE-3451.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3452.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3492.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3491.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3451.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3401.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/EEE/EEE.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem2/BE-3255.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem2/EE3251.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem2/PH3202.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/EEE/EE-3401.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/EEE/EE3402.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/EEE/EE-3403.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/EEE/EE-3404.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/EEE/EE-3405.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/CIVIL.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/CE3401.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/MECH/MECH.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://ucer-idiotz.vercel.app/html/Department/MECH/ME-3491.html</loc>
-        <lastmod>2023-08-17</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://ucer-idiotz.vercel.app/</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/index.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/CSE.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/ECE.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/EEE.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/CIVIL.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/MECH.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-01/GE-3152.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-01/CY-3151.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-01/GE-3151.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-01/HS-3151.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-01/MA-3151.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-01/PH-3151.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-02/BE-3251.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-02/CS-3251.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/GE-3251.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/HS-3251.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/MA-3251.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-02/PH-3254.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-03/CS-3301.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-03/CS-3351.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-03/CS-3352.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-03/CS-3391.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-03/MA-3354.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3401.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3451.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3452.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3491.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-04/CS-3492.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem4/GE3451.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-05/CS-3591.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-05/CS-3501.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-05/CB-3491.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CSE/Semester-05/CS-3551.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/EC-3251.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/PH-3254.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-2/BE-3254.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-3/EC-3351.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-3/EC-3352.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-3/EC-3353.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-3/EC-3354.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-3/CS-3353.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-3/MA-3355.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3452.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3491.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3492.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3451.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-4/EC-3401.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-5/EC-3501.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-5/EC-3551.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/ECE/Semester-5/EC-3552.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem2/BE-3255.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem2/EE3251.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem2/PH3202.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem3/cs3353.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem3/EE3301.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem3/EE3302.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem3/EE3303.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem3/MA3303.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem4/EE3401.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem4/EE3402.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem4/EE3403.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem4/EE3404.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/EEE/sem4/EE3405.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/semester-02/BE3252.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/semester-02/PH3201.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/semester-03/CE3301.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/semester-03/CE3302.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/semester-03/CE3303.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/semester-03/CE3351.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/semester-03/MA3351.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-03/ME3351.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/Semester-04/CE3401.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/Semester-04/CE3402.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/Semester-04/CE3403.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/Semester-04/CE3404.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/Semester-04/CE3405.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/Semester-05/CE-3501.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/CIVIL/Semester-05/CE-3502.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-02/PH3251.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-03/CE3391.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-03/ME3391.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-03/ME3392.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-03/ME3393.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-04/CE3491.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-04/ME3451.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-04/ME-3491.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-04/ME3492.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-04/ME-3493.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-05/ME-3591.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ucer-idiotz.vercel.app/html/Department/MECH/Semester-05/ME-3592.html</loc>
+<lastmod>2023-12-27T08:20:58+00:00</lastmod>
+<priority>0.80</priority>
+</url>
 </urlset>
