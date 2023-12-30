@@ -8,7 +8,8 @@
     padding: 0;
     text-decoration: none !important;
 }
-.scroll-marquee{
+
+.scroll-marquee {
     margin-top: 15px;
     font-size: 15px;
     text-transform: capitalize;
@@ -55,8 +56,26 @@
     padding-top: 20px;
     margin: 1.5rem 0rem;
     box-shadow: 0px 0px 13px -4px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    border-radius: 5px 5px 20px 20px;
     cursor: pointer;
+    background: #feffc8;
+
+}
+
+.telegram {
+    text-align: center;
+    padding-top: 20px;
+    margin: 1.5rem 0rem;
+    box-shadow: 0px 0px 13px -4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px 5px 20px 20px;
+    cursor: pointer;
+    background: #b1d2ff;
+    .text{
+        font-weight: bold;
+        height: 50px;
+        color: #080808;
+        font-weight: bolder;
+    }
 }
 
 bi-heart-arrow::before {
@@ -430,6 +449,7 @@ a nav {
     -webkit-box-shadow: -1px 1px 41px -22px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: -1px 1px 41px -22px rgba(0, 0, 0, 0.8);
     box-shadow: -1px 1px 41px -22px rgba(0, 0, 0, 0.8);
+  
 }
 
 .swiper-slide>button>a {
@@ -470,7 +490,7 @@ a nav {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     border: 0 solid rgba(159, 158, 158, 1);
-
+  
 }
 
 .swiper-slide>p {
