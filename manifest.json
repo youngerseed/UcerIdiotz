@@ -1,27 +1,65 @@
 {
-    "short_name": "UcerIdiotz",
-    "name": "UcerIdiotz | Learning Partner❤️",
-    "description": "Ucer Idiotz Is Anna University Engineering Syllabus Notes and Video Providing Website. We Are Helping Student To Develope Their Life Via Our Site We Are Helping Students.Follow Our Website regularly.",
-    "icons": [
-      {
-        "src": "favicon.png", 
-        "sizes": "64x64 32x32 24x24 16x16",
-        "type": "image/x-icon"
-      },
-      {
-        "src": "logo192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "logo512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ],
-    "start_url": "https://ucer-idiotz.vercel.app/",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
-  }
-  
+  "short_name": "UcerIdiotz",
+  "name": "UcerIdiotz | Learning Partner❤️",
+  "description": "Ucer Idiotz Is Anna University Engineering Syllabus Notes and Video Providing Website. We Are Helping Student To Develope Their Life Via Our Site We Are Helping Students.Follow Our Website regularly.",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://ucer-idiotz.vercel.app/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "id": "UI V1.0.0",
+  "scope": "https://ucer-idiotz.vercel.app/",
+  "lang": "en",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "shortcuts": [
+    {
+      "name": "CSE",
+      "url": "https://ucer-idiotz.vercel.app/html/Department/CSE/CSE.html",
+      "description": "CSE DEPT "
+    },
+    {
+      "name": "ECE",
+      "url": "https://ucer-idiotz.vercel.app/html/Department/ECE/ECE.html",
+      "description": "ECE DEPT "
+    },
+    {
+      "name": "EEE",
+      "url": "https://ucer-idiotz.vercel.app/html/Department/EEE/EEE.html",
+      "description": "EEE DEPT "
+    },
+    {
+      "name": "CIVIL",
+      "url": "https://ucer-idiotz.vercel.app/html/Department/CIVIL/CIVIL.html",
+      "description": "CIVIL DEPT"
+    },
+    {
+      "name": "MECH",
+      "url": "https://ucer-idiotz.vercel.app/html/Department/MECH/MECH.html",
+      "description": "MECH DEPT"
+    }
+  ],
+  "categories": [
+    "books",
+    "education",
+    "productivity"
+  ]
+}
