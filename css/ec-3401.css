@@ -494,20 +494,21 @@ box-shadow: 1px 4px 15px 0px rgba(0,0,0,0.63);
  .arrowws{
    animation: linear arrow  1s infinite;
    display: block;
+   transition: margin-right 1s linear 2s;
    /* object-position: 0 70%; */
    transform:rotate(180deg);
  }  
 
 @keyframes arrow{
-   0%{
-     margin-right:0;
-   }
-   50%{
-    margin-right: .5rem;
-   } 
-   100%{
-     margin-right: 1rem;
-     
-   }
+  0% {
+    margin-right: -1.5rem;
+}
+
+50% {
+    margin-right: 1rem;
+}
+100% {
+    margin-right: 1.5rem;
+}
 }
 
