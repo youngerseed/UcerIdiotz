@@ -16,6 +16,52 @@
     letter-spacing: 1px;
 }
 
+/* ------------------------ install btn css ---------------------- */
+.install-btn {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6.5rem;
+    left: 1rem;
+    box-shadow: 0px 4px 20px -5px rgba(0, 0, 0, 0.1);
+    padding-block: .6rem;
+    width: 90% !important;
+    background: rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.install-btn img {
+    height: 40px;
+    width: 40px;
+}
+
+.img-class span {
+    text-transform: capitalize;
+    font-family: 'Emblema One', cursive;
+    margin-left: .5rem;
+    font-size: 1.2rem;
+}
+
+#install {
+    padding-block: 0.2rem !important;
+    padding-inline: 2.5rem !important;
+    box-shadow: 0px 4px 20px -5px rgba(0, 0, 0, 0.1);
+    margin-left: 1rem;
+}
+
+.close i {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: green;
+    cursor: pointer;
+}
+
 /* **********************swipe css *******************8*/
 
 .swipe {
@@ -70,7 +116,8 @@
     border-radius: 5px 5px 20px 20px;
     cursor: pointer;
     background: #b1d2ff;
-    .text{
+
+    .text {
         font-weight: bold;
         height: 50px;
         color: #080808;
@@ -449,7 +496,7 @@ a nav {
     -webkit-box-shadow: -1px 1px 41px -22px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: -1px 1px 41px -22px rgba(0, 0, 0, 0.8);
     box-shadow: -1px 1px 41px -22px rgba(0, 0, 0, 0.8);
-  
+
 }
 
 .swiper-slide>button>a {
@@ -490,7 +537,7 @@ a nav {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     border: 0 solid rgba(159, 158, 158, 1);
-  
+
 }
 
 .swiper-slide>p {
